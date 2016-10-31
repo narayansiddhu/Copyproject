@@ -1,0 +1,2183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.siddharth.christmas" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    android:hardwareAccelerated="true"
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="MGU-syllabus"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="MGU-syllabus"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".contemplate"
+            android:label="CSE SYLLABUS"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".siddhu"
+            android:label="First Year"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Ece"
+            android:label="ECE SYLLABUS"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".siddhu1"
+            android:label="First Year"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Eee"
+            android:label="EEE SYLLABUS"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Twoone"
+            android:label="Cse 2nd-Year"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Csethree"
+            android:label="Cse 3rd-Year"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Csefour"
+            android:label="Cse 4th-Year"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Ecetwo"
+            android:label="Ece 2nd-Year"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Ecethree"
+            android:label="Ece 3rd-Year"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Ecefour"
+            android:label="Ece 4th-Year"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Eeeone"
+            android:label="FirstYear"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Eeetwo"
+            android:label="Eee 2nd-Year"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Eeethree"
+            android:label="Eee 3rd-Year"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Eeefour"
+            android:label="Eee 4th-Year"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Csetwoonein"
+            android:label="Cse 2-1Sem"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Csetwotwoin"
+            android:label="Cse 2-2Sem"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Csethreeonein"
+            android:label="Cse 3-1 Sem"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Csethreetwoin"
+            android:label="Cse 3-2 Sem"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Csefouronein"
+            android:label="Cse 4-1 Sem"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Csefourtwoin"
+            android:label="Cse 4-2 Sem"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Ece21"
+            android:label="Ece 2-1 Sem"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Ece22"
+            android:label="Ece 2-2 sem"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Ece31"
+            android:label="Ece 3-1 sem"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Ece32"
+            android:label="Ece 3-2 sem"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Ece41"
+            android:label="Ece 4-1 sem"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Ece42"
+            android:label="Ece 4-2 sem"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Eee21"
+            android:label="Eee 2-1 sem"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Eee22"
+            android:label="Eee 2-2 sem"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Eee31"
+            android:label="Eee 3-3 sem"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Eee32"
+            android:label="Eee 3-2 sem"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Eee41"
+            android:label="Eee 4-1 sem"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Eee42"
+            android:label="Eee 4-2 sem"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".CseEnglish"
+            android:label="English"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Csechemistry"
+            android:label="Chemistry"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Engmech"
+            android:label="Engineering Drawing"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".physics"
+            android:label="Physics"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".english"
+            android:label="English"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Mone1"
+            android:label="Mathematics-1"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".mtwo2"
+            android:label="Mathematics-2"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".programming"
+            android:label="Programming in C and C++"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Chemlab"
+            android:label="Chemistry Lab"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Englab"
+            android:label="English Lab"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".programlab"
+            android:label="Programming Lab"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".workshop1"
+            android:label="Workshop"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".PhyLab"
+            android:label="Physics Lab"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".enrique1"
+            android:label="Mathematics-3"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".enrique2"
+            android:label="Data Structures"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".enrique3"
+            android:label="Discrete Structures"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".enrique4"
+            android:label="Logical Switching "
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".enrique5"
+            android:label="Computer Organization"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".enrique6"
+            android:label="Basic Electronics"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".enrique7"
+            android:label="C++ lab"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".enrique8"
+            android:label="B.E Lab"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ana1"
+            android:label="Mathematics-4"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ana2"
+            android:label="Object Oriented Programming"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ana3"
+            android:label="Micro processors and Interfacing"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ana4"
+            android:label="DATA COMMUNICATIONS"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ana5"
+            android:label="Electrical circuits and machines"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ana6"
+            android:label="Environmental studies"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ana7"
+            android:label="Java Lab"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ana8"
+            android:label="Microprocessor Lab"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".sai1"
+            android:label="Data base management systems"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".sai2"
+            android:label="Operating systems"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".sai3"
+            android:label="Automata languages"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".sai4"
+            android:label="Software Engineering"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".sai5"
+            android:label="Managerial Economics"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".sai6"
+            android:label="Design Algorithms"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".sai7"
+            android:label="DBMS Lab"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".sai8"
+            android:label="Operating systems Lab"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".sai9"
+            android:label="Mini Project"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".sid1"
+            android:label="Web Programming"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".sid2"
+            android:label="Compiler Construction"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".sid3"
+            android:label="Principles of programming"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <!--
+             ATTENTION: This was auto-generated to add Google Play services to your project for
+             App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".sid4"
+            android:label="Object oriented system development"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".sid5"
+            android:label="Computer Networks"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".sid6"
+            android:label="Web programming Lab"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".sid7"
+            android:label="Object oriented system Lab"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".sid8"
+            android:label="Compiler construction"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".sid9"
+            android:label="Mini-Project"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ash1"
+            android:label="Distributed systems"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ash2"
+            android:label="Artificial Intelligence"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ash3"
+            android:label="Information Security"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ash4"
+            android:label="Principles and applications of embedded systems"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ash6"
+            android:label="Software Project "
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ash7"
+            android:label="Computer graphics"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ash8"
+            android:label="Image processing"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ash9"
+            android:label="Adhoc and sensor"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ash10"
+            android:label="Soft computing"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ash11"
+            android:label="Mobile computing"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ash12"
+            android:label="Real time systems"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ash13"
+            android:label="Distributed systems Lab"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ash14"
+            android:label="Embedded systems Lab"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ash15"
+            android:label="Project seminar"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".bha1"
+            android:label="Data mining"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".bha2"
+            android:label="SIMULATION AND MODELLING"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".bha3"
+            android:label="OPERATIONS RESEARCH"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".bha4"
+            android:label="SOFTWARE QUALITY AND TESTING"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".bha5"
+            android:label="Information storage and management"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".bha6"
+            android:label="Human computer interaction"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".bha7"
+            android:label="Software reuse techniques"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".bha8"
+            android:label="Entrepreneurship"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".bha9"
+            android:label="INFORMATION RETRIEVAL SYSTEMS"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".bha10"
+            android:label="SEMANTIC WEB"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".bha11"
+            android:label="INTELLECTUAL PROPERTY RIGHTS"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".bha12"
+            android:label="ADVANCED DATABASES"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".bha13"
+            android:label="MULTIMEDIA SYSTEMS"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".bha14"
+            android:label="CLOUD COMPUTING"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".bha15"
+            android:label="DISASTER MITIGATION AND MANAGEMENT"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".bha16"
+            android:label="DATA MINING LAB"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".bha17"
+            android:label="SEMINAR"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".bha18"
+            android:label="PROJECT"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".vid1"
+            android:label="@string/title_activity_vid1"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".vid2"
+            android:label="BASIC CIRCUIT ANALYSIS"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".vid3"
+            android:label="ELECTROMAGNETIC THEORY"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".vid4"
+            android:label="ELECTRONIC DEVICES"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".vid5"
+            android:label="ELEMENTS OF MECHANICAL ENGINEERING"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".vid6"
+            android:label="ELECTRICAL TECHNOLOGY"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".vid7"
+            android:label="ELECTRONIC DEVICES LAB"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".vid8"
+            android:label="ELECTRONIC WORKSHOP AND BASIC CIRCUITS LAB"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".nan1"
+            android:label="@string/title_activity_nan1"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".nan2"
+            android:label="ANALOG ELECTRONIC CIRCUITS"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".nan3"
+            android:label="NETWORKS AND TRANSMISSION LINES"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".nan4"
+            android:label="SIGNAL ANALYSIS AND TRANSFORM TECHNIQUES"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".nan5"
+            android:label="PULSE, DIGITAL AND SWITCHING CIRCUITS"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".nan6"
+            android:label="ENVIRONMENTAL STUDIES"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".nan7"
+            android:label="ELECTRONICS CIRCUITS LAB"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".nan8"
+            android:label="ELECTRICAL TECHNOLOGY LAB"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ass1"
+            android:label="LINEAR INTEGRATED CIRCUITS AND APPLICATIONS"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ass2"
+            android:label="DIGITAL INTEGRATED CIRCUITS AND APPLICATIONS"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ass3"
+            android:label="ANALOG COMMUNICATION"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ass4"
+            android:label="AUTOMATIC CONTROL SYSTEMS"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ass5"
+            android:label="MICROPROCESSORS AND MICROCONTROLLERS"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ass6"
+            android:label="INTEGRATED CIRCUITS LAB"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ass7"
+            android:label="ANALOG COMMUNICATION LAB"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ass8"
+            android:label="MICROPROCESSORS AND MICROCONTROLLERS LAB"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".dic1"
+            android:label="DIGITAL COMMUNICATION"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".dic2"
+            android:label="DIGITAL SIGNAL PROCESSING"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".dic3"
+            android:label="ANTENNAS AND WAVE PROPAGATION"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".dic4"
+            android:label="COMPUTER ORGANIZATION AND ARCHITECTURE"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".dic5"
+            android:label="ELECTRONIC INSTRUMENTATION"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".dic6"
+            android:label="MANAGERIAL ECONOMICS AND ACCOUNTANCY"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".dic7"
+            android:label="DIGITAL COMMUNICATION LAB"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".dic8"
+            android:label="DIGITAL SIGNAL PROCESSING LAB"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".dic9"
+            android:label="INDUSTRIAL VISIT / STUDY"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".bob1"
+            android:label="MICROWAVE ENGINEERING"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".bob2"
+            android:label="VLSI DESIGN"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".bob3"
+            android:label="COMPUTER NETWORKS"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".bob4"
+            android:label="MOBILE CELLULAR COMMUNICATIONS "
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".bob5"
+            android:label="INDUSTRIAL ADMINISTRATION AND FINANCIAL MANAGEMENT"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".bob6"
+            android:label="EMBEDDED SYSTEMS"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".bob7"
+            android:label="OPTICAL FIBER COMMUNICATION"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".bob8"
+            android:label="DIGITAL IMAGE PROCESSING"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".bob9"
+            android:label="MULTI RATE SIGNAL PROCESSING"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".bob10"
+            android:label="SYSTEM AUTOMATION AND CONTROL"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".bob11"
+            android:label="INFORMATION SECURITY"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".bob12"
+            android:label="MICROWAVE ENGINEERING LAB"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".bob13"
+            android:label="ELECTRONIC DESIGN AND AUTOMATION LAB"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".bob14"
+            android:label="PROJECT SEMINAR"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".tit1"
+            android:label="RADAR AND SATELLITE COMMUNICATION"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".tit2"
+            android:label="REAL TIME OPERATING SYSTEMS"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".tit3"
+            android:label="CODING THEORY AND TECHNIQUES"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".tit4"
+            android:label="DESIGN OF FAULT TOLERANT SYSTEMS"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".tit5"
+            android:label="SPEECH PROCESSING"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".tit6"
+            android:label="WIRELESS SENSOR NETWORKS"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".tit7"
+            android:label="ENTREPRENEURSHIP"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".tit8"
+            android:label="NANO TECHNOLOGY"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".tit9"
+            android:label="GLOBAL POSITIONING SYSTEM"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".tit10"
+            android:label="NEURAL NETWORKS AND FUZZY LOGIC"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".tit11"
+            android:label="SPECTRAL ESTIMATION TECHNIQUES"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".tit12"
+            android:label="INTELLECTUAL PROPERTY RIGHTS"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".tit13"
+            android:label="DISASTER MITIGATION AND MANAGEMENT"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".tit14"
+            android:label="SEMINAR"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".tit15"
+            android:label="PROJECT"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".gir1"
+            android:label="UTILIZATION"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".gir2"
+            android:label="INDUSTRIAL ADMINISTRATION FINANCIAL MANAGEMENT"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".gir3"
+            android:label="ELECTRICAL POWER DISTRIBUTION ENGINEERING"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".gir4"
+            android:label="ADVANCED CONTROL SYSTEMS"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".gir5"
+            android:label="OPTIMIZATION METHODS"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".gir6"
+            android:label="VLSI DESIGN"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".gir7"
+            android:label="INTELLECTUAL PROPERTY RIGHTS"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".gir8"
+            android:label="DISASTER MITIGATION AND MANAGEMENT"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".gir9"
+            android:label="RENEWABLE ENERGY SOURCES"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".gir10"
+            android:label="TRANSDUCERS"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".gir11"
+            android:label="POWER SYSTEM RELIABILITY"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".gir12"
+            android:label="ELECTRONIC INSTRUMENTATION SYSTEMS"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".gir13"
+            android:label="IMAGE PROCESSING"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".gir14"
+            android:label="SOFT COMPUTING"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".gir15"
+            android:label="DIGITAL SIGNAL PROCESSING LAB"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".gir17"
+            android:label="PROJECT"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".gir16"
+            android:label="SEMINAR"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".nud1"
+            android:label="POWER SYSTEM OPERATION AND CONTROL"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".nud2"
+            android:label="ELECTRIC DRIVES AND STATIC CONTROL"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".nud3"
+            android:label="ELECTRICAL MACHINE DESIGN"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".nud4"
+            android:label="HIGH VOLTAGE DC TRANSMISSION"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".nud5"
+            android:label="HIGH VOLTAGE ENGINEERING"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".nud6"
+            android:label="POWER QUALITY"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".nud7"
+            android:label="NUCLEAR ENERGY"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".nud8"
+            android:label="ENTREPRENEURSHIP"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".nud9"
+            android:label="INFORMATION SECURITY"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".nud10"
+            android:label="EMBEDDED SYSTEMS"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".nud11"
+            android:label="ELECTRICAL SIMULATION LAB"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".nud12"
+            android:label="MICROPROCESSORS AND MICROCONTROLLERS LABORATORY"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".nud13"
+            android:label="POWER SYSTEMS LAB"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".nud14"
+            android:label="PROJECT SEMINAR"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".you1"
+            android:label="DIGITAL SIGNAL PROCESSING"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".you2"
+            android:label="ELECTRICAL MACHINERY - III"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".you3"
+            android:label="SWITCHGEAR AND PROTECTION"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".you4"
+            android:label="MICROPROCESSORS AND MICROCONTROLLERS"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".you5"
+            android:label="MANAGERIAL ECONOMICS AND ACCOUNTANCY"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".you6"
+            android:label="ELECTRICAL MACHINES LAB - II"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".you7"
+            android:label="POWER ELECTRONICS LAB"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".you8"
+            android:label="INTEGRATED CIRCUITS LAB"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".you9"
+            android:label="INDUSTRIAL VISIT / STUDY"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".fuc1"
+            android:label="POWER SYSTEMS - II"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".fuc2"
+            android:label="ELECTRICAL MACHINERY - II"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".fuc3"
+            android:label="POWER ELECTRONICS"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".fuc4"
+            android:label="DIGITAL ELECTRONICS AND LOGIC DESIGN"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".fuc5"
+            android:label="LINEAR INTEGRATED CIRCUITS"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".fuc6"
+            android:label="LINEAR CONTROL SYSTEMS"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".fuc7"
+            android:label="ELECTRICAL MACHINES LAB - I"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".fuc8"
+            android:label="CONTROL SYSTEMS LAB"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".mee1"
+            android:label="ELECTRICAL CIRCUITS-II"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".mee2"
+            android:label="SOLID MECHANICS"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".mee3"
+            android:label="POWER SYSTEMS - I"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".mee4"
+            android:label="ELECTRONIC ENGINEERING - II"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".mee5"
+            android:label="ELECTROMAGNETIC THEORY"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".mee6"
+            android:label="ELECTRICAL MACHINERY - I"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".mee7"
+            android:label="LABELECTRONIC ENGINEERING - II LAB"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".mee8"
+            android:label="MECHANICAL TECHNOLOGY LAB"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".kiss1"
+            android:label="ELECTRICAL CIRCUITS-II"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".kiss2"
+            android:label="ELECTRICAL CIRCUITS ?I"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".kiss3"
+            android:label="OWER SYSTEMS -I"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".kiss4"
+            android:label="ELECTRICAL MEASUREMENTS AND INSTRUMENTS"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".kiss5"
+            android:label="ELECTRONIC ENGINEERING - I"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".kiss6"
+            android:label="PRINCIPLES OF MECHANICAL ENGINEERING"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".kiss7"
+            android:label="ELECTRONIC ENGINEERING LAB - I "
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".kiss8"
+            android:label="CIRCUITS AND MEASUREMENTS LAB"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+        <activity
+            android:name=".result"
+            android:label="RESULTS"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.siddharth.christmas.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

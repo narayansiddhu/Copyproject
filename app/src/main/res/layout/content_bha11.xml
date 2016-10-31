@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.bha11"
+    tools:showIn="@layout/activity_bha11">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT–I
+\n\nIntroduction: Meaning of Intellectual Property- Nature of I.P- Protection of I.P. Rights-kinds of Intellectual Property Rights –International Conventions of Intellectual Property Rights- patent Treaty 1970, GATT 1994, TRIPS and TRIMS – International Organization for Protection of IPR – WTO, WIPRO, UNESCO.
+
+\n\nUNIT-II
+\n\nPatents: Meaning of Patent- Commercial Significance – Obtaining of Patent– patentable Subject – matter – rights and obligations of Patentee – specification – Registration of patents – Compulsory licensing and licenses of rights – Revocation.
+
+\n\nUNIT-III
+\n\nIndustrial Designs : Definitions of Designs – Registration of Designs – Rights and Duties of Proprietor of Design – Piracy of Registered Designs.
+
+\n\nUNIT-IV
+\n\nTrade Marks : Meaning of trademark – purpose of protecting trademarks Registered trade mark – procedure – passing off – Assignment and licensing of trademarks – Infringement of trademarks.
+
+\n\nUNIT-V
+\n\nNature, scope of copyright – Subject matter of copy right – Right conferred by copyrightPublication – Broad – casting, telecasting – computer programme – Database right – Assignment – Transmission of copyright – Infringement of copy right.
+
+\n\nSuggested Reading:
+
+\n1)Cornish W.R, “Intellectual Property Patents”, Copyright, Trademarks and Allied Rights, Sweet and Maxwell 1993.
+
+\n2)P . Narayanan, “Intellectual Property Law”, Eastern law House 2nd Edn. 1997.
+"
+
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+    </ScrollView>
+</RelativeLayout>

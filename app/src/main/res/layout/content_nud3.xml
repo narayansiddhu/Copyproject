@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.nud3"
+    tools:showIn="@layout/activity_nud3">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-I
+
+\n\nElectrical Engineering Materials Insulating Materials: Properties of ideal insulating materials, classification and types of insulating materials – conducting materials- general properties of copper, aluminum and steel, high resistance alloys, carbon and other conducting materials, Super conductors – Magnetic materials: Classification of magnetic materials, soft and hard magnetic materials, sheet steel, Cold rolled steels solid core and laminated core materials.
+
+\n\nUNIT-II
+
+\n\nMagnetic Circuit: Basic principles, magnetic circuit calculations, flux density in airgap and tooth – Carter’s coefficient, ampere turns for gap and teeth, real and apparent flux density, magnetic leakage, armature leakage, leakage flux from salient poles, field distribution curves, field turns, armature reaction ampere turns.
+
+\n\nThermal Circuit: Type of enclosures ventilation and cooling methods in electrical machines – losses, temperature rise time curve- rating of electrical machines, calculation for quantity of cooling medium.
+
+\n\nRating of Motors: Heating effects, Load conditions and classes of duty, determination of power rating.
+
+\n\nUNIT-III
+
+\n\nDC Machine Design: Output equation – main dimensions, choice of specific magnetic and electric loading, selection of number of poles, choice of armature core length, Armature diameter, length of air gap, armature design, design of field system.
+
+\n\nUNIT-IV
+
+\n\nAC Machine Design: Transformer Design - Main dimensions, Output equation, Core design, cooling system design. Three phase Induction Motors - Output equation, main dimensions, design of stator and rotor, design of squirrel cage rotor, design of end-rings Synchronous machines - Output equation, Main dimensions, short Circuit Ratio (SCR). Length of air gap, selection of armature slots, design of field system, design of turbo alternators.
+
+\n\nUNIT-V
+
+\n\nComputer Aided Design: Introduction, Advantages of Digital computers, Computer Aided Design - different approaches: Analysis method, Synthesis method, Hybrid method, Optimization, General procedure for optimization, variable constraints, Computer aided design of 3-phase induction motor, List of symbols used, General design procedure.
+
+\n\nSuggested Reading:
+
+\n1.A.K.Sawhney, A Course in Electrical Machines Design, Dhanpat Rai and Sons, 1996.
+
+\n2.R.K.Agarwal, Principles of Electrical Machines Design,
+
+\nS.K.Kataria and Sons, 4th edition, 2000, Nai Sarak, New Delhi. "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

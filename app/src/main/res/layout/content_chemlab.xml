@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.Chemlab"
+    tools:showIn="@layout/activity_chemlab">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VOLUMETRIC ANALYSIS
+\n\n1.Introduction of Volumetric Analysis.
+\n\n2.Techniques of Weighing and usage of Simple analysis balance.
+\n\nPERMANGANOMETRY
+\n\n3.Preparation of standard solution of Mohr salt and standardization of KMnO4 solution.
+\n\n4.Estimation of Iron(II)
+\n\n5.Estimation of oxalate
+\n\nDICHROMATOMETRY
+\n\n6.Estimation of Chromium(III).
+\n\nIODOMETRY
+\n\n7.Estimation of Chromium(III).
+\n\n8.Estimation of Copper (II)
+\n\nACIDIMETRY
+\n\n9.Estimation of Carbonate, Bicarbonate alkalinity of water
+\n\nCOMPLEXOMETRY
+\n\n10. Estimation of hardness of water.
+\n\nPRECIPITATION TITRATION
+\n\n11. Estimation of Chloride
+\n\nINSTRUMENTAL CHEMICAL ANALYSIS
+\n\n12. Introduction to instrumental chemical analysis and use of electrical and electronic balance up to 4th decimal place.
+\n\nCONDUCTOMETRY
+\n\n13. Acid-base titration
+ \n\na. Estimation of HCl using strong base.
+ \n\nb. Estimation of CH3COOH using strong base.
+ \n\nc. Estimation of HCI and CH.,COOH using strong base Precipitation titration
+
+
+ \n\nd. Estimation of BaC12using Na2SO4
+\n\nPOTENTIOMETRY
+\n\n14. Acid base titration
+
+\n\ne.Estimation of HCI using strong base by quinhydrone electrode.
+
+\n\nf.Estimation of CH3COOH strong base titration using quinhydrone electrode.
+
+
+\n\nRedox titration
+
+\n\n15.Estimation of iron(II) using K2Cr207.
+
+
+
+\n\nPH METRY
+
+\n\n16. Acid base titration
+
+\n\na. Estimation of HC1 using NaOH
+
+\n\nb. Estimation of CH3COOH using NaOH
+
+
+
+\n\nCOLORIMETRY
+
+\n\n17. Verification of Beers-Lambert's Law: using potassium permanganate and estimation of KMn04(Mn) in the given solution.
+
+\n\n18. Estimation of Mn04 in the given solution.
+
+\n\n19. Estimation of Copper(II)
+
+
+\n\nKINETICS
+
+\n\n20. First order reaction - hydrolysis of methyl acetate
+
+\n\nEXPERIMENTS FOR DEMONSTRATION SPECTROPHOTOMETRY
+
+\n\n 1. Recording of Cu(II) spectrum, determination of emax and molar absorbance
+
+\n\nPREPARATION OF POLYMERS
+
+\n\n1. Preparation of Urea — Formaldehyde resin
+
+\n\n2. Preparation of polypyrrole
+
+
+\n\nSuggested Reading:
+
+\n\n1. B.D.Khosla, A.Gjulati, V.C. Garg., Senior Practical Physical  Chemistry, R.Chand and company, New Delhi 11th Edition.
+
+\n\n2. S.K.Bhasin and Sudha RAni, Laboratory Manual on Engineering Chemistry, Dhanpat Raj Publishing Company.
+
+            "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+        />
+    </ScrollView>
+
+</RelativeLayout>

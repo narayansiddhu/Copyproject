@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.gir15"
+    tools:showIn="@layout/activity_gir15">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.Waveform generation –Square, Triangular and Trapezoidal.
+
+\n\n2.Verification of Convolution Theorem-comparison of Circular and Linear Convolutions.
+
+\n\n3.Computation of DFT, IDFT using Direct and FFT methods.
+
+\n\n4.Verfication of Sampling Theorem
+
+\n\n5.Design of Butterworth and Chebyshev of LP and HP filters.
+
+\n\n6.Design of LPF using rectangular and Hamming, Kaiser Windows.
+
+\n\n7.16 bit Addition, Integer and fractional multiplication on 2407 DSP trainer kit.
+
+\n\n8.Generation of sine wave and square wave using DSP trainer kit.
+
+\n\n9.Response of Low pass and High pass filters using DSP trainer kit.
+
+\n\n10.Linear convolution using DSP trainer kit.
+
+\n\n11.PWM Generation on DSP trainer kit.
+
+\n\n12. Key pad interfacing with DSP.
+
+\n\n13.LED interfacing with DSP.
+
+\n\n14.Stepper Motor Control using DSP.
+
+\n\n15.DC Motor 4-quadrant speed control using DSP.
+
+\n\n16.Three phase IM speed control using DSP.
+
+\n\n17.Brushless DC Motor Control.
+
+\n\nAt least ten experiments should be completed in the semester "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

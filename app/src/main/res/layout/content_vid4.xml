@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.vid4"
+    tools:showIn="@layout/activity_vid4">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/hello_sid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UNIT-I
+
+\n\nJunction Diode : Different types of PN Junction formation techniques, PN Junction Characteristics, biasing- band diagrams and current flow, Diode current equations under forward bias and reverse bias conditions, Junction breakdown in diodes and breakdown voltages, effect of temperature on diode characteristics, Diode as a circuit element, small signal diode models, Junction capacitance under forward bias and reverse bias, Diode switching characteristics, Zener Diodes, Zener voltage regulator and its limitation.
+
+\n\nUNIT-II
+
+\n\nPN Diode Applications: Half wave, Full wave and Bridge rectifiers - their operation, performance characteristics, and analysis; Filters (L, C, LC and CLC filters) used in power supplies and their ripple factor calculations, design of Rectifiers with and without Filters.
+
+\n\nSpecials Diodes: Elementary treatment on the functioning of Tunnel/Back ward, Varactor, Photo, Light Emitting diodes. Liquid Crystal Display. CRO: study of block diagram of CRO.
+
+\n\nUNIT-III
+
+\n\nBipolar Junction Transistor : Transistor Junction formation (collector-base, base-emitter Junctions) Transistor biasing-band diagram for NPN and PNP transistors, current components and current flow in BJT, Modes of transistor operation, Early effect, BJT input and output characteristics in CB, CE CC configuration, BJT as an amplifier, BJT biasing techniques, Thermal runway, heat sinks and thermal stabilization, operating point stabilization against temperature and device variations, stability factors, Bias stabilization and compensation techniques, Biasing circuit design.
+
+
+\n\nUNIT-IV
+
+\n\nSmall Signal Transistors equivalent circuits : Small signal low frequency h-parameter model of BJT, Determination of h parameters, analysis of BJT amplifiers using h-parameter, comparison of CB, CE and CC amplifier configurations, Analysis of BJT amplifier with approximate model. Introduction to low frequency p and T models.
+
+\n\nSpecial Devices: working of UJT, SCR, DIAC, TRIAC and CCD.
+
+\n\nUNIT-V
+
+\n\nJunction Field Effect Transistors (JFET): JFET formation, operation and current flow, pinch-off voltage, V-I characteristics of JFET. JFET biasing-zero current drift biasing, biasing against device variations. Low frequency small signal model of FETs. Analysis of CS, CD and CG amplifiers and their comparison. FET as an amplifier and as a switch. MOSFETs: MOSFETs, Enhancement and Depletion mode MOSFETs, V-I characteristics. MOSFET as resistance, Biasing of MOSFETs, MOSFET as a switch
+
+\n\nSuggested Reading:
+
+\n1.Jacob Millman, Christos C. Halkias, and Satyabrata Jit, Electronic Devices and Circuits, McGraw Hill, 3rd edition, 2010.
+
+\n2.S Salivahanan, N Kumar, and A Vallavaraj, Electronic Devices and Circuits, McGraw Hill, 2nd edition, 2007.
+
+\n3.David A. Bell, Electronic Devices And Circuits, Oxford University Press, 5th edition, "
+        android:textAppearance="?android:attr/textAppearanceLarge"
+
+        />
+</ScrollView>
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.enrique4"
+    tools:showIn="@layout/activity_enrique4">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-I
+            \n\nDigital Computers and Information: Information representation, Computer Structure.
+             \n\nNumber Systems: Binary Numbers, Octal and Hexadecimal Numbers, Number Ranges.
+             \n\nArithmetic Operations: Conversion from Decimal to other bases. Decimal Codes: BCD Addition. Alphanumeric Codes: ASCII Character Code, Parity Bit.
+             \n\nBinary Logic and Gates: Binary Logic, Logic Gates. Boolean Algebra: Basic Identifiers, Algebraic Manipulation, Complement of a Function.
+             \n\nStandard Forms: Minterms and Maxterms, Sum of Product and Products of Sums.
+             \n\nUNIT-II
+             \n\nMinimization of Switching Functions: Introduction, the map method, Minimal Functions and Their Properties, the tabulation procedure, the prime implicant chart.
+             \n\nNAND and NOR Gates: Nand Circuits, Two-level Implementation, Multilevel NAND Circuits, NOR Circuits. Exclusive OR Gates: Odd Function, Parity Generation and Checking.
+             \n\nUNIT-III
+             \n\nCombination Logic Design: Combinational Circuits, Design Topics: Design Hierarchy, Top –Down design, Computer Aided Design, Hardware Description Languages, Logic Synthesis. Analysis Procedure: Derivation of Boolean Functions, Derivation of the Truth Table, Logic Simulation, Design Procedure, Decoders, Encoders, Multiplexers, Binary Adders, Binary subtraction, Binary Multipliers, HDL Representations- VHDL.
+             \n\nUNIT-IV
+             \n\nSequential Circuits: Sequential Circuit definitions. Latches, Flip Flops, sequential circuit analysis, sequential circuit design, design with D Flip Flops, designing with JK Flip- Flops, HDL representation for sequential circuits-VHDL.
+             \n\nUNIT-V
+             \n\nRegisters and Counters: Registers, Shift registers, Synchronous Binary counters, Ripple Counter.
+             \n\nSymmetric Networks: Properties of Symmetric Functions, Synthesis of Symmetric networks, identification of symmetric functions.
+             \n\nSuggested Reading:
+             \n1.M. Moris Mano, Charles R. Kime, Logic and Computer Design Fundamentals, 2nd edition, Pearson Education Asia, 2001.
+             \n2.Zvi Kohavi, Switching and Finite Automata Theory, 2nd edition, Tata McGraw Hill, 1995.
+             \n3.Charles H. Roth, Jr Fundamentals of Logic Design, 5th edition, Thomson, Brook,Cole, 2005."
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+    </ScrollView>
+
+</RelativeLayout>

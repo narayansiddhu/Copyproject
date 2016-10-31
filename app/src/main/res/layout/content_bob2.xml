@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.bob2"
+    tools:showIn="@layout/activity_bob2">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-I
+
+\n\nIntroduction to HDLs, Basic Concepts of Verilog, Data Types, System Tasks and Compiler Directives.
+
+\n\nGate Level Modeling: Gate Types and Gate Delays. Dataflow Modeling: Continuous assignment and Delays. Design of Stimulus Block.
+
+\n\nUNIT-II
+
+\n\nBehavioral Modeling: Structured Procedures, Procedural Assignments, Timing control, Conditional statements, Sequential and Parallel Blocks, Generate Blocks. Switch level Modeling.
+\nTasks, Functions, Procedural Continuous Assignments, Design of Mealy and Moore state models using Verilog.
+\nLogic Synthesis, Synthesis Design flow, Gate level Net list.
+
+\n\nUNIT-III
+
+\n\nIntroduction to MOS Technology, Basic MOS Transistor action: Enhancement and Depletion Modes. Basic electrical properties of MOS, Threshold voltage and Body Effect. Design of MOS inverters with different loads, Basic Logic Gates with CMOS: INVERTER, NAND, NOR, AOI and OAI gates. Transmission gate logic circuits, Bi-CMOS inverter.
+
+\n\nUNIT-IV
+
+\n\nMOS and CMOS circuit Design Process: MOS Layers, Stick diagrams, Lambda based Design rules and Layout diagrams. Basic Circuit Concepts: Sheet Resistance, Area Capacitance and Delay calculation.
+
+\n\nUNIT-V
+
+\n\nCombinational Logic: Manchester, Carry select and Carry Skip adders, Crossbar and barrel shifters, Multiplexer.
+
+\n\nSequential Logic: Design of Dynamic Register Element, 3T, 1T Dynamic RAM Cell, 6T Static RAM Cell.
+
+\nD flip flop using Transmission gates. NOR and NAND based ROM Memory Design.
+
+\n\nSuggested Reading:
+
+\n1.         Samir Palnitkar, “Verilog HDL: A Guide to Digital Design and Synthesis”, 2/e , Pearson Education, 2008.
+
+\n2.         Michael D. Ciletti, “ Advanced Digital Design with Verilog HDL”, PHI, 2005.
+
+\n3.         Kamran Eshraghian, Douglas A. Pucknell, and Sholeh Eshraghian,“Essentials of VLSI circuits and systems”, PHI, 2011.
+
+\n4.         John P. Uyemura, “Introduction to VLSI Circuits and Systems”,Wiley India Pvt. Ltd., 2011. "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

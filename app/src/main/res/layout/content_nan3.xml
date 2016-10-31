@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.nan3"
+    tools:showIn="@layout/activity_nan3">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-I
+
+\n\nAsymmetrical networks, Image and Iterative impedances. Image transfer constant and iterative transfer constant. Symmetrical networks, characteristic impedance and propagation constant. Properties of L, T and Pi section types.
+
+\n\nUNIT-II
+
+\n\nConstant K-filters – low pass, high pass, band pass, band elimination filter design, m-derived — low pass, high pass, band pass, band elimination filter design and composite filter design. Notch filter.
+
+\n\nUNIT-III
+
+\n\nNetwork synthesys: Hurwitz polynomials,positive real functions, L-C Immitance functions, RC impedance functions and RL admittance functions. RL impedance functions and RC admittance functions. Cauer And Foster’s forms of RL impedance and RC admittance
+
+\n\nAttenuators and their design. Equalizers and their design. Impedance matching networks. Inverse network elements.
+
+\n\nUNIT-IV
+
+\n\nProperties of transmission lines. Transmission line equations from source and load end. The finite and infinite lines. Velocity of propagation, input impedance. Open and short circuited lines, telephone cables, distortion less transmission, loading of cables, Campbell’s formula.
+
+\n\nUNIT-V
+
+\n\nProperties of Transmission lines at UHF, Reflection co-efficient, Standing waves and SWR, Distribution of voltages and currents on loss less line. Characteristics of half wave, Quarter-wave and one eighth wave lines. Construction and applications of Smith chart. Transmission line matching. Single and double stub matching.
+
+\n\nSuggested Reading:
+
+\n1.John D. Ryder, Networks, Lines and Fields, PHI, 2nd edition, 2009.
+
+\n2.M.E. Van Valkenburg, Network Analysis, PHI, 3rd edition, 2009.
+
+\n3.S.P. Ghosh and A.K. Chakraborty, Network Analysis and Synthesis, McGraw Hill, 1st edition, 2009.
+
+\n4.Roy, Choudhury D., Networks and Systems, New Age International Publishers, 2nd edition, 2010.
+
+\n5.Smarjit Ghosh, Network Theory : Analysis and Synthesis, PHI, "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

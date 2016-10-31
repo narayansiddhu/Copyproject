@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.you3"
+    tools:showIn="@layout/activity_you3">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-I
+
+\n\nIntroduction to protective relays, Need for protection, Backup protection, Zones of protection, Definitions of relay pickup, Dropout and reset values, Classification of relays, Operating principles and construction of electromagnetic and induction relays, Over current, Over voltage and power relays, Directional features, Universal relay torque equation. Over current protection for radial feeders and ring mains, Protection of parallel lines, Relay settings for over Current relays, Earth fault and phase fault protection.
+
+\n\nUNIT-II
+
+\n\nStatic phase and Amplitude comparators, Characteristics of Dual input comparators, Distance protection, 3-step Distance relays, Characteristics Distance relays on the R-X diagram, Sampling comparator, static over current relay, Microprocessor based over current relaying.
+
+\n\nUNIT-III
+
+\n\nTransformer and generator protection, Different relays, Percentage differential relays, Protection of generator and transformer using percentage differential relays, Split phase, Inter turn protection, Overheating, Loss of excitation, Protection of generators, Protection of transformers against magnetizing inrush, Bucholz relay, Protection of earthing transformers, Generator transformer unit protection.
+
+\n\nUNIT-IV
+
+\n\nCircuit breakers, Need for circuit breakers, Arc Properties, Principles of arc quenching. Theories, Recovery and restricing voltages, Definitions in circuit breakers, Rated symmetrical and asymmetrical breaking current, Rated making current, Rated capacity, Voltage and Frequency of circuit breakers, Auto reclosure, Duty cycle, Current chopping, Resistance switching, Derivations of RRRV, Maximum RRRV etc., Circuit breaker calculations, Types of circuit breakers, Oil, Poor oil, Air, Air blast, SF6 and Vacuum circuit breakers, Testing of circuit breakers.
+
+\n\nUNIT-V
+
+\n\nOver voltage protection, Protection of transmission lines against direct lightening strokes, Ground wires, Protection angle, Protection zones, Height of ground wire, Conductor clearances. Conductor heights, Tower footing resistance and its effects, Equipment protection assuming rod gaps, Arcing horns, Different types of lightening arrestors, Their construction, Surge absorbers, Peterson coil, Insulation co-ordination.
+
+\n\nSuggested Reading:
+
+\n\n1.C.L. Wadhwa, Electrical Power System, Wiley Eastern Ltd., 2nd Edition, 2003
+
+\n\n2.Badriram and Viswakarma, Power System Protection and Switchgear, Tata McGraw Hill, 2004.
+
+\n\nSunil S. Rao, Switchgear and Protection, Khanna Publications, 2000. "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

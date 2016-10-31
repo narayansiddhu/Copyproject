@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.tit13"
+    tools:showIn="@layout/activity_tit13">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-I
+
+\n\nIntroduction - Natural, human induced and human made disasters -international decade of disaster reduction.
+
+\n\nUNIT-II
+
+\n\nNatural Disasters - Hydrometereological based disasters - Trophical cyclones, floods, drought and desertification - Zones Geographical based disasters - Earth quake, Tsunammis, Landslides and avalanches.
+
+\n\nUNIT-III
+
+\n\nHuman induced hazards - chemical industrial hazards, major power breakdowns, traffic accidents, etc.
+
+\n\nUNIT-IV
+
+\n\nUse ofremote sensing and GISI disaster mitigation and management.
+
+\n\nUNIT-V
+
+\n\nRich and vulnerability to disaster - mitigation and management options -warning and forecasting.
+
+\n\nSuggested Reading :
+
+\n1.Rajib, S and Krishna Murthy, R. R (2012) “Disaster Management Global Challenges and Local Solutions” Universities Press, Hyderabad.
+
+\n2.Navele, P and Raja, C. K (2009), Earth and Atmospheric Disasters Management, Natural and Manmade. B. S. Publications, Hyderabad.
+
+\n3.Fearn-Banks, K (2011), Crises computations approach: A case book approach. Route ledge Publishers, Special Indian Education, New York and London.
+
+\n4.Battacharya, T. (2012), Disaster Science and Management. Tata McGraw hill Company, New Delhi. "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

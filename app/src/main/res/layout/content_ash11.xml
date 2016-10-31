@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.ash11"
+    tools:showIn="@layout/activity_ash11">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-I
+\n\nIntroduction and applications of mobile computing, Wireless transmission: Frequencies, Signals, Antennas, Signal Propagation, Multiplexing, Modulation , Spread Spectrum, Cellular systems.
+
+\n\nMedium access control, SDMA, FDMA, TDMA, CDMA, Comparisons.
+
+\n\nUNIT-II
+\n\nTelecommunication system, GSM, DECT, TETRA, Satellite systems: Applications, Basics, routing, localization, Handover. Broadcast systems: cyclic representation of data, Digital Audio Broadcasting, Digital video broadcasting, convergence of Broadcasting and Mobile Communications.
+
+\n\nUNIT-III
+\n\nWireless LAN: Infrared Vs Radio transmission, Infrastructure and Adhoc Networks, HYPERLAN, Bluetooth.
+
+\n\nUNIT-IV
+\n\nMobile IP, Dynamic Host Configuration Protocol, Mobile Adhoc Networks, Mobile Transport Layer, Traditional TCP Classical TCP improvements, TCP over 2.5/3G Wireless Networks, Performance Enhancing Proxies.
+
+\n\nUNIT-V
+\n\nOperating Systems for Mobile Devices: Features of Windows CE, PalmOS, Symbian OS, and Java Card Support for Mobility: Pile systems, WWW, Wireless Application Protocol.
+
+\n\nSuggested Reading:
+
+\n1.Schiller, Mobile Communications, 2nd Edition Pearson Education, India, 2003.
+
+\n2.Hansmann, Merk, Nicklous, Stober, Principles of Mobile Computing. 2nd Edition, Springer International Edition, 2003.
+
+\n3.Frank Adelstein, Sandeep K.S. Gupta ”Fundamentals of Mobile and Pervasive Computing ”,Tata McGraw-Hill 2005."
+
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.vid5"
+    tools:showIn="@layout/activity_vid5">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-I
+
+\n\nThermodynamics: Concept of system, process and properties, laws of thermodynamics, concept of entropy and Clausius inequality, steady flow energy equation for an open system.
+
+\n\nIC Engines: Working of four stroke and two stroke petrol and diesel engine with p-V diagrams, valve timing diagram, calculation of indicated power, brake power, specific fuel consumption, mechanical and thermal efficiencies.
+
+\n\nReciprocating Air compressors: workdone, efficiency of multistage compressors, effect of clearance volume.
+
+\n\nUNIT-II
+
+\n\nHeat transfer: Basic modes of heat transfer, Fourier’s law of conduction, Newton’s law of cooling, Stefan-Boltzamn law of radiation and one dimensional steady state conduction heat transfer through plane walls without heat generation.
+
+\n\nHeat exchangers: Classification and application of heat exchangers in industry, derivation of LMTD in parallel and counter-flow heat exchangers and problems
+
+\n\nUNIT-III
+
+\n\nRefrigeration: Types of refrigeration systems- Air refrigeration system, vapor compression system, ammonia-water absorption refrigeration system ,thermoelectric refrigeration system, COP and representation of cycle on T-S and H-S diagrams, Types and properties of refrigerants, eco-friendly refrigerants., Introduction to psychometry and psychometry processes
+
+
+\n\nUNIT-IV
+
+\n\nBasic Manufacturing Processes: Welding, brazing, soldering, brief description of process and parameters, associated principles of gas welding, arc welding.
+
+\n\nCasting: Sand casting, die casting, and principles and application Forming: Basic concepts of forming processes: Extrusion, rod/wire drawing, Forging and Rolling.
+
+\n\nPrinciples and Applications of basic Machining Processes: Turing, milling and grinding.
+
+\n\nUNIT-V
+
+\n\nDefinition of kinematic link and pair, mechanism and machine. Gears: Classifications of gears, nomenclature Gear Trains: Simple, compound, inverted and epi-cyclc gear trains
+
+\n\nBelt and Rope drives: Open and cross belt drives, length of belt, ratio of tensions of flat belt, condition for maximum power transmission for flat belt.
+
+\n\nSuggested Reading:
+
+\n1.R.K. Rajput, Thermal Engineering, Laxmi Publications, 2005
+
+\n2.C. Sachdeva. Fundamentals of Engineering Heat and Mass transfer, Wiley Eastern ltd, 2004.
+
+\n3.P.N. Rao, Manufacturing Technology, Vol. 1 and 2, Tata McGraw Hill publishing co, 2010.
+
+\n4.Thomas Bevan Theory of Machines, CBS Publishers, "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.nud13"
+    tools:showIn="@layout/activity_nud13">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="List of Experiments:
+
+\n\n1.Determination of regulation and efficiency of Short, Medium and Long transmission lines.
+
+\n\n2.IDMT characteristics of Over-current relay and Study of Bucholz relay.
+
+\n\n3.Determination of A, B, C, D constants of Short, Medium and Long lines. Drawing of circle diagrams.
+
+\n\n4.Differential protection of transformer.
+
+\n\n5.Sequence impedance of 3-Phase Alternators.
+
+\n\n6.Determination of positive, negative and zero-sequence reactance of 3- Phase transformers using sequence current excitation fault calculation.
+
+\n\n7.Synchronous machine reactance and time constant from 3-Phase S.C test.
+
+\n\n8.Characteristics of Static relays.
+
+\n\n9.Static excitation of Synchronous Generator.
+
+\n\n10.Determination of dielectric strength of oils and study of Megger.
+
+\n\n11.Parallel operation of Alternators.
+
+\n\n12.Measurement of capacitance of 3-core cables.
+
+\n\n13.Fault location of Underground cables.
+
+\n\n14.Simulation of string of insulators for determination of Voltage distribution and String efficiency.
+
+\n\nAtleast ten experiments should be completed in the semester.
+ "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

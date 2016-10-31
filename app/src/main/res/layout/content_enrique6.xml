@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.enrique6"
+    tools:showIn="@layout/activity_enrique6">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-I
+            \n\nSemi Conductor Theory: Energy Levels, Intrinsic and Extrinsic Semiconductors, Mobility, Diffusion and Drift current. Hall Effect, Characteristics of P-N Junction diode, Parameters and Applications.
+             \n\nRectifiers: Half wave and Full wave Rectifiers (Bridge, center tapped) with and without filters, ripple regulation and efficiency. Zener diode regulator.
+             \n\nUNIT-II
+             \n\nBipolar Junction Transistor:BJT, Current components, CE, CB, CC configurations, characteristics, Transistor as amplifier. Analysis of CE,CB,CC Amplifiers(qualitative treatment only).
+             \n\nJEET: Construction and working, parameters, CS, CG, CD Characteristics, CS amplifier.
+             \n\nUNIT-III
+             \n\nFeedback Concepts – Properties of Negative Feedback Amplifiers,Classification, Parameters .
+             \n\nOscillators – Barkhausen Criterion, LC Type and RC Type Oscillators and Crystal Oscillators. (Qualitative treatment only)
+             \n\n UNIT-IV
+             \n\nOperational Amplifiers – Introduction to OP Amp, characteristics and applications –Inverting and Non-inverting  Amplifiers, Summer, Integrator, Differentiator, Instrumentation Amplifier.
+             \n\nDigital Systems: Basic Logic Gates, half, Full Adder and Subtractors.
+             \n\nUNIT-V
+             \n\nData Acquisition systems: Study of transducer (LVDT, Strain gauge, Temperature, Force).
+             \n\nPhoto Electric Devices and Industrial Devices: Photo diode, Photo Transistor, LED, LCD, SCR,  UJT Construction and Characteristics only.
+             \n\nDisplay Systems: Constructional details of C.R.O and Applications.
+             \n\nSuggested Reading:
+             \n1.Jocob Millman, Christos C. Halkias and Satyabrata Jit, Electronics Devices and Circuits, 3rd edition,  McGraw Hill Education(india) Private Limited,  2010.
+             \n2. Rama Kanth A. Gaykward, Op-AMPS and Linear Integrated Circuits  4th Edition  Prentice Hall of India 2000.
+             \n3. M. Morris Mano, Digital Design, 3rd Edition, Prentice Hall of India 2002.
+             \n4.William D Cooper, and A.D. Helfrick, Electronic Measurements and Instrumentations Techniques, 2nd ed., Prentice Hall of India 2008
+             \n5.S. Shalivahan, N. Suresh Kumar, A. Vallava Raj,  Electronic Devices and Circuits, 2nd ed., McGraw Hill Education(India) Private Limited, 2007."
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+    </ScrollView>
+
+</RelativeLayout>

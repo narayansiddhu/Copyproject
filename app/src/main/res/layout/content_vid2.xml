@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.vid2"
+    tools:showIn="@layout/activity_vid2">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-I
+\n\na)Lumped Circuit elements, dependent and independent current and voltage sources, Ohm’s law, energy, power, Kirchoff’s laws, D.C. circuit analysis. Nodal and mesh analysis. Source transformations, Terminal characteristics of RLC elements. Thevenin’s and Norton’s theorems. Superposition theorem, Maximum power transfer theorem.
+
+\n\nb)Topological description of networks. Network graphs, tree, chord, cutset, incidence matrix, tieset matrix, cutset matrix. Formulation of node and loop equations. Tellegen’s theorem, duality, dual networks.
+
+\n\nUNIT-II
+
+\n\nLinear time invariant first order and second order circuits, Formulation of integro differential equations, RL, RC and RLC circuits, transient and steady state responses. Zero Input Response (ZIR), Zero State Response (ZSR) - complete response.
+
+\n\nUNIT-III
+
+\n\nSteady state response of RLC networks to exponential signals, Sinusoidal function, response to sinusoidal excitation, phasors, impedance and admittance. Analysis of magnetically coupled circuits. Calculation of power in a.c. circuits, average power, apparent power, complex power, vector representation. Network theorems with impedance.
+
+\n\nUNIT-IV
+
+n\n\Two port networks, Z, Y, h, g, ABCD parameters. Equivalence of two port networks. T, Pi transformation, Inter connection of two ports, Reciprocity theorem. Analysis of reciprocal networks: Practical and ideal transformers.
+
+
+\n\nUNIT-V
+
+\n\nConcept of complex frequency, impedance and admittance functions, Pole-Zero cancellation, calculation of natural response from pole zero plot. Series and parallel resonance, Q-factor, selectivity, bandwidth. Calculation of Q factor for different resonant forms.
+
+\n\nSuggested Reading :
+
+\n1.William H. Hayt, Jr., Jack E. Kemmerly and Steven M. Durbin, Engineering Circuit Analysis, 5th edition, McGraw Hill, 2010.
+
+\n2.Charles A. Desoer and Ernest S Kuh, Basic Circuit Theory, McGraw Hill, 2009.
+
+\n3.Raymond A. DeCarlo and Penmin Lin, Linear Circuit Analysis, 2nd edition, Oxford Univ. Press, 2003.
+
+\n4.Lawrence P. Huelsman, Basic Circuit Theory, 3rd edition, "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

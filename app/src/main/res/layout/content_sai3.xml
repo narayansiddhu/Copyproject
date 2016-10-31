@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.sai3"
+    tools:showIn="@layout/activity_sai3">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-I
+            \n\n Automata: Introduction to Finite Automata, Central Concepts of Automata Theory. Finite Automata: An Informal Picture of Finite Automata, Deterministic Finite Automata, Non-deterministic Finite Automata, An application, Finite Automata with Epsilon Transitions.
+            \n\nRegular expressions and Languages: Regular Expressions, Finite Automata and Regular Expressions, Applications of Regular Expressions, Algebraic Laws for Regular Expressions.
+            \n\nUNIT-II
+            \n\nProperties of Regular Languages: Proving Languages not to be Regular, Closure properties of Regular Languages, Decision Properties of Regular Languages, Decision Properties of Regular Language, Equivalence and Minimization of Automata.
+            \n\nContext Free Grammars and Languages: Context free grammars, Parses Trees, Applications, Ambiguity in Grammars and Languages.
+            \n\nUNIT-III
+            \n\nPushdown Automata: Definition, Languages of PDA, Equivalence of PDA’s and CFG’s Deterministic Pushdown Automata.
+            \n\nProperties of Context Free Languages: Normal Forms for Context Free Grammars, Pumping Lemma, closure properties, Decision Properties of CFL’s.
+            \n\nUNIT-IV
+            \n\nIntroduction to Turing Machines: Problems that Computers cannot Solve, The Turing machines, Programming Techniques for Turing Machines, Extensions to the Turing 4 Machines Restricted Turing Machines, Turing machines and Computers.
+            \n\nUNIT-V
+            \n\nUn-decidability: A language that is not Recursively Enumerable, An undecidable problem that is RE, Undecidable problems about Turing Machines, Post’s Correspondence Problem, Other Undecidable Problems. Intactable Problems: The Classes P and NP, an NP Complete Problem, A Restricted Satisfiability problem.
+            \n\nSuggested Reading :
+            \n11.John. E. Hopcroft, Rajeev Motwani, Jeffery, D. Ulman, Introductionto Automata Theory, Languages and Computation, 3nd edition, Pearson Education-2007.
+            \n2.John C.Martin, Introduction to Languages and the Theory of Computation, 3rd edition Tata McGraw Hill, 2003.
+            \n3.Bernard M.Moret, The Theory of Computation, Pearson Education, 2002."
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+    </ScrollView>
+
+</RelativeLayout>

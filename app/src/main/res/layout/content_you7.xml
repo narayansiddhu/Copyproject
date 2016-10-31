@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.you7"
+    tools:showIn="@layout/activity_you7">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="List of Experiments:
+
+\n\n1.S.C.R, BJT MOSFET and IGBT Characteristics.
+
+\n\n2.Gate Triggering circuits for SCR.BJT,MOSFET and IGBT using R,RC, UJT and IC’s
+
+\n\n3.Single Phase step down cyclo-converter with R and RL loads
+
+\n\n4.A.C Voltage controllers with R and RL loads
+
+\n\n5.Study of forced commutation techniques.
+
+\n\n6.Two quadrant D.C.drive.
+
+\n\n7.Bridge rectifiers-half control and full control with R and RL loads.
+
+\n\n8.Simulation of Single Phase Full converter and Semi converter
+
+\n\n9.Simulation of Single Phase and three phase Inverter
+
+\n\n10.Buck and Boost choppers
+
+\n\n11.Study of 1 KVA UPS and SMPS for variable voltage with constant load, Constant voltage with variable load.
+
+\n\n12.V/f Control of AC drive.
+
+\n\n13.Single phase inverter with R and RL load.
+
+\n\nNote : Atleast 10 experiments should be conducted in the Semester. "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

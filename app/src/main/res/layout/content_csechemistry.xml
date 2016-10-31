@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.Csechemistry"
+    tools:showIn="@layout/activity_csechemistry">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/hello_sid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UNIT-I\n\n1.1 Electrodics :Electrochemical Cells — Electrolytic and Galvanic Cells. Cell notation. Concept of electrode potential and EMF. Determination of single electrode potential. Electrochemical Series-significance. Nernst equation derivation and applications - Numerical Problems. Types of Electrodes (a) Gas Electrode (Standard Hydrogen Electrode) (b) Metal- insoluble salt Electrode (Calomel Electrode) (c)  Redox Electrode (Quinhydrone Electrode) (d) Ion selective electrode (Glass electrode)
+        \n\n1.2. Electroanalytical Techniques:\nPrinciple, method and applications of the following techniques. Conductometry: Acid — Base titrations. Potentiometry: Acid — Base and Redox titrations. pH metry: Acid — Base titrations.
+        \n\n1.3. Battery Chemistry:\nConcept of Reversible and Irreversible cells. Primary, secondary and flow batteries: Zinc—AgO, Nickel-Cadmium and Lithium- Ion batteries — Construction, working and applications. Flow batteries (Fuel Cells): Hydrogen — Oxygen and   Methanol — Oxygen fuel cells.
+        \n\nUNIT II \n\nCORROSION AND WATER CHEMISTRY:2.1 Corrosion and its control:\nCauses and effects- Types of corrosion-Chemical (dry) and electrochemical (wet) corrosion —Mechanism of electrochemical corrosion —Formation of anodic and cathodic areas —Galvanic corrosion, differential aeration corrosion (waterline and pitting corrosion) Factors affecting the rate of Corrosion (a) Position of metals in Galvanic Series. (b) Relative areas of anode and cathode. (c) Nature of corrosion product, (d) Temperature (e) Humidity and (f) pH - Pourbaix diagram Corrosion Control Methods: Cathodic Protection — Sacrificial Anode and  Impressed Current Methods.
+        \n\n2.2 Surface Coating:\nTypes of Metallic Coatings, Anodic and Cathodic Coatings-Methods of application of metallic coatings-Electroplating (Nickel Plating) and Electroless plating (Copper Plating). Paints-constituents and their functions.
+        \n\n2.3. Water Chemistry:\nHardness of water-Types — Units of hardness - Determination of temporary  and Permanent Hardness of water by EDTA Method (numerical problems) - Alkalinity of water and its determination. Water softening by Ion- Exchange and Reverse Osmosis methods. Specifications of potable water (BIS/ WHO standards). Disinfection of drinking water by chlorination-Break point chlorination and Ozonization.
+        \n\nUNIT-III\n\nENGINEERING MATERIALS:3.1 Polymers:\nDefinition of Monomer, Polymer and degree of polymerization. Functionality of monomer. Classification of polymers-Homo, Hetero and Copolymers, Thermoplastics and Thermosetting resins. Types of Polymerization: Addition, Condensation and Co-Polymersation -Examples. Preparation, Properties and Applications of the following polymers: (i) Plastics: Teflon, PMMA and Bakelite. (ii)Fibers: Kevlar and Polyurethane (Perlon-U). (iii)Rubbers/Elastomers: Natural rubber and its chemical structure. Artificial rubbers: Buna-S, and Silicone Rubbers. Compounding of rubber
+        \n\n3.2. Conducting polymers:\nDefinition. Classification: Extrinsic and Intrinsic polymers. Mechanism of conduction in polyacetylene. Structure of polypyrrole and its doping. Applications of conducting polymers.\n\n3.3  Composites:\nBasics of composites, composition and properties of composites. Types of composites — Fiber Reinforced composites: Glass Fiber and Carbon fiber. Advantages and applications.
+        \n\nUNIT-IV\n\nCHEMICAL FUELS:4.1 Fossil fuels\nClassification of fuels: Primary, Secondary fuels. Solid, liquid and gaseous fuels. Requirements of a good fuel. Calorific Value:HCV and LCV. Determination of Calorific value of gaseous fuels by Junkers Calorimeter. Theoretical calculation of calorific value by Dulong's formula - numerical problems. Combustion — Calculation of air quantities by weight and volume- Numerical problems.
+        \nSolid Fuels: Coal and its Ranking. Analysis of coal- Proximate and Ultimate analysis. Liquid Fuels: Fractionation of Petroleum. Composition and uses of Gasoline, Diesel and Kerosene. Cracking and its Significance - Catalytic cracking by Moving bed method. Knocking. Fuel rating - Octane and Cetane numbers. Unleaded Petrol - Additives. Automobile Exhaust control by Catalytic Converters. Gaseous Fuels - LPG, CNG composition and uses.
+        \n\n4.2 Bio Diesel\nSources. Concept of Trans esterification. Properties and significance\n\n4.3 Rocket Fuels:\nPrinciples of rocket propulsion, Characteristics of a good propellant-Classification of rocket fuels.
+        \n\nUNIT- V\n\nLIQUID CRYSTALS, LUBRICANTS, PHASE RULE AND GREEN CHEMISTRY\n5.1. Liquid Crystals:\nIntroduction, classification of liquid crystals — Thermotropic and Lyotropic liquid crystals. Molecular ordering in liquid crystals. Nematic, Smectic and Cholestric liquid crystals and their applications
+        \n\n5.2  LUBRICANTS:\nDefinition and functions of lubricants. Mechanism of lubrication: Boundary film, hydrodynamic and extreme pressure lubrication. Classification of lubricants: solid, semisolid and liquid lubricants. Properties of lubricants: Saponification number and acid value.
+        \n\n5. 3 Phase Rule:\nDefinition of terms phase, components and degrees of freedom. Statement of Phase rule. Phase rule equation and its application to one component system - water system and two components system - Pb-Ag system. Pattinsion's Process of desilverization of lead.
+        \n\n5.4. Green Chemistry\nConcept and principles of green chemistry and examples of clean technology.\n\nSuggested Reading :
+        \n1.Principles of Physical Chemistry by Puri, Sharma and Pathania S. N., S. Chand and Co. New Delhi (Latest edition).
+        \n2.Engineering Chemistry by P C Jain and M Jain. Dhanpat Rai and Sons (15th Edn), New Delhi.
+        \n3.Engineering Chemistry by Sashi Chawla. Dhanpat Rai and Sons, New Delhi
+        \n4. Chemistry in Engineering and Technology by J C Kuriacose and J Rajaram, TMH, New Delhi."
+        android:textAppearance="?android:attr/textAppearanceLarge"
+
+        />
+</ScrollView>
+
+
+</RelativeLayout>

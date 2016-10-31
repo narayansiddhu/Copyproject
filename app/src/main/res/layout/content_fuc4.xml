@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.fuc4"
+    tools:showIn="@layout/activity_fuc4">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-I
+
+\n\nBoolean Algebra and combinational logic AND,OR and NOT operations, Laws of Boolean Algebra, minimization of Boolean expressions, Truth tables and maps sum of products and product of sums -map method of reduction, incompletely specified functions multiple output minimization.
+
+\n\nUNIT-II
+
+\n\nTabular minimization, Digital logic families and IC’s, Characteristics of Digital IC’s, Introduction to RTL, DTL, TTL, CMOS, ECL families, Details of TTL logic family -totem pole, open collector outputs. Wired AND operation, comparison of performance, TTL subfamilies, multiplexer and de-multiplexer, encoder and decoder, code converters, implementation of combinational logic using standard logic gates and multiplexers.
+
+\n\nUNIT-III
+
+\n\nBinary arithmetic and circuits -Half and Full adder- subtractor and Magnitude comparator, number complements-two’s complement arithmetic, carry look ahead adder, decimal numbers and their codes, BCD and Excess-3 arithmetic.
+
+\n\nUNIT-IV
+
+\n\nSynchronous Sequential Circuits -Basic latch circuit -debouncing switch - SR., JK, D and T flip-flops-truth table and excitation table -ripple and synchronous counters up/down counter -general BCD counter- Counter decoding-shift registers, ring counters.
+
+\n\nUNIT-V
+
+\n\nDesign of Digital Systems -Concept of state. State diagram-design of counters Sequence detector and generators -Design procedure, synthesis using D, JK, T flip-flops -applications of registers -concepts of programmable logic -PROM, PLA, PAL.
+
+\n\nSuggested Reading:
+
+\n1.Donald Pleach / Albert Paul Malvino / Goutam Saha “Digital Principles and Applications McGraw- Hill, 2006.
+
+\n\n2.Tocci and Widmer, Digital Systems-Pearson Education-Eigth Edition, 2003.
+
+\n\n3.Morris Mano M.., Digital Design, Prentice Hall of India, Third Edition, 2002.
+
+\n\n4.B. Somnadh Nair, Digital Electronics and Logic Design, Prentice Hall, India, 2002.
+
+\n\n5.Floyd, Digital Fundamentals, 4th edition, Universal Book Stall, New Delhi, 1992.
+
+\n\n6.J.P. Uyemura, A First Course in Digital Systems Design, Brooks/ Cole Publishing Co., (Available from Vikas Publishing House in India). "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

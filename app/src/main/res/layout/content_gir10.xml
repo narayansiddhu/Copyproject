@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.gir10"
+    tools:showIn="@layout/activity_gir10">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-I
+
+\n\nBasic Methods of Measurement: A generalized measurement system configuration, Basic characteristics of measuring devices: Accuracy, Precision, Error, Linearity, Hysteresis, Threshold, Repeatability, Reliability and maintainability, Span, Calibration.
+
+\n\nUNIT-II
+
+\n\nPerformance Characteristics of Instrumentation System: Generalized Mathematical model of system, Transfer function representation, Sinusoidal transfer function: Zero. First and Second order instruments, Impulse, Step, Ramp and Frequency responses of above instruments, Specification and testing of Dynamic response.
+
+\n\nUNIT-III
+
+\n\nTransducer: Definition, Electrical Transducers: Classification. Basic requirement of transducers, Variable resistance transducers, Construction and characteristics of Potentiometers, Application, Electrical Strain gauge: Theory of operation of Resistance Strain gauge, Gauge factor, Types of Electric Strain gauges: Wire gauges. Unbonded and bonded Strain gauges, Foil gauges, Semiconductor Strain gauges. Materials for Strain Gauges, Installation of Strain gauges, Strain measuring circuits, Related problems.
+
+\n\nUNIT-IV
+
+\n\nResistive type Temperature Measuring Transducers: Platinum resistance transducer, Thermistor, Thermocouples: Types of thermocouples, Variable inductance and Capacitive transducers, Construction details of different types of inductance transducers: LVDT,  Application, Induction Potentiometers. Types of Variable Capacitive Transducers, Applications.
+
+\n\nUNIT-V
+
+\n\nOther Transducers: Piezo-Electric transducers, Characteristics, Hall effect sensors, Eddy current sensors, Digital Transducers, Fiber-optic sensors, Electro-optic transducers. Semiconductor sensors.
+
+\n\nSuggested Reading:
+
+\n1.C.S.Rangan. G.R.Sarma and V. S.V.Mani, Instrumentation Devices and Systems, Tata McGraw Hill Publications, 1983.
+
+\n2.D.V.S.Murthy, Transducers and Instrumentation, Prentice Hall of India (P) Ltd., 1997 "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

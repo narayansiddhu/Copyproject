@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.ass3"
+    tools:showIn="@layout/activity_ass3">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Unit-I
+
+\n\nLinear Modulation schemes: Need for modulation, double side band suppressed carrier (DSB-SC) modulation, conventional Amplitude Modulation (AM). Hilbert transform, properties of Hilbert transform. Pre-envelop. Complex envelop representation of band pass signals, In-phase and Quadrature component representation of band pass signals. Low pass representation of band pass systems. Single side band (SSB) modulation and Vestigial-side band (VSB) modulation. Modulation and demodulation of modulation schemes
+
+\n\nUnit-II
+
+\n\nAngle modulation schemes: Frequency Modulation (FM) and Phase modulation (PM), Concept of instantaneous phase and frequency. Types of FM modulation: Narrow band FM and wide band FM. FM spectrum in terms of Bessel functions. Direct and indirect (Armstrong’s) methods of FM generation. Balanced discriminator, Foster–Seeley discriminator and Ratio detector for FM demodulation. Pre-Emphasis and De-Emphasis. Capture effect.
+
+\n\nUnit-III
+
+\n\nTransmitters and Receivers: Classification of transmitters. High level and low level AM transmitters. FM transmitters. Principle of operation of Tuned radio frequency (TRF) and super heterodyne receivers. Selection of RF amplifier. Choice of Intermediate frequency. Image frequency and its rejection ratio Receiver characteristics: Double spotting, Tracking and alignment, Automatic Gain Control.
+
+
+\n\nUnit-IV
+
+\n\nNoise Sources and types. Atmospheric noise, Shot noise and thermal noise. Noise temperature. Noise in two-port network: noise figure, equivalent noise temperature and noise bandwidth. Noise figure and equivalent noise temperature of cascade stages. Narrow band noise representation. S/N ratio and Figure of merit calculations in AM, DSB-SC, SSB and FM systems.
+
+\n\nUnit-V
+
+\n\nAnalog pulse modulation schemes: Sampling of continuous time signals. Sampling of low pass and band pass signals. Types of sampling. Pulse Amplitude Modulation (PAM) generation and demodulation. Pulse time modulation schemes: PWM and PPM generation and detection.
+
+\n\nSuggested Reading:
+
+\n\n1.Simon Haykin, “Communication Systems,” 4/e, Wiley India, 2011.
+
+\n\n2.Herbert Taub, Donald L. Shilling and Goutam Saha, “Principles of Communication Systems,” 3/e, TMH, 2008.
+
+\n\n3.P. Ramakrishna Rao, “Analog Communication,” 1/e, TMH, 2011.
+
+\n\n4.A. Bruce Carlson and Paul B. Crilly, “Communication Systems,” 5/e, 2011.
+
+\n\n5.Singh, R.P. and Sapre, S.D., “Communication Systems,” TMH, 2007. "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.bha13"
+    tools:showIn="@layout/activity_bha13">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Unit-I
+
+\n\nMultimedia: An overview: Introduction, Multimedia Presentation and Production, characteristics of a multimedia presentation, Multiple Media, Utilities of Multisensory Perception, Hardware and Software Requirements, Uses of Multimedia, Promotions of Multimedia Based content, Steps for creating a multimedia presentation.
+
+\n\nDigital Representation: Introduction, Analog Representation, Waves, Digital Representation, Need for Digital Representation, Analog to Digital Conversion, Digital to Analog Conversion,, Relation between Sampling Rate and Bit Depth, Quantization Error, Fourier Representation, Pulse Modulation, Importance and Drawbacks of Digital Representation.
+
+\n\nVisual Display Systems: Introduction, Cathode Ray Tube(CRT), Video Adapter card, Video Adapter Cable, Liquid Crystal Display (LCD), Plasma Display Panel (PDP).
+
+Unit-II
+
+\n\nText: Introduction, Types of Text, Unicode Standard, Font, Insertion of
+
+\n\nText, Text Compression, File Formats.
+
+\n\nImage: Introduction, Image types, Seeing Color, color Models, Basic Steps for Image Processing, Scanner, Digital Camera, Interface Standards, specifications of Digital Images, Color Management Systems(CMS), Device Independent Color Models, gamma and Gamma Correction, Image Processing Software, File Formats, Image Output on Monitor , Image Output on Printer.
+
+\n\nGraphics: Introduction, advantage of Graphics, Uses of Graphics, Components of a Graphics System, Coordinate Systems, Line Drawing Algorithms, Filling Algorithms, Clipping Algorithms, Plotter,Transformations, 3D Graphics, 3D Modeling, Surface Characteristics andTexture, Lights.
+
+\n\nUnit-III
+
+\n\nAudio: Introduction, Acoustics, Nature of Sound Waves, Fundamental Characteristics of Sound, Musical Note and Pitch, Psycho-Acoustics, Elements of Audio Systems, Microphone, Amplifier, Loudspeaker, Audio Mixer, Digital Audio Synthesizers, Musical Instrument Digital Interface(MIDI),MIDI Messages, MIDI Connections, General MIDI (GM) Specifications, Basics of Staff Notation, Sound Card, Audio Transmission, Audio Recording Devices, Audio File Formats and CODECs, Software Audio Players, Audio Recording Systems, Digital Audio Broadcasting, Audio and Multimedia, Voice Recognition and Response, Audio Processing Software.
+
+\n\nVideo: Introduction, Analog Video Camera, Transmission of Video Signals, Video Signals formats, Television Broadcasting /standards, Digital Video, Digital Video Standards ,PC Video, Video Recording Formats and Systems, Video File Formats and CODECs, Video Editing, Video Editing Software. Animation: Introduction, Historical Background. Uses of Animation, Key frames and Tweening, Types of Animation, Computer Assisted Animation, Creating Movement, Principles of Animation, Some Techniques of Animation, Animation on the Web, 3D Animation, Camera, Special Effects, Creating Animation, Rendering Algorithms, Animation Software, File Formats.
+
+\n\nUnit-IV
+
+\n\nCompression: Introduction, CODEC, Types of Compression, Types of Redundancies, Lossless/Statistical Compression Techniques, GIF Image Coding Standard, Lossy/Perceptual Compression Techniques, JPEG Image Coding Standard, MPEG Standards Overview, MPEG-1 Audio,MPEG-1 Video, MPEG-2 Audio, MPEG-2 Video, MPEG-4, MPEG-7, Fractals.
+
+\n\nCD-Technology: Introduction, Compact Disc (CD), CD Formats,
+
+\n\nMagneto- Optical Disc, CD Interface, Laserdisc(LD), Error Handling,
+
+\n\nxDVD, DVD- Formats.
+
+Multimedia Architecture: Introduction, User Interfaces, Windows Multimedia Support, Hard ware Support, Distributed Multimedia
+
+Applications, Real- time Protocols, Playback Architectures, Streaming Technologies, Temporal Relationships, Synchronization, Multimedia Data base Systems (MMDBS), Feature Extraction of Image, Feature Extraction of Audio, Feature Extraction of Video, Similarity Metrics, Indexing Mechanisms, Characteristics of Multimedia Databases, Benchmarking of MMDBS, Object Oriented Approach.
+
+Unit-V
+
+Multimedia Documents: Introduction, Document and Document Architecture, Designing a Multimedia Interchanges Format, Markup, Standard Generalized Markup Language (SGML), Open Document Architecture (ODA), Multimedia and Hypermedia Information Coding Expert Group(MHEG), Hypermedia Time based Structuring Language (Hytime), Open Media Framework (OMF), Digital Copyrights.
+
+Multimedia Application Development: Introduction, Software Life Cycle Overview, ADDIE Model, Conceptualization, Content Collection and Processing , Story , Flowline, Script, Storyboard, Implementation, Authoring Metaphors, Testing and Feedback, Final Delivery, Report Writing/Documentation, case Study, Computer Games.
+
+Virtual Reality: Introduction, Forms of Virtual Reality, VR Applications, Software Requirements, Peripheral Devices, Virtual Reality modeling Language (VRML)
+
+Suggested Reading:
+
+1.Ranjan Parekh, “Principles of Multimedia”, Tata McGraw Hill, 2008
+
+2.Tay Vaughan, “Multimedia: Making It Work”, Seventh Edition Tata McGraw Hill, 2008
+
+3.Ralf Stein Metz Clara Nahrstedit, “Multimedia: Computing, Communication and Applications”, Pearson Education, 2001.
+
+4.John F. Koegel Buford, “Multimedia Systems”, Addison Wesely, 1994."
+
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+    </ScrollView>
+</RelativeLayout>

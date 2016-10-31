@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.nud1"
+    tools:showIn="@layout/activity_nud1">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-I
+
+\n\nLoad Flow Studies: Formulation of Y bus for a system, modeling of tap changing and phase shifting transformer, Formulation of load flow problem, Solution of load flow by Gauss-Seidel, Newton-Raphson, Decoupled and Fast Decoupled methods, comparison of different load flow methods.
+
+\n\nUNIT-II
+
+\n\nEconomic Operation of Power System: Input-Output curves, Heat rates and incremental cost curves, Equal Incremental cost criterion neglecting transmission losses with and without generator limits, Bmn coefficients, Economic operation including transmission losses.
+
+\n\nUNIT-III
+
+\n\nLoad Frequency Control: Governor Characteristics, Regulation of two generators, coherency, concept of control area, Incremental power balance of a control area, Single area control, Flat frequency control, Flat tie-line frequency control, Tie-line bias control, Advantages of pool operation, Development of model for two-area control.
+
+\n\nUNIT-IV
+
+\n\nPower System Stability: Definitions of Steady state stability and Transient stability, Steady state stability of a synchronous machine connected to infinite bus, calculation of steady state stability limit, synchronous machine models with and without saliency, Equal area criterion, Application of equal area criterion, Swing equation, Step by step solution of Swing equation, factors effecting transient stability, Auto Reclosures, mathematical formulation of voltage stability problem.
+
+\n\nUNIT-V
+
+\n\nReactive Power Control: Reactive power generation by synchronous generators, Automatic voltage regulators, FACTS Controllers-TCSC, STATCOM, UPFC.
+
+\n\nSuggested Reading:
+
+\n1.D.P.Kothari and I.J.Nagrath, Modern Power System Analysis, 3rd edition, Tata McGraw Hill, 2004.
+
+\n2.John, J, Grangier, William D.Stevenson Jr., Power System Analysis, Tata McGraw Hill, 2003.
+
+\n3.C.L.Wadhwa, Electric Power Systems, 3rd edition, New Age International (P) Ltd., 2002.
+
+\n4.Haadi Sadat, Power System Analysis, Tata Mc Graw Hill.
+
+\n5.Elgard, Electrical energy Systems Theory
+
+\n6.Chakravarthy, Power System Operation and Control.
+
+\n7.Narain G. Hingorani, Laszlo Gyugyi, Understanding Facts: Concepts and Technology of Flexible AC Transmission Systems. "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

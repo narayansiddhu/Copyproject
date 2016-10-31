@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.dic8"
+    tools:showIn="@layout/activity_dic8">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(A) Experiments on DSK and CCS
+
+\n\n1.Solutions of difference equations
+
+\n\n2.Impulse Response
+
+\n\n3.Linear Convolution.
+
+\n\n4.Circular Convolution
+
+\n\n5.Study of procedure to work in real- time.
+
+\n\n6.Fast Fourier Transform Algorithms: (DIT, DIF)
+
+\n\n7.Design of FIR (LP/HP) using windows,(a) Rectangular , (b)Triangular ,(c)Hamming window
+
+\n\n8.Design of IIR (HP/LP) filters.
+
+\n\n(B) Experiments on signal processing.
+
+\n\n1.DFT and FFT algorithm
+
+\n\n2.Linear Convolutions
+
+\n\n3.Circular Convolutions
+
+\n\n4.FIR filter design using different data windows
+
+\n\n5.IIR filter design: Butter worth, chebysheve type 1 and 2 and Bilinear transformation Methods.
+
+\n\n6.Interpolation and Decimation.
+
+\n\nNote:
+
+\n\n1.Minimum of 5 from Part A and 5 from Part B is mandatory.
+
+\n\n2.For section ‘B’, MATLAB with different toolboxes like Signal Processing, Signal Processing block set, and SIMULINK/ MATHEMATICA/ any popular software can be used. "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

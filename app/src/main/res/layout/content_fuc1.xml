@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.fuc1"
+    tools:showIn="@layout/activity_fuc1">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-I
+
+\n\nTransmission Line theory: Short, medium, long lines- Line calculations, Tuned Lines-Power Circle Diagrams and their applications. Corona: Causes- Disruptive and Visual Critical Voltages, Power loss -minimization of Corona effects.
+
+\n\nUNIT-II
+
+\n\nVoltage Control: Phase Modifiers, Induction Regulators -Tap Changing Transformers, Series and Shunt Capacitance. Reactive Power Requirement Calculations. Static Var Compensators-Thyristor Controlled Reactors-Thyristor Switched Capacitors.
+
+\n\nUNIT-III
+
+\n\nPer Unit System of Representation: Use of per unit quantities in power systems, Advantages of per unit system. Symmetrical Three Phase transients in R-L series circuits- Short Circuit Currents - Reactance of Synchronous Machines- Symmetrical Fault Calculations. Short circuit capacity of a bus.
+
+\n\nUNIT-IV
+
+\n\nUnsymmetrical Faults: Symmetrical components of unsymmetrical phasors -Power in terms of symmetrical components -sequence impedance and sequence networks. Sequence networks of unloaded generators - Sequence impedances of circuit elements -Single line to ground, line-to-line and double line to ground faults on unloaded generator- Unsymmetrical faults of power systems.
+
+\n\nUNIT-V
+
+\n\nTransients in Power Systems: Causes of over voltages. Travelling Wave Theory -Wave equation -Open Circuited Line -The short circuited line junction of lines of different natural impedances- -Reflection and refraction Coefficients -Junction of Cable and overhead lines -Junction of three lines of different natural impedances -Bewley Lattice diagram.
+
+\n\nSuggested Reading:
+
+\n\n1.C.L. Wadhwa, Electrical Power Systems, Wiley Eastern Ltd., 4dtEdition, 2006.
+
+\n\n2.John J. Grainger William D.Stevenson Jr. Power System Analysis, Tata McGraw Hill Edn. 2003
+
+\n\n3.I.J. Nagrath and D.P.Kothari Modern Power Systems Analysis, TMH Edition, 2003.
+
+\n\n4.A.Chakrabarti, M.L.Soni, P. V.Gupta, U.S.Bhatnagar, A Text book on Power System, Dhanpat Rai and Co (P) Ltd -1999. "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

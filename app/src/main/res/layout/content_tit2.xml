@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.tit2"
+    tools:showIn="@layout/activity_tit2">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-I : Introduction to OS and RTOS
+
+\n\n\Architecture of OS (Monolithic, Microkernel, Layered, Exo-kernel and Hybrid kernel structures), Operating system objectives and functions, Virtual Computers, Interaction of O. S. and hardware architecture, Evolution of operating systems, Batch, multi programming. Multitasking, Multiuser, parallel, distributed and real –time O.S.
+
+\n\nUNIT-II : Process Management of OS/RTOS
+
+\n\nUniprocessor Scheduling: Types of scheduling, scheduling algorithms: FCFS, SJF, Priority, Round Robin, UNIX Multi-level feedback queue scheduling, Thread Scheduling, Multiprocessor Scheduling concept, Real Time Scheduling concepts.
+
+\n\nUNIT-III : Process Synchronization
+
+\n\nConcurrency: Principles of Concurrency, Mutual Exclusion H/W Support, software approaches, Semaphores and Mutex, Message Passing, Monitors, Classical Problems of Synchronization: Readers-Writers Problem, Producer Consumer Problem, Dining Philosopher problem. Deadlock: Principles of deadlock, Deadlock Prevention, Deadlock Avoidance, Deadlock Detection, An Integrated Deadlock Strategies.
+
+\n\nUNIT-IV : Memory and I/O Management:
+
+\n\nMemory Management requirements, Memory partitioning: Fixed, dynamic, partitioning, Buddy System Memory allocation Strategies (First Fit, Best Fit, Worst Fit, Next Fit), Fragmentation, Swapping, Segmentation, Paging, Virtual Memory, Demand paging, Page Replacement Policies (FIFO, LRU, Optimal, clock) ,Thrashing, Working Set Model.
+
+\n\nI/O Management and Disk Scheduling: I/O Devices, Organization of I/O functions, Operating System Design issues, I/O Buffering, Disk Scheduling (FCFS, SCAN, C-SCAN, SSTF), Disk Caches.
+
+\n\nUNIT-V : RTOS APPLICATION DOMAINS
+
+\n\nComparison and study of RTOS: Vxworks and µCOS – Case studies: RTOS for Image Processing – Embedded RTOS for voice over IP – RTOS for fault Tolerant Applications – RTOS for Control Systems.
+
+\n\nSuggested Reading:
+
+\n1.Wayne Wolf, “Computers as Components: Principles of Embedded Computing System Design,” 2/e, Kindle Publishers, 2005.
+
+\n2. Tanenbaum,”Modern Operating Systems,” 3/e, Pearson Edition, 2007.
+
+\n3.Jean J Labrosse,”Embedded Systems Building Blocks Complete and Ready-to-use Modules in C,” 2/e, 1999.
+
+\n4.C.M.Krishna and G.Shin, “Real Time Systems,” McGraw-Hill International Edition, 1997. "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

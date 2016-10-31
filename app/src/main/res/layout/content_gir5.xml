@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.gir5"
+    tools:showIn="@layout/activity_gir5">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-I
+
+\n\nIntroduction to Classical Optimization Techniques: Statement of optimization problem, Objective function, Classification of optimization problems.
+
+\n\nClassical Optimization Techniques: Single-variable and Multi-variable optimization without constraints. Multi-variable optimization with equality constraints. Lagrange multiplier method, Multi-variable optimization with inequality constraints, kuhn-Tucker conditions.
+
+\n\nUNIT-II
+
+\n\nLinear Programming: Standard form, Formulation of the LPP, Solution of simultaneous equations by Pivotal condensation, Graphical method, Simplex algorithm, Big M method, Two phase Simplex method, Duality principle, Dual Simplex method.
+
+\n\nUNIT-III
+
+\n\nNon-Linear Programming: One dimensional Search method: Fibonacci method, Golden Section method.
+
+\n\nDirect Search Method: Uni-variate Search and Pattern Search methods, Powell’s method.
+
+\n\nUNIT-IV
+
+\n\nGradient Method: Steepest Descent, Conjugate Gradient and Quasi-Newton method, Fletcher-Reeves method of Conjugate gradients.
+
+\n\nUNIT-V
+
+\n\nDynamic Programming: Multistage design process, Types, Principle of optimality, Computational procedure in Dynamic programming, Examples using Calculus method and Tabular method of solutions.
+
+\n\nSuggested Reading:
+
+\n1.S.S.Rao, Engineering Optimization Theory and Applications,New Age International, 3rd Edition, 1998.
+\n2.Jasbir S.Arora, Introduction to Optimum Design, McGraw Hill International Edition, 1989.
+\n3.S.D.Sharma, Operational Research, Kedarnath Ramnath and Co., 2004. "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

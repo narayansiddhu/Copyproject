@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.bha10"
+    tools:showIn="@layout/activity_bha10">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT I
+\n\nThe Future of the Internet: Introduction, The Syntactic Web, The Semantic Web, The working Semantic Web. Ontology in Computer Science: Defining the Term Ontology, Differences among Taxonomies, Thesauri, and Ontologies, Classifying Ontologies, Web Ontologies, Web Ontology Description Languages, Ontology, Categories, and Intelligence.
+\n\nUNIT II
+\n\nKnowledge Representation in Description Logic: Introduction, an Informal Example, the Family of Attributive Languages, Inference Problems. RDF and RDF Schema: Introduction, XML Essentials, RDF, RDF Schema, A Summary of the RDF/RDF Schema Vocabulary.
+\n\nUNIT III
+\n\nOWL: Introduction, Requirements for Web Ontology Description Languages, Header Information, Versioning, and Annotation Properties, Properties, Classes, Individuals, Data types, A Summary of the OWL Vocabulary. Rule Languages: Introduction, Usage Scenarios for Rule Languages, Datalog, RuleML, SWRL, TRIPLE. Semantic Web Services: Introduction, Web Service Essentials, OWL-S Service Ontology, An OWL-S Example.
+\n\nUNIT IV
+\n\nMethods for Ontology Development: Introduction, Uschold and King Ontology Development Method, Toronto Virtual Enterprise Method, Methontology, KACTUS Project Ontology Development Method, Lexicon-Based Ontology Development Method, Simplified Methods. Ontology Sources: Introduction, Metadata, Upper Ontologies, Other Ontologies of Interest, Ontology Libraries. Semantic Web Software Tools: Introduction, Metadata and Ontology Editors, Reasoners, Other tools.
+\n\nUNIT V
+\n\nSoftware Agents: Introduction, Agent Forms, Agent Architecture, Agents in the Semantic web Context. Semantic Desktop: Introduction, Semantic Desktop Metadata, Semantic Desktop Ontologies, Semantic Desktop Architecture, Semantic Desktop Related Applications. Ontology Application in Art: Introduction, Ontologies for the Description of  Works of Art, Metadata Schemas for The Description of Works of Art, Semantic Annotation of Art Images.
+
+\n\nSUGGESTED READING:
+\n1. Semantic Web Concepts: Technologies and Applications, Karin K. Breitman, Marco Antonio Casanova and  Walter Truszowski,  Springer.
+
+\n\nREFERENCES:
+\n1. Information Sharing on the Semanting Web, Heiner Stuckenschmidt, Frank van Harmelen, Springer.
+\n2. Semantic Web Primer, Grigoris Antoniou, Frank Van,third Edition, MIT Press.
+\n3. Semantic Web Services: Concepts, Technologies and Applications, Rudi Studer, Stephan Grimm, Andrees Abeker, Springer.
+\n4. Towards the Semantic Web: Ontology Driven Knowledge Management, John Davis, Dieter Fensal, Frank Van Harmelen, J. Wiley."
+
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+    </ScrollView>
+</RelativeLayout>

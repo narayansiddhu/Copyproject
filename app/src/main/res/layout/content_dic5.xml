@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.dic5"
+    tools:showIn="@layout/activity_dic5">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Unit-I
+
+\n\nAccuracy, Precision, Resolution and Sensitivity. Errors and their types. Standards of measurement, classification of standards, IEEE standards, Elements of ISO 9001, Quality management standards.
+
+\n\nUnit-II
+\n\nTransducers: classification, factors for selection of a transducer, transducers for measurement of velocity, acceleration, force, radio activity, Hot wire anemometer. Passive electrical transducers- Strain gauges and strain measurement, LVDT and displacement measurement, capacitive transducer and thickness measurement. Active electrical transducers: Piezo electric, photo conductive, photo voltaic and photo emissive transducers.
+
+\n\nUnit-III
+
+\n\nCharacteristics of sound, pressure, power and loudness measurement. Microphones and their types. Temperature measurement, resistance wire thermometers, semiconductor thermometers and thermocouples. Humidity measurement, resistive capacitive, aluminum oxide and crystal Hygrometer types.
+
+\n\nUnit-IV
+
+\n\nBlock diagram, specification and design considerations of different types of DVMs. Digital LCR meters, Spectrum analyzers. The lEEE488 or GPIB Interface and protocol.
+
+\n\nDelayed time base oscilloscope, Digital storage oscilloscope, and mixed signal oscilloscope. Introduction to virtual instrumentation, SCADA. Data acquisition system block diagram
+
+\n\nUnit-V
+
+\n\nBiomedical Instrumentation: Human physiological systems and related concepts. Bio-potential electrodes Bio-potential recorders - ECG, EEG, EMG, X- ray machines and CT scanners, magnetic resonance and imaging systems, Ultrasonic Imaging systems.
+
+\n\nSuggested Reading:
+
+\n\n1.Albert D. Helfric, and William D. Cooper, “Modern Electronic Instrumentation and Measurement Techniques”, PHI, 2010.
+
+\n\n2.H S Kalsi, “Electronic Instrumentation”, 3/e, TMH, 2011.
+
+\n\n3.Robert A Witte, “Electronic Test Instruments: Analog and Digital Measurements”, 2/e, 2002.
+
+\n\n4.Nakra B.C, and Chaudhry K.K., “Instrumentation, Measurement and Analysis”, TMH, 2004
+
+\n\n5.Khandpur. R.S.,”Handbook of Bio-Medical Instrumentation”,TMH, 2003. "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

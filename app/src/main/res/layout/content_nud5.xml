@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.nud5"
+    tools:showIn="@layout/activity_nud5">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-I
+
+\n\nBreakdown Mechanism of Gases, Liquids and Solid Materials:Mechanism of breakdown of Gases, Townsend’s First Ionization coefficient, Cathode processes, Secondary effects, Townsend’s Second Ionization coefficient, Townsend’s breakdown mechanism, The sparking potential, Paschen’s Law, Penning effect, Corona discharges, Time lag, breakdown in liquid dielectrics, treatment of transformer oil, Testing of transformer oil, Breakdown in solid dielectrics.
+
+\n\nUNIT-II
+
+\n\nGeneration of High D.C and A.C Voltages: Half wave rectifier circuit, Cockroft Walton voltage multiplier circuit, Electrostatic generator, Van de Graf generator, Generation of high A.C voltages, series resonant circuit.
+
+\n\nUNIT-III
+
+\n\nGeneration of Impulse Voltages and Currents: Impulse generator circuits, Analysis of circuits ‘a’ and ‘b’, Multistage Impulse generator circuit, Construction of Impulse generator, Impulse current generation.
+
+\n\nUNIT-IV
+
+\n\nMeasurement of High Voltage and Currents: Sphere gap, Uniform field spark gap, Rod gap, electrostatic voltmeter, Generating voltmeter, Chubb Fortescue method, Impulse voltage, measurement using voltage dividers, Measurement of high D.C, A.C and Impulse currents.
+
+\n\nUNIT-V
+
+\n\nTesting of Power Capacitors: Testing of power transformers, Testing of circuit breaker, Test voltages, Voltage and power ratings of test equipment, layout of high voltage laboratories. Lightning phenomena and Line design.
+
+
+
+
+
+\n\nSuggested Reading:
+
+\n\n1.M.S.Naidu and V.Kamaraju, High Voltage Engineering, Tata McGraw Hill 2001.
+
+\n\n2.C.L.Wadhwa, High Voltage Engineering, Wiley Eastern Ltd., 1994.
+
+\n\n3.E.Kuffel and W.S. Zaengl, High Voltage Engineering, Pergamon Press, 1984.
+ "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

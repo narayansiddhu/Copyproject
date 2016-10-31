@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.PhyLab"
+    tools:showIn="@layout/activity_phy_lab">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Note : Among the following list of experiments, a minimum of 15 experiments have to be conducted.
+             \n\n1. P-N Junction Diode characteristics
+             \n\n2. Determination of Dielectric characteristics
+             \n\n3. B-H curve
+             \n\n4. Determination of Planck's constant using Photocell
+             \n\n5. CRO - Measurement of frequency, phase and amplitude
+             \n\n6. Characteristics of a Solar cell
+             \n\n7. Newton's Rings
+             \n\n8.  Diffraction due to a single slit.
+             \n\n9.  Diffraction due to double slit
+             \n\n10. Diffraction Grating (normal incidence)
+             \n\n11. Determination of wavelength of semiconductor laser
+             \n\n12. Polarimeter
+             \n\n13. Optical Fibre - To determine Numerical Aperature, Acceptance, Acceptance angle and Power loss.
+             \n\n14. Holography - recording and reconstruction
+             \n\n15. Hall effect
+             \n\n16. Thermoelectric power
+             \n\n17. Verification of Malus's law
+             \n\n18. Double refraction
+             \n\n19. Thermistor characteristics
+             \n\n20. Energy gap of a semiconductor
+             \n\nDemonstration Experiments
+             \n\n1.     Michelson's Interferometer
+             \n\n2.     Four probe resistivity
+             \n\n3.    Preparation of nonomaterials - sol gel method."
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+    </ScrollView>
+
+</RelativeLayout>

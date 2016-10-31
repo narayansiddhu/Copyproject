@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.bob10"
+    tools:showIn="@layout/activity_bob10">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-I
+
+\n\nIntroduction to sensors and transducers: displacement, position, and proximity, velocity and motion, force, fluid pressure, liquid flow, liquid level, temperature, light. Selection of sensor.
+
+\n\nUNIT-II
+
+\n\nData acquisition and Signal conditioning: various signal conditioning modules. Use of data acquisition. Fundamentals of Analog to digital conversion, sampling, amplifying, filtering, noise reduction. Criteria to choose suitable data acquisition equipment.
+
+\n\nUNIT-III
+
+\n\nIntroduction to systems: Measurement and control. Basic system models. Mathematical models. Mechanical system building blocks, Electrical system building blocks, Fluid system building blocks and Thermal system building blocks. Engineering systems: Rotational – translational, Electromechanical, hydraulic-mechanical.
+
+\n\nUNIT-IV
+
+\n\nDynamic responses of systems, system transfer functions, frequency response, closed loop controllers. Microcontroller basics, architecture, hardware interfacing, programming a microcontroller. Programmable logic controllers: basic structure, input/output processing, programming, selection of a PLC.
+
+\n\nUNIT-V
+
+\n\nMotion control and robotics: concepts of motion control system and real world applications. Components of a motion control system. Motion controller, Motors and mechanical elements, move types, Motor amplifiers and drives. Feed back devices and motion input/output.
+
+\n\nSuggested Reading:
+
+\n1.W. Bolton, “Mechatronics: Electronic control systems in mechanical and electrical Engineering,” 3/e, Pearson Education, 2008.
+
+\n2.Robert A. Witte, “Electronic Test Instruments: Analog and Digital Measurements,” 2/e, Pearson Education, 2002.
+
+\n3.Dan Necsulescu, “Mechatronics,” 1/e, Pearson Education, 2002.
+
+\n4.De Silva, “Mechatronics,” First Indian Reprint 2013, Sesi (Taylor and Francis), Yesdee Publications. "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

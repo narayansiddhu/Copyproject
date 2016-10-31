@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.nud6"
+    tools:showIn="@layout/activity_nud6">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-I
+
+\n\nIntroduction: Introduction of the Power Quality (PQ) problem, Terms used in PQ: Voltage Sag, Swell, Surges, Harmonics, over voltages, spikes,Voltage fluctuations, Transients, Interruption, overview of power quality phenomenon, Remedies to improve power quality, power quality monitoring. Power Quality Data: Data collection, Data analysis, Database structure, Creating PQ databases, Processing PQ data.
+
+\n\nUNIT-II
+
+\n\nVoltage Sag – Characterization: Voltage sag – definition, causes of voltage sag, voltage sag magnitude, monitoring, theoretical calculation of voltage sag magnitude, voltage sag calculation in non-radial systems, meshed systems, voltage sag duration. Three phase faults, phase angle jumps, magnitude and phase angle jumps for three phase unbalanced sags, load influence on voltage sags.
+
+\n\nUNIT-III
+
+\n\nPQ Considerations in Industrial Power Systems: Adjustable speed drive (ASD) systems and applications, mitigation of harmonics. Characterization of voltage sags experienced by three-phase ASD systems: Types of sags and phase - angle jumps. Effects of momentary voltage dips on the operation of induction and synchronous motors. Voltage sag coordination for reliable plant operation.
+
+\n\nUNIT-IV
+
+\n\nEffects of Harmonics on Power Quality: Harmonic analysis of industrial customers, technical barriers in ASDs. Methods of evaluation of harmonic levels in industrial distribution systems. Harmonic effects on transformers. Impact of distribution system capacitor banks on PQ. Guidelines for limiting voltage harmonics. 12
+
+\n\nUNIT-V
+
+\n\nPower Quality Monitoring: Introduction, site surveys, Transducers, IEC-measurement techniques for Harmonics, Flicker, IEC Flicker meter.
+
+\n\nSuggested Reading:
+
+\n\n1.Math HJ Bollen, “Understanding Power Quality Problems”, IEEE Press.
+
+\n\n2.C. Sankaran, “Power Quality”, CRC Press.
+
+\n\n3.R.Sastry Vedam, M.Sarma, “Power Quality- Var Compensation in Power Systems”, CRC Press, 2009.
+ "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

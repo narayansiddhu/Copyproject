@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.sid6"
+    tools:showIn="@layout/activity_sid6">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Web Programming Experiments:
+
+
+\n\n1.Creation of static web site using XHTML.
+
+\n\n2.Demonstration of XML, XSLT.
+
+\n\n3.Validation of static web page using Java script.
+
+\n\n4.Creation of dynamic content in web application using servlets.
+
+\n\n5.Handling Sessions in web applications.
+
+\n\n6.Usage of Filters in web applications.
+
+\n\n7.Creation of dynamic content in web application using JSP.
+
+\n\n8.Creation of dynamic content in web application using ASP.NET
+\n\n9.Providing data store support for web site using JDBC
+
+\n\nNetwork Programming Experiments:
+
+\n\n10.Understanding and using the following commands. Ifconfig, netstat, ping, arp, telnet, tftp, ftp.
+
+\n\n11.Implementation of concurrent and iterative Echo server using both connection oriented and connectionless Socket System Calls.
+\n\n12.Implementation of time of the day service as Connection Oriented Concurrent Server using Socket System Calls.
+
+\n\n13.Build a concurrent Multithreaded File Transfer Server. Use separate Threads to allow the server to handle multiple clients concurrently.
+\n\n14.Implementation of Remote Program execution using Socket system calls. Programs to demonstrate the usage of Advanced Socket System calls Like Getsockopt(), Setsockopt(), Select(), Readv(), getpeernanel(), Getsockname()
+
+\n\n15.Implement a Concurrent Chat Server that allows currently logged in users to communicate with one another. Use Socket System
+"
+
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+    </ScrollView>
+</RelativeLayout>

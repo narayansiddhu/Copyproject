@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.bob11"
+    tools:showIn="@layout/activity_bob11">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT- I
+
+\n\nIntroduction: History, critical characteristics of information, NSTISSC security model, Components of an information system, Securing the components, balancing security and access, The SDLC, The security SDLC
+
+\n\nNeed for Security: Business needs, Threats, Attacks-secure software development
+
+\n\nUNIT-II
+
+\n\nLegal, Ethical and Professional Issues: Law and ethics in information security, relevant U.S laws-international laws and legal bodies, Ethics and information security Risk Management: Overview, Risk Identification, risk assessment, Risk Control strategies, selecting a risk control strategy, Quantitative versus qualitative risk control practices, Risk management discussion points, recommended risk control practices
+
+\n\nUNIT-III
+
+\n\nPlanning for Security: Security policy, Standards and practices, Security blue print, Security education, Continuity strategies.
+
+\n\nSecurity Technology: Firewalls and VPNs: Physical design, firewalls, protecting remote connections.
+
+\n\nUNIT-IV
+
+\n\nSecurity Technology: Intrusion detection, Access control and other security tools: Intrusion detection and prevention systems, Scanning and analysis tools, Access control devices.
+
+\n\nCryptography: Foundations of cryptology, cipher methods, Crypryptographic Algorithms, Cryptographic tools, Protocols for secure communications, Attacks on cryptosystems
+
+\n\nUNIT-V
+
+\n\nImplementing Information Security: information security project management, technical topics of implementation, Non- technical aspects of implementation, Security certification and accreditation Security and Personnel: Positioning and staffing security function, Employment policies and practices, internal control strategies. Information security Maintenance: Security management models. The maintenance model, Digital forensics
+
+\n\nSuggesting Reading:
+
+\n1.Michael E. Whitman and Hebert J Mattord, Principles of Information Security, 4th edition Ed. Cengage Learning 2011.
+
+\n2.Thomas R Peltier, Justing Peltier, John Blackley, Information Security. Fundamentals, Auerbacj Publications 2010 .
+
+\n3.Detmar W Straub, Seymor Goodman, Richard L Baskerville,Information Security. Policy proceses and practices PHI 2008
+
+\n4.Marks Merkow and Jim Breithaupt, Information Security. Principle and Practices, Pearson Education, 2007. "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

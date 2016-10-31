@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.bha4"
+    tools:showIn="@layout/activity_bha4">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-I
+\n\nSoftware Quality Assurance Framework and Standards.
+\n\nSQA Framework: Definition of Quality, Software Quality Assurance, Components of Software Quality Assurance, Software Quality Assurance Plan: Steps to develop and implement a Software Quality Assurance Plan, Quality Standards: ISO 9000 and Companion ISO Standards, CMM, CMMI. PCMM, Malcom Balridge, 3 Sigma, 6 Sigma
+
+\n\nUNIT-II
+\n\nSoftware Quality Assurance Metrics and Measurement Software Quality Metrics, product Quality metrics, In-Process Quality Metrics, Metrics for Software Maintenance, Examples of Metric Programs, Software Quality metrics methodology: Establish quality requirements, Identify Software quality metrics, implement the software quality metrics, analyze software metrics results, validate the software quality metrics, Software quality indicators - Fundamentals in Measurement theory
+
+\n\nUNIT-III
+Software Testing Strategy and Environment Establishing testing policy, structured approach to testing, test factors, Economics of System Development Life Cycle (SDLC) Testing Software Testing Methodology .Defects hard to find, verification and validation, functional and structural testing, workbench concept, eight considerations in developing testing methodologies, testing tactics checklist
+
+\n\nUNIT-IV
+Software Testing Techniques: Black-Box, Boundary value, Bottom-up, Branch coverage, Cause-Effect graphing, CRUD, Database, Exception, Gray-Box, Histograms, Inspections, JADs, Pareto Analysis, Prototyping, Random Testing, Risk-based Testing, Regression Testing, Structured Walkthroughs, Thread Testing, Performance Testing, White-Box Testing ,Software Testing Tools, Taxonomy of Testing tools. Methodology to evaluate automated testing tools, Load Runner, Win runner and Rational Testing Tools, Java Testing Tools, JMetra, JUN IT and Cactus.
+
+\n\nUNIT-V
+Testing Process, Eleven Step Testing Process: Assess Project Management Development Estimate and Status, Develop Test Plan, Requirements Phase Testing, Design Phase Testing. Program Phase Testing, Execute Test and Record Results, Acceptance Test, Report test results, testing software installation, Test software changes, Evaluate Test Effectiveness, Testing Specialized Systems and Applications Testing Client/Server, Web applications, Testing off the Shelf Components, Testing Security, Testing a Data Warehouse .
+
+
+
+\n\nSuggested Reading:
+\n1. Effective Methods for Software Testing, 2nd Edition by William E. Perry, Second      Edition. Published by Wiley and Sons
+\n2. Software Quality, by Mordechai Ben-Menachem/Garry S. Marliss, by Cengage Learning publication 2008.
+\n3. Foundations of Software Testing, by Graham, Veenendaal, Evans, Black, Cengage Learning 2007.
+\n4. Testing and Quality Assurance for Component-based Software, by Gao, Tsao and Wu, Artech House Publishers
+\n5. Software Testing Techniques, by Bories Beizer, Second Edition, Dreamtech Press "
+
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.sid5"
+    tools:showIn="@layout/activity_sid5">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-I\n\n
+
+\n\nReview of ISO OSI Reference Model and TCP/IP Architectures.
+
+\n\nNetwork Layer: Design issues, Services, Internal organization, Comparison of Virtual circuits and Datagram subnets. Routing Algorithms: The Optimality principle, Shortest path routing, Flooding, Flow-based algorithms, Distance vector, Link state, Hierarchical algorithms, Broadcast and Multicast routings. Congestion control algorithms: General principles, Traffic shaping, Congestion control in virtual circuit subnets, Choke packets, Load shedding, Jitter control and Congestion control for multicasting, Quality of Service (QoS)
+
+\n\nUNIT-II
+
+\n\nInternet working: How networks differ, Concatenated virtual circuits, Connectionless internet working, Tunneling, Internetwork routing, Fragmentation and Firewalls.
+
+\n\nThe Network Layer of the Internet: The IP protocol, IP addresses, Subnets, Internet control protocols, Gateway routing protocols, Multicasting, CIDR.
+
+\n\nUNIT-III
+
+\n\nTransport Layer: Service primitives, Addressing, Establishing a connection, Releasing a connection, Flow control, Buffering, Multiplexing and Crash recovery.
+
+\n\nInternet Transport Protocols (TCP and UDP): The TCP service model, The TCP protocol, The TCP Segment Header, TCP connection management, Transmission policy: Congestion control, Timer management and UDP, Performance issues.
+
+
+
+\n\nUNIT-IV
+
+\n\nApplication Layer:
+
+\n\nDomain Name System: DNS name space, Resource records, Name services.
+
+\n\nSMTP and MIME, HTTP, SNMP, Telnet, ftp, Multimedia.
+
+\n\nUNIT-V
+
+\n\nSocket programming: Socket address, Elementary socket system calls, Advanced socket system calls, Reserved ports, Socket options, Asynchronous I/O, Input/Output Multiplexing, Out-of-Band data, Sockets and Signals, Internet Super Server, DNS.
+
+\n\nSuggested Reading:
+
+
+
+\n1. Andrew S. Tanenbaum, David J. Wetherall, Computer Networks, 5th Edition, Pearson, 2012
+\n2. Chwan-Hwa (John) Wu, J. David Irwin, Introduction to Computer Networks and Cyber Security, CRC Press, 2013
+\n3. James F. Kurose and Keith W. Ross, Computer Networking: A Top-Down Approach Featuring the Internet, 5th Edition, Addison-Wesley, 2012
+\n4. W. Richard Stevens, Unix Network Programming, Prentice Hall/Pearson Education, 2009
+\n5. W. Richard Stevens, Andrew M Rudoff, Bill Fenner, Unix Network Programming: Networking APIs: Sockets and XTI (Volume 1) 3rd Edition, PHI
+"
+
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+    </ScrollView>
+</RelativeLayout>

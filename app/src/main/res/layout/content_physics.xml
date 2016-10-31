@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.physics"
+    tools:showIn="@layout/activity_physics">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/hello_sid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UNIT-I\n\n1.1  Interference : Coherent and non-coherent sources - Division of amplitude and division of wave front - interference in thin films(reflected light) - Newton's rings - Fresnel's biprism.
+        \n\n1.2 Diffraction : Distinction between Fresnel and Fraunhoffer diffraction - Diffraction at a single slit - Double slit diffraction - Diffraction grating(N-slits)
+        \n\n1.3 Polarization : Introduction - Malus's law - Double refraction - Nicol's prism - Quarter wave and half wave plates - Optical activity -Laurent's half shade polari meter.
+        \n\n1.4 Lasers and Holography : Characteristics of Lasers - Spontaneous and stimulated emission of radiation - Population inversion - Ruby laser - Helium-Neon Laser - Semiconductor Laser - Applications of lasers.Basic principles of holography - Construction and reconstruction of image on hologram - Applications of holography.
+        \n\nUNIT - II \n\n2.1 Elements of Statistical Mechanics : Maxwell-Boltzmann Statistics- Bose Einstein statistics - Fermi-Dirac statistics - Photon gas -Planck's law of black - body radiation - Rayleigh Jean's law and Wien's law.
+        \n\n2.2 Wave Mechanics : Physical significance and properties of wave function - Schrodinger's time dependent and time independent wave equations - Particle in an infinite Square well potential (particle in a box).
+        \n\n2.3 Fiber Optics : Introduction - Propagation of light through an optical fiber - Critical angle - Acceptance angle - Numerical aperture (NA)- Types of optical fibers and refractive index profiles - Fibre drawing process (double crucible method) - Application of optical fibers.
+        \n\nUNIT - III
+        \n\n3.1  Crystallography : Intrtoduction - Space lattice - Basis - Unit cell -Bravais lattices and crystal systems - Atomic radius - Coordination numbers - Effective number of atoms per unit cell - Packing fraction (for simple cubic, body centered cubic and face centered cubic crystals) - Miller Indices - Bragg's law - Experimental determination of lattice constant by powder diffraction method. Classification of defects in crystals (in brief) - Concentration of Schottky defects in metals and in ionic crystals - Concentration of Frenkel defects in a crystal.
+        \n\n3.2 Band Theory of Solids : Classical free electron theory (qualitative)- Energy band formation in solids - Kronig - Penney model (qualitative treatment) - Electron gas - Fermi energy and Fermi level in metals - Classification of solids into conductors, semiconductors and insulators.
+        \n\n3.3 Semiconductors : Intrinsic and Extrinic semiconductors - Concept of hole - Concept of Fermi level in semiconductor - Carrier concentration and conductivity in intrinsic semiconductors - P-N junction diode and its I-V characteristics - LED - Thermistor - Hall effect.
+        \n\nUNIT- IV \n\n4.1  Dielectric Materials : Dielectrics - Types of dielectric polarizations - Expression for electronic polarization - Ionic, orientational and space-charge polarizations - Frequency and temperature dependence of dielectric polarizations - Determination of dielectric constant by capacitance Bridge method - Ferro electricity - Barium titanate -Applications of Ferroelectrics.
+        \n\n4.2 Magnetic Materials : Classification of magnetic materials - Dia, para, ferro, antiferro and ferrimagnetism - Weiss molecular field theory of ferromagnetism - Magnetic domains - Magnetic hysteresis curve -Soft and hard magnetic materials - Ferrites and their applications.
+        \n\n4.3    Superconductivity - General properties of superconductors -Meissner effect - Type I and Type II superconductors - BCS Theory (in brief) - High Tc supercoductors (in brief) - Applications of superconductors.
+        \n\nUNIT - V \n\n5.1 Thin Films : Distinction between bulk, thin films and nano materials - Thin film preparation techniques : Physical vapor deposition (PVD).Thermal evaporation, Electron beam evaporation, Sputtering and chemical vapour deposition (CVD) - Applications of thin films - Solar cells.
+        \n\n5.2 Nano materials : Zero dimensional materials - Properties of materials at reduced size - Surface to volume ratio at nano scale -Quantum confinement - Preparation of nanomaterials : bottom-up methods (sol gel, sputtering and CVD),Top-down methods (ball milling) - Elementary ideas of carbon nanotubes - Applications.
+        \n\n5.3 Experimental Techniques for Characteristics of Materials :X-ray fluorescence -Atomic force microscopy (basics) - Electron microscopy (SEM and TEM)
+        \n\nSuggested Reading :
+        \n1. M.S. Avadhanulu and P.G. Kshirasagar, A Text Book of Engineering Physics, S. Channd and Co., 9th edition, 2010.
+        \n2. R.K. Gaur and S.L. Gapta, Engineering Physics, Dhanpat Rai Publications, 8th edition, 2001.
+        \n3.  B.K. Pandey and S. Chaturvedi, Engineering Physics, Cenage Learning India (P) Ltd., 2012.
+        \n4. R. Murugesan and K. Sivaprasath, Modern Physics, S. Chand and Company, 13th edition, 2007.
+        \n5. David Halliday, Robert Resnick and Kenneth S. Krane, Physics (Vol. 2), Wiley-India (P) Ltd., 5th edition, 2007.
+        \n6. A. Goswami, Thin Film Fundamentals, New Age Internatational, 2007.
+        \n7. A.K. Bandhopadyaya, Nano Materials, New Age International, Ist edition, 2007.
+        \n8.C.M. Srivastava and C. Srinivasan, Science of Engg. Materials, New Age International, 2002."
+        android:textAppearance="?android:attr/textAppearanceLarge"
+
+    />
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.mee1"
+    tools:showIn="@layout/activity_mee1">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Unit-I
+
+\n\nTransient Response: Initial conditions in Zero-Input response of RC, RL and RLC networks. Definitions of unit impulse, Unit step and Ramp functions. Zero State Response with impulse and step inputs.Complete Response of circuits with initial conditions and forcing functions such as Step, Exponential and Sinusoidal functions.
+
+\n\nUnit-II
+
+\n\nDevelopment of Laplace Transform Method: Laplace Transform pair, Evaluation of Laplace Transforms of common time functions in particular delta, Unit step, Ramp, sinusoids and Exponential functions and building of Laplace Transform tables, Laplace transform theorems relating time shifting Differentiation, Integration and Convolution of time functions, Initial and final value theorems, Waveform synthesis, Partial fraction expansion method of obtaining inverse transforms.
+
+\n\nUnit-III
+
+\n\nApplication of Laplace Transform for circuit analysis, Concept of transfer function, Pole, Zero plots.
+
+\n\nUnit-IV
+
+\n\nFourier series representation of periodic functions using both trigonometric and exponential functions. Symmetry conditions, Fourier transform representation of aperiodic signals, Symmetry properties, Power and bandwidth concepts. System function and its application in determining steady- state response.
+
+\n\nUnit-V
+
+\n\nNetwork Synthesis: Hurwitz polynomials and their properties-Positive Real functions and their properties-Synthesis of reactive network (one port) by Foster method-pole-zero interpretations of elements of Foster form- Cauer form of reactive networks-RL network synthesis by Foster and Cauer form of representation-RC network synthesis by Foster and Cauer method.
+
+\n\nSuggested Reading:
+
+\n1.M.R. Van Valkenburg, Network Analysis, Prentice Hall of India, 3rd Edition, 1995.
+
+\n2.W.H.Hayt, J.E.Kimmerly, EngineeringCircuitAnalysis, McGrawHill, 6th Edition, 2002.
+
+\n3.N.C. Jagan and C. Lakshminarayana, Network Analysis and Synthesis, B.S.Publications, 2004.
+
+\n4.M.R. Van Valkenburg, Introduction to Modern Network Synthesis,Wiley, New York, 1960.
+
+\n\n5.Charles K.Aleximder and Matthew N.O.Sadiku, Fundamental of Electric Circuits, TataMcGraw-Hill, 2003.
+
+\n\n6.Gopal G Bhise, Prem R Chadha and Durgesh, C. Kulshreshtha "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

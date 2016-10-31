@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.gir4"
+    tools:showIn="@layout/activity_gir4">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-I
+
+\n\nReview of state-space representation of continuous time systems and their solution, state models for discrete time systems described as difference Equations and transfer functions, Transfer function from State model, State-Transition matrix and solution of state equations for discrete time systems.
+
+\n\nUNIT-II
+
+\n\nControllability and Observability: Concepts of Controllability and Observability, Controllability tests for continuous time, discrete-time, time-invariant systems. Observability tests for continuous time, discrete-time, time-invariant systems. And Controllability and Observability modes in State. Jordan’s canonical form, Controllable and Observable companion forms for single input single output Systems, pole placement by State feedback.
+
+\n\nUNIT-III
+
+\n\nNonlinear Systems: Behavior of Nonlinear systems, jump resonance, Sub-harmonic oscillation, Limit cycles, common physical non-linearities, Singular points, phase plane-method, Construction of phase plane trajectories, Isoclines method, Delta method, Computation of time.
+
+\n\nUNIT-IV
+
+\n\nStability: Lyapunov‘s stability criteria, Theorems, Direct method of Lyapunov For linear systems, Non-Linear Systems, Methods of constructing Lyapunov function, Krasovki‘s Method, Variable gradient method.
+
+\n\nUNIT-V
+
+\n\nOptimal Control: Formulation of optimal control problem, calculus of variations, Minimization of functionals. Formulation of variational calculus using Hamiltonian method.
+
+\n\nSuggested Reading:
+
+\n1.Gopal.M., Modern Control System Theory, Wiley Eastern Limited, 2004
+
+\n2.Schulz D.G., Melsa J.L., State Functions of Linear Control Systems, McGrawHill. "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

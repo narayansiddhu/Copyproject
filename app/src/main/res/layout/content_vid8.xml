@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.vid8"
+    tools:showIn="@layout/activity_vid8">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="List of Experiments :
+
+\n\nPART - A
+
+\n\n1.Study of (with reference to typical electromechanical specifications, circuit representation): Electronic components (all types of discrete active and passive devices, display devices, integrated components/ circuits with their packings etc.,), electro mechanical components (switches, sockets, connectors etc.,) electromagnetic components (coils-different types of magnetic and ferrite cored, potted components, relays etc.,)
+
+\n\n2.Study and use of different meters (moving coil, moving iron, volt/ ammeter, AVO/Multimeter) for the measurement of electrical parameters.
+
+\n\n3.Measurement of R, L, C components using LCR Meter
+
+\n\n4.Study of CRO and Measurement of voltage, frequency and Phase Angle.
+
+\n\n5.Design and fabrication (winding) of an iron cored inductance coil for a given value of L, current and core specifications.
+
+\n\n6.Design of AC mains operated step down transformer for a given turns ratio, current ratings and core specifications. Measurements of their functional electrical parameters
+
+\n\n7.PCB design of a small circuit with its layout using tapes and etching in the lab
+
+\n\n8.Soldering and desoldering exercises using discrete components and ICs for a specific circuit requirement
+
+\n\nPART - B
+
+\n\n1.Verification of superposition theorem and Thevenin’s theorems
+
+\n\n2.Verification of maximum power transfer theorem
+
+
+
+
+
+\n\n3.Verification of Tellegan’s theorem
+
+\n\n4.Measurement of two-port network parameters
+
+\n\n5.Design and verification of Series Resonance
+
+\n\n6.Design and verification of Parallel Resonance
+
+\n\nSuggested Reading :
+
+\n\n1.Zbar, P.B. Basic Electronics. A Text-Lab Manual, 7th Edition, TMH, 1995.
+
+\n\n2.James M. Kirkpatric, Electronic drafting and Printed Circuits board design, Galgotia Publisher, 1988.
+
+\n\nPaul B. Zbar, Industrial Electronics, A Text – Lab Manual, 3rd Edition, TMH, 1983.  "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

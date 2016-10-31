@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.kiss2"
+    tools:showIn="@layout/activity_kiss2">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Unit-I
+
+\n\nD.C Circuit Analysis, Techniques, Definitions of Electric Circuit Parameters, Voltage, Current, and Power, Passive sign conventions, Passive circuit elements R, L and C, their V-I relationships and symbols. Description of independent and dependent sources, Simple series and parallel circuit analysis and reduction techniques, Current and voltage division principles.
+
+\n\nUnit-II
+
+\n\nNodal, loop and mesh circuit analysis. Network theorems: Superposition Theorem, Thevenin, Norton, Maximum Power Transfer and Reciprocity theorems and their applications.
+
+\n\nNetwork Topology: Network Graph concept, oriented graph, node, branch, complete incidence matrix, basic incidence matrix, loop, tie-set, tree and its properties, co-tree, Fundamental tie-set matrix, cut-set, Fundamental cut-set matrix, Duality.
+
+\n\nUnit-III
+
+\n\nDefinition and computation of average value, RMS value of time varying periodic signals, Steady State response of RLC networks subjected to sinusoidal excitation, Complex exponentials, Definition of phasor, Phasor domain conversions, Network analysis techniques in phasor domain. Definition of complex power, Reactive power, Power factor and Calculations of power in single phase ac circuits.
+
+\n\nUnit-IV
+
+\n\nResonance - Definitions and computations of series and parallel resonance, definitions of bandwidth and Q-factor. Locus diagrams Coupled circuits: Analysis of circuits with mutual inductance, Linear Transformers and ideal Transformers.
+
+\n\nTwo-port parameters: Z, Y, ABCD and h-parameters, their inter-relationships, series, parallel and cascade connection of two ports, terminated two ports.
+
+\n\nUnit-V
+
+\n\nPoly phase circuits and in particular 3-phase circuit analysis: 3-phase power, Y and “ connected systems, Calculations of voltages, current and power in 3-phase circuits with Y and “ connected loads and generator, Star- Delta transformation. Balanced and unbalanced loads. Measurement of 3-phase power by two wattmeter method.
+
+\n\nSuggested Reading:
+
+\n\n1.Van Valkenburg, NetworkAnalysis, Prentice Hall of India, 3rdEdition, 1992.
+
+\n\n2.W.H.Hayt, J.E.Kimmerly, Engineering Circuit Analysis, McGrawHill, 5th Edition, 2000
+
+\n\n3.Charles K.Alexander and Matthew N.O.Sadiku, Fundamental of ElectricCircuits, TataMcGraw-Hill, 2003.
+
+\n\n4.Joseph A Edminister, Electric Circuits, Sham’s outline series.
+
+\n\n5.Gopal G Bhise, Prem R Chadha and Durgesh C Kulshreshtha, "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

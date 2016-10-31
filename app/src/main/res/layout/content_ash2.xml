@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.ash2"
+    tools:showIn="@layout/activity_ash2">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-I
+\n\nIntroduction: Definition, history and applications of AI. Search in State Spaces: Agents that plan, Uninformed search, Algorithm A*, Heuristic Functions and Search Efficiency, Alternative Search Formulations and Applications, Adversarial Search.
+\n\nUNIT – II
+\n\nKnowledge Representation and Reasoning: The Propositional Calculus, Resolution in Propositional Calculus, The Predicate Calculus, Resolution in Predicate Calculus, Rule-Based Expert Systems, Representing Common Sense Knowledge.
+\n\nUNIT-III
+\n\nReasoning with Uncertain Information:  Review of probability theory, Probabilistic Inference, Bayes Networks.
+\n\nPlanning Methods Based on Logic: The Situation Calculus, Planning.
+\n\nUNIT-IV
+\n\nLearning from Observations: Learning decision-trees using Information theory, Learning General Logical Descriptions, Neural Networks: Perceptron, Multilayer feed-forward neural network. Rule Learning.
+\n\nUNIT-V
+\n\nNatural Language Processing: Communication among agents
+\n\nFuzzy Logic Systems: Crisp Sets, Fuzzy Sets, Some fuzzy terminology, Fuzzy Logic Control, Sugeno Style of Fuzzy inference processing, Fuzzy hedges,  Cut Threshold, Neuro Fuzzy systems.
+
+\n\nSuggested Reading:
+
+\nNils J. Nilsson (1998) Artificial Intelligence: A New Synthesis, Elsevier
+\nStuart Russell, Peter Norvig (1995), Artificial Intelligence – A Modern Approach, Pearson Edition/PHI.
+\nElaine Rich, Kevin Knight, Shivashankar B Nair (2009), Artificial Intelligence, Third edition, Tata McGraw Hill.
+
+\n\nReferences :
+
+\nGeorge F Luger (2009), Artificial Intelligence, Structures and strategies for Complex Problem solving, Pearson Edition.
+"
+
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+    </ScrollView>
+</RelativeLayout>

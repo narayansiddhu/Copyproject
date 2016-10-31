@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.bha5"
+    tools:showIn="@layout/activity_bha5">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT I
+
+\n\nStorage System
+
+\nIntroduction to information storage, virtualization and cloud computing, Key data center elements, Compute, application, and storage virtualization, Disk drive and flash drive components and performance, RAID, Intelligent storage system and storage provisioning (including virtual provisioning)
+
+\n\nUNIT II
+
+\n\nStorage Networking
+
+\nFibre Channel SAN components, FC protocol and operations, Block level storage virtualization, iSCSI and FCIP as an IP-SAN solutions, Converged networking option – FcoE, Network Attached Storage (NAS) –components, protocol and operations, File level storage virtualization, Object based storage and unified storage platform
+
+\n\nUNIT III
+
+\n\nBackup, Replication, Archive
+
+\nBusiness continuity terminologies, planning and solutions, Clustering and multi-pathing architecture to avoid single points of failure, Backup and recovery - methods, targets and topologies, Data de-duplication and backup in virtualized environment, Fixed content and data archive, Local replication in classic and virtual environments, Remote replication in classic and virtual environments, Three-site remote replication and continuous data protection
+
+\n\nUNIT IV
+
+\n\nCloud Infrastructure
+
+\nCloud Enabling Technologies, Characteristics of Cloud Computing, Benefits, Cloud Service Models, Deployment Models, Cloud Computing Infrastructure, Cloud Challenges, Cloud Adoption Considerations, Concepts in practice
+
+\n\nUNIT V
+
+\n\nStorage Security and Management
+
+\nSecurity threats, and countermeasures in various domains, Security solutions for FC-SAN, IP-SAN and NAS environments, Security in virtualized and cloud environments, Monitoring and managing various information infrastructure components in classic and virtual environments, Information lifecycle management (ILM) and storage tiering
+
+\n\nCase Study:
+\n1. Technologies described in the course are reinforced with EMC examples of actual solutions.
+\n2. Realistic case studies enable the participant to design the most appropriate solution for given
+   sets of criteria."
+
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.Mone1"
+    tools:showIn="@layout/activity_mone1">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-I\n\nInfinite Series:\n\nSequences, Infinite series, Convergence and Divergence , P-Series test, Geometric series test, Comparison tests, D'Alembert's Ratio test, Raabe's test, Cauchy's nth root test , Logarithmic test, Alternating series, Leibnitz's test, Absolute convergence, Conditional convergence.
+            \n\nUNIT -II\n\nDifferential Calculus:\n\nRolle's theorem, Lagrange's and Cauchy's mean value theorems, Taylor's series, Curvature, Radius of curvature , Envelopes, Evolutes and Involutes,Asymptotes of a curve, Curve sketching (cartesian, polar and parametric co-ordinates).
+            \n\nUNIT-III\n\nFunctions of Several Variables:\nLimits and Continuity of Functions of two variables, Partial derivatives, Total differentials and derivatives, Derivatives of composite and implicit functions, Higher order partial derivatives, Taylor's theorem for functions of two variables, Maxima and minima of functions of two variables, Lagrange's multipliers method, Jacobian, Change of variables, Multiple integrals.
+            \n\nUNIT-IV\n\nVector Calculus : \n\nScalar and vector fields, Vector differentiation, Gradient of a scalar field, Directional derivative, Divergence and Curl of a vector field, Line, Surface and Volume integrals , Green's theorem in a plane, Gauss's divergence theorem, Stoke's theorem and their applications.
+            \n\nUNIT - V\n\nLinear Algebra:Vector spaces, Subspace, Linearly dependence and independence of vectors, Basis and dimension, Linear transformation, Elementary row and column operations. Rank of a Matrix, Echelon form, System of linear equations, Eigenvalues, Eigenvectors, Cayley-Hamilton theorem,Diagonalization, Quadratic forms.
+            \n\nSuggested Reading:
+            \n1)R.K.Jain   and   S.R.K.Iyengar,Advanced  Engineering Mathematics, Narosa Publications, FourthEdition, 2014.
+            \n2) Dr. B.S. Grewal, Higher Engineering Mathematics, Khanna Publications, 41Edition, 2011.
+            \n3) Eerwin Kreyszig, Advanced Engineering,Mathematics, Wiley-India, 9'h Edition, 2012.
+            \n4) Manice D. Weir, Joel Hass, Frank R. Giordano, Thomas' Calculus, Pearson Publications,1 Ph Edition.
+            \n5) H.K.  Dass  and Er.Rajnish Varma Higher Engineering Mathematics, S.Chand and Company-2011."
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+        />
+    </ScrollView>
+
+</RelativeLayout>

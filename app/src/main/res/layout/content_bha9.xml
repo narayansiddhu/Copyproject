@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.bha9"
+    tools:showIn="@layout/activity_bha9">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT I
+\n\nIntroduction: Definition, Objectives, Functional Overview, Relationship to DBMS, Digital libraries and Data Warehouses, Information Retrieval System Capabilities - Search, Browse, Miscellaneous.
+\n\nUNIT II
+\n\nCataloging and Indexing: Objectives, Indexing Process, Automatic Indexing, Information Extraction, Data Structures: Introduction, Stemming Algorithms, Inverted file structures, N-gram data structure, PAT data structure, Signature file structure, Hypertext data structure –
+\n\nUNIT III
+\n\nAutomatic Indexing: Classes of automatic indexing, Statistical indexing, Natural language, Concept indexing, Hypertext linkagesDocument and Term Clustering: Introduction, Thesaurus generation, Item clustering, Hierarchy of clusters
+\n\nUNIT IV
+\n\nUser Search Techniques: Search statements and binding, Similarity measures and ranking, Relevance feedback, Selective dissemination of information search, Weighted searches of Boolean systems, Searching the Internet and hypertext ,Information Visualization: Introduction, Cognition and perception, Information visualization technologies.
+\n\nUNIT V
+\n\nText Search Algorithms: Introduction, Software text search algorithms, Hardware text search systems. Information System Evaluation: Introduction, Measures used in system evaluation, Measurement example – TREC results.
+\n\nTEXT BOOKS:
+\n\nInformation Storage and Retrieval Systems: Theory and Implementation By Kowalski, Gerald, Mark T Maybury Kluwer Academic Press, 2000.
+\n\nModern Information Retrival By Ricardo Baeza-Yates, Pearson Education, 2007.
+\n\nInformation Retrieval: Algorithms and Heuristics By David A Grossman and Ophir Frieder, 2nd Edition, Springer International Edition, 2004.
+\n\nREFERENCES :
+\nInformation Retrieval Data Structures and Algorithms By William B Frakes, Ricardo Baeza-Yates, Pearson Education, 1992.
+\nInformation Storage and Retieval By Robert Korfhage – John Wiley and Sons.
+\nIntroduction to Information Retrieval By Christopher D. Manning and Prabhakar Raghavan, Cambridge University Press, 2008."
+
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.gir12"
+    tools:showIn="@layout/activity_gir12">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-I
+
+\n\nAnalog and Digital Measuring Systems: Interfacing Active and Passive Transducers. Amplifiers: Instrumentation amplifiers (Fixed and Programmable gain types and its specifications), Isolation amplifiers (Types and its specifications).
+
+\n\nDigital to Analog Converters: R-2R ladder and Inverted ladder DACs. Main DAC specifications. Analog to Digital Converter: R-2R Ladder and Inverted Ladder DACs, Main DAC Specifications, Analog to Digital Converters: Parallel (or Flash) ADC successive approximation, ADC Microprocessor compatibility, Dual slope ADC, Principal specifications of an ADC.
+
+\n\nUNIT-II
+
+\n\nDigital Voltmeters and Multimeters: Simple D.C Voltage attenuator, Current to Voltage converter, Resistance to Voltage Converter, Automatic ranging and Automatic zeroing RMS detector in DMM and RMS and True RMS, Digital Frequency and Time measurements, Frequency Measurements, frequency ratio Time Interval and Pulse width measurements, Scaling and Checking modes. Counting errors, Input signal conditioning, Trigger level, Hysteresis.
+
+\n\nUNIT-III
+
+\n\nSignal Analysis: Wave Analyzers: Signal analysis and wave Analyzer: Type and Applications. Harmonic Distortion Analyzers: harmonic Distortion, heterodyne harmonic Analyzer or Wave meter, Tuned circuit, Fundamental Suppression. Spectrum Analysis: Block Diagram, Phase locked circuit for the local oscillator, Successive Limiting type of Log IF amplifier.
+
+\n\nUNIT-IV
+
+\n\nComputer Controlled Test Systems: Testing an Audio amplifier, Radio Receiver instruments used in computer controlled instrumentation, Frequency counter, Synthesized signal generator interfaced with IEEE 488 Bus, Relay switched attenuator, IEEE 488 Electrical Interface.
+
+
+\n\nUNIT-V
+
+
+\n\nCathode Ray Oscilloscope: Block Diagram, Basic Concepts, Vertical amplifier, Time Base, Trigger Delay line and their role in a CRO, Digital storage Oscilloscope, Magnetic Recorders, Digital Interface for Programmable Instrumentation, Description and Sample examples of Automatic Instrumentation.
+
+
+ \n\nSuggested Reading:
+\n1.A.J.Owens, Digital Instrumentation, McGraw Hill International Edition, 1995
+\n2.H.S.Kalsi, Electronic Instrumentation,Tata McGraw Hill
+\n3.Helfrick and Copper, Modern Electronic Instrumentation and Measurement Techniques, Prentice Hall of India,2002
+\n4.Tran Tien Lang, Electronic Measuring Systems, John Wiley and Sons, 1987. "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

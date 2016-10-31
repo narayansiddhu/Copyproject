@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.kiss5"
+    tools:showIn="@layout/activity_kiss5">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-I
+
+\n\nSemiconductor diodes and Rectifiers : Review of semiconductor physics, p-n junction as a rectifier, v-I characteristics, temperature dependence of v-I characteristics; Breakdown of junctions-Zener and Avalanche. Single half wave, full wave, bridge rectifiers, L,C, pisection filters; Regulation and ripple characteristics.
+
+\n\nUNIT-II
+
+\n\nTransistors and their biasing : BJT, current components; CE, CB, CC configurations; characteristics; Transistor as an amplifiers; h-parameters; Analysis of CE, CB, CC amplifiers. Operating point, bias stability, bias stabilization circuits, Fixed bias, collector to base bias and Emitter bias.
+
+\n\nUNIT-III
+
+\n\nField Effect Transistors and their biasing : Principles of V-I characteristics of JFET and MOSFETs; Depletion and enhancement modes, small signal equivalent circuit, FET and CS amplifier.Biasing of JFET’s and MOSFETs source self bias, biasing for zero current drift, biasing against device variations, Biasing the enhancement MOSFET, Characteristics of UJT, SCR, DIAC and TRIAC.
+
+\n\nUNIT-IV
+
+\n\nLow frequency BJT amplifier Circuits : Cascading amplifier stages, simplified analysis for three amplifier configurations, Miller’s theorem-High input resistance transistor circuits, cascade configuration, Difference amplifier.
+
+
+\n\nUNIT-V
+
+\n\nMultistage amplifiers : Classification of amplifiers, Distortion in amplifiers, Frequency response of RC coupled amplifiers, Transformer coupled amplifiers, step response, Bandwidth of cascaded stages. Effect of emitter (source) by pass capacitor on LF response.
+
+\n\nSuggested Reading :
+
+\n1.Jocob Millman and Christos C. Halkias, Electonic Devices and Circuits, McGraw Hill,3/e,2010.
+
+\n2.Jocob Millman and Christos C. Halkias, Integrated Electronics, McGraw Hill, 1991.
+
+\n3.Donald L Schilling and Charles Belove, Electronics Circuits : Discrete and Integrated, McGraw Hill International Edition, 3rd Edition, 1989. "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

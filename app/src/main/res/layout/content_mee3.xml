@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.mee3"
+    tools:showIn="@layout/activity_mee3">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-I
+
+\n\nThermal, Hydel, Nuclear Power generation Principles, Choice of site, layout and various parts of Generating Stations.Estimation of power in hydel, flow duration curve, hydrograph, mass curve etc. Types of Hydel stations. Nuclear Stations, PWR, BWR, FBR GAS Turbines, GAS power stations, Combined cycle power stations. MAJOR DISASTERS around the world in Power plants – lessons learnt.
+
+\n\nUNIT-II
+
+\n\nNon Conventional energy generation methods: Solar, Wind, Ocean Thermal Energy Conversion (OTEC), Tidal, Geo Thermal.Solar cells, Efficiency, Manufacturing Technology, Solar Radiation, calculation of insulation, solar collectors, Concentrators. Wind generators, Wind turbine types, rotors construction, Hybrid power generation.
+
+\n\nUNIT-III
+
+\n\nConstruction of Over head lines – Over head line materials , Supports – types, Vibration Dampers, Arcing Horns , Ground Wires , Sag / Tension Calculations, Equal / Unequal supports , Effects of Wind , Ice / Erection Conditions Stringing Charts Insulators – Types – Material for construction- new technological developments, Potential distribution over string of insulators, Equalizing of potential – Methods. Insulator testing , Insulated cables- Insulating Materials, Mechanical Protection ,EHV / HV / LV cables, Grading, Capacitance of 3 core cables
+
+
+\n\nUNIT-IV
+
+\n\nInductance and capacitance of transmission lines, Single phase and three phase symmetrical composite conductors, GMD, GMR, Transposition of conductors, Bundled conductors, effect of earth capacitance.
+
+\n\nUNIT-V
+
+\n\nEconomics of Power Generation , Load curve, Load demand and diversified factors, Base load operation, Types of costs and depreciation, calculations. Methods of Power factor Improvement, Economics of p.f. Improvement. Tariffs. General aspects of AC and DC distribution systems, Underground, Over head lines DC systems Ring main, Radial, Voltage drop calculations, Distributor fed at one end, distributor fed at both ends. AC distribution systems.
+
+\n\nSuggested Reading:
+
+\n1.C.L. Wadhwa, Electrical Power Systems, Wiley Eastern Ltd., 5th Edition,2005.
+
+\n2.C.L. Wadhwa, Generation, Distribution and Utilization of Electrical Energy, Wiley Eastern Ltd., 5th Edition,2005.
+
+\n3.S.N. Singh, Electric Power Generation, Transmission and Distribution,
+
+\nPrentice Hall of India Pvt. Ltd., New Delhi - 2003  "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

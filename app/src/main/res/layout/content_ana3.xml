@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.ana3"
+    tools:showIn="@layout/activity_ana3">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-I
+            \n\n8085 Architecture: Introduction to microprocessors and microcontrollers,
+             \n\n8085 Processor Architecture, Internal operations, Instructions and timings,
+             \n\nProgramming the 8085 – Introduction to 8085 instructions, addressing modes and Programming techniques with Additional instruction.
+             \n\nUNIT-II
+             \n\nStacks and subroutines, interfacing peripherals - Basic interfacing concepts, interfacing output displays, interfacing input keyboards. Interrupts - 8085 Interrupts, Programmable Interrupt Controller (8259A). Direct Memory Access (DMA) – DMA Controller (Intel 8257), Interfacing 8085 with Digital to Analog and Analog to Digital converters.
+             \n\nUNIT-III
+             \n\nProgrammable peripheral interface (Intel 8255A), Programmable communication interface (Intel 8251), Programmable. Interval timer (Intel 8253 and 8254), Programmable Keyboard / Display controller (Intel 8279). Serial and parallel bus standards RS 232 C, IEEE 488.
+             \n\nUNIT-IV
+             \n\nIntroduction to Microcontrollers, 8051 – Architecture – Instruction set, Addressing modes and Programming Techniques. Comparison of various families of 8-bit micro controllers. System Design Techniques Interfacing of LCD, ADC,
+             \n\nSensors, Stepper motor, keyboard and DAC using microcontrollers Communication standards – serial RS232 and USB
+             \n\nUNIT-V
+             \n\nMicroprocessor Applications and trends in microprocessor Technology – 8-bit, 16-bit and 32-bit microprocessors. Advanced Processor Architecture – Register structure, Instruction set, Addressing modes of 8086. Features of advanced microprocessors. 80386, 80486, Pentium and Multi-Core Processors.
+             \n\nSuggested Readings:
+             \n1.Ramesh S Gaonkar, Microprocessor architecture, Programming and applications with 8085, 5/E Prentice Hall, 2002.
+             \n2.Barry B. Brey, The Intel Microprocessor, 8086/8088,8018/80188, 80286, 80386, 80486, Pentium and Pentium pro-processors – architecture, Programming and interfacing, 4 Edition, Prentice Hall 1993.
+             \n3.Kenneth Ayala “ The 8051 Microcontroller” West publishing company.
+             \n4.Myke Predko, programming and customizing the 8051 Microcontroller, Tata McGraw-Hill, 1994."
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+    </ScrollView>
+
+</RelativeLayout>

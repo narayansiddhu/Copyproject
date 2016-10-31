@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.ash6"
+    tools:showIn="@layout/activity_ash6">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT – I
+\n\nIntroduction to Software Project Management, Stepwise: An Overview of Project Planning, Programmer Management and Project Evaluation
+
+\n\nUNIT – II
+\n\nSelection of an Appropriate Project Approach, Software Effort Estimation, Activity Planning
+
+\n\nUNIT – III
+\n\nRisk Management, Resource Allocation, Monitoring and Control
+
+\n\nUNIT –IV
+\n\nManaging Contracts, Managing People and Organizing Teams, Software Quality
+
+\n\nUNIT – V
+\n\nSmall Projects, Prince2, BS 6079:1996
+
+\n\nSuggested Reading:
+\n1.Bob Hughes and Mike Cotterell – Software Project Management, 4th Edition – Tata McGraw Hill – 2006.
+
+\n\nReferences:
+\n1.Walker Royce, Software Project Management: A Unified Framework, Pearson Education – 1998.
+\n2.Pankaj Jalote, Software Project Management, Pearson Education – 2002.
+"
+
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+    </ScrollView>
+</RelativeLayout>

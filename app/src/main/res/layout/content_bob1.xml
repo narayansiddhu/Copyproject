@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.bob1"
+    tools:showIn="@layout/activity_bob1">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-I
+
+\n\nGuided Waves: Propagation of TE, TM and TEM waves between parallel planes. Velocity of propagation, wave impedance, attenuation in parallel plane guides.
+
+\n\nUNIT-II
+
+\n\nWaveguides: TE and TM waves in rectangular and circular waveguides, Wave Impedance, Characteristic Wave Impedance, Attenuation and Q of waveguides. Cavity resonators, resonant frequency and Q, Applications of cavity resonator.
+
+\n\nUNIT-III
+
+\n\nMicrowave Circuits and Components: Concept of Microwave circuit, Normalized voltage and current, Introduction to scattering parameters and their properties, S parameters for reciprocal and Non-reciprocal components- Magic Tee, Directional coupler, E and H Plane Tees and their properties, Attenuators, Phase Shifters, Isolators and circulators.
+
+\n\nUNIT-IV
+
+\n\nMicrowave Tubes: High frequency limitations of conventional tubes, Bunching and velocity modulation, mathematical theory of bunching, principles and operation of two cavity, multi cavity and Reflex Klystron.
+
+\n\nTheory of crossed field interaction; Principles and operation of magnetrons and crossed field amplifiers, TWT and BWO.
+
+\n\nUNIT-V
+
+\n\nMicrowave Solid State Devices: Principles of operation, characteristics and applications of Varactor, PIN diode, GUNN diode and IMPATT diode.
+
+\n\nElements of strip lines, micro strip lines, slot lines and fin–lines.
+
+
+
+\n\nSuggested Reading:
+
+\n1.         E. C. Jordan and Keith G. Balmain, “Electromagnetic Waves and Radiating Systems”, 2/e, Pearson Education, 2006.
+
+\n2.         Samuel Y. Liao, “Microwave Devices and Circuits”, 3/e, Pearson Education, 2003.
+
+\n3.         Rizzi P, “Microwave Devices and Circuits”, 3/e, Pearson Education, 2003.
+
+\n4.         R. E. Collins, “Foundations for Microwave Engineering”, 2/e, Wiley India Pvt. Ltd., 2012.
+ "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

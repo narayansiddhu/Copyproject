@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.kiss7"
+    tools:showIn="@layout/activity_kiss7">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Experiments on the following :
+
+\n\n1.Comparison of semiconductor diodes (Ge, Si and Zener)
+
+\n\n2.Static Characteristics of BJT (CE)
+
+\n\n3.Static Characteristics of BJT (CB)
+
+\n\n4.Static Characteristics of FET (CS)
+
+\n\n5.Design of Half wave and Full wave Rectifier without filters
+
+\n\n6.Design of rectifiers with C, L, LC and Pi-filters
+
+\n\n7.Static characteristics of SCR
+
+\n\n8.Static characteristics of UJT
+
+\n\n9.Measurement of phase, frequency and sensitivity with CRO
+
+\n\n10.Biasing of BJT and FET
+
+\n\n11.RC coupled amplifier BJT frequency response
+
+\n\n12.RC coupled amplifier FET frequency response
+
+\n\n13.Emitter Follower
+
+\n\n14.Source Follower
+
+\n\n15.Cascaded Amplifiers
+
+\n\nSuggested Reading:
+
+\n1.Paul B. Zbar, Albert P. Malvino, Michael A.Miller, Basic Electronics, A Text. Lab Manual,7th Edition, TMH, 1994.
+\n2.S.Poorna Chandra, B.Sasikala, Electronics Laboratory Primer, A design approach, Wheeler publishing, 1998.
+
+
+\n\nGeneral Note:
+
+\ni)There should not be more than 2 students per batch while performing any of the lab experiment.
+
+\nii)Mini Project cum design exercise:
+
+\n\na)The students must design, rig-up, and test the circuits wherever possible and should carry out the experiments individually.
+\n\nb)This exercise carries sessional marks of 10 out of 25, while the remaining 15 marks are for the remaining lab exercises. "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

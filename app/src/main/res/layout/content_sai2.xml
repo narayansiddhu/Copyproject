@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.sai2"
+    tools:showIn="@layout/activity_sai2">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-I
+            \n\nIntroduction to operating systems: OS structure and strategies, Process concept, Interprocess communication, Threads, Multithreaded programming.
+             \n\nProcess scheduling: Scheduling criteria, Scheduling Algorithms, Multi Process scheduling, Thread Scheduling.
+             \n\nUNIT-II
+             \n\nMemory Management, swapping, contiguous allocation, paging, static and dynamic partition, demand paging, page replacement algorithms, thrashing, segmentation with paging, Virtual memory.
+             \n\nFile System Interface: File Concept, Access Methods, Directory Structure, File System Mounting, File sharing, protection.
+             \n\nFile System implementation: File system structure, File system implementations, Directory implementation, Allocation Methods, Free space management, Efficiency and performance, recovery.
+             \n\nCase Studies: UNIX file system, Windows file system
+             \n\nUNIT-III
+             \n\nProcess Synchronization: Critical section problem, semaphore, monitors.
+             \n\nDeadlocks: Necessary conditions, resource allocation graph, methods for handling deadlocks, preventions, avoidance, detection and recovery, protection, goals of protection, domain of protection, access matrix .
+             \n\nUNIT-IV
+             \n\nDevice Management: Disk structure, Disk Attachment, Disk Scheduling, Disk Management, RAID Structure, Stable storage implementation.
+             \n\nI/O System: I/O hardware, Application I/O interface, Kernel I/O Subsystem, Transforming I/O request to hardware operation, STREAMS.
+             \n\nUNIT-V
+             \n\nCase Studies:
+             \n\nLINUX System: Design Principles, Kernel Modules, Process Management, Scheduling Memory Management, File Systems, Input and Output, Interprocess communication, Network Structure, Security.
+             \n\nWindows XP: Design Principles, Architecture, Environmental subsystem, File Subsystem, Networking, Programming interface, Android OS
+             \n\nSuggested Reading:
+             \n1.Abraham Silberchatz, Peter B.Galvin, Greg Gagne, Operating System-Concepts, Wiley India, 2006.
+             \n2.Andrew S.Tanenbaum, Modern Operating Systems, Third Edition, Pearson education, Asia-2008.
+             \n3.DhananjayM.Dhamdhere, Operating System-concept based approach, third edition, Tata McGraw Hill, Asia-2009.
+             \nRobert Love: Linux kernel Development, Pearson Education, 2004."
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+    </ScrollView>
+
+</RelativeLayout>

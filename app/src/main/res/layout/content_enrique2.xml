@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.enrique2"
+    tools:showIn="@layout/activity_enrique2">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Course Objectives:\n\nTo introduce the concepts of Abstract data Type, data structure, performance measurement, time and space complexities of algorithms.
+            \nTo discuss the implementation linear data structures such as stacks, queues and lists and their applications.
+            \nTo discuss the implementation of different non linear data structures such as trees and graphs.
+            \nTo introduce various search data structures such as hashing, binary search trees, red black trees, splay trees and b-trees.
+            \nTo introduce various internal sorting techniques and analyze their  time complexities.
+            \n\nUNIT-I\n\n
+             Algorithm Specification, Performance Analysis and Measurement. Arrays: Abstract Data Types and the C++ Class, The Array as an Abstract Data Type, The Polynomial Abstract Data Type, Sparse Matrices, Representation of Arrays, The String Abstract Data Type.
+             \n\nUNIT–II\n\nStacks and Queues: Templates in C++, The Stack Abstract Data Type, The Queue Abstract Data type, Subtyping and Inheritance in C++, A Mazing Problem, Evaluation of Expressions, Additional Exercises.
+             \n\nUNIT-III
+             \n\nLinked Lists: Singly Linked Lists and Chains, Representing Chains in C++, The Template Class Chain, Circular Lists, Available Space Lists, Linked Stacks and Queues, Polynomials, Equivalence Classes, Sparse Matrices, Doubly Linked Lists, Generalized Lists.
+             \n\nUNIT-IV
+             \n\nHashing: Static Hashing.
+             \n\nTrees: Introduction, Binary Trees, Binary Tree Traversal and Tree Integrators, Copying Binary Trees, Threaded Binary Trees, Heaps, Binary Search Trees.
+             \n\nEfficient Binary Search Trees: AVL Trees, Red-Black Trees, Splay Trees, m-way Search Trees, B-Trees.
+             \n\nUNIT-V
+             \n\nSorting: Insertion sort, Quick sort, How Fast Can We Sort, Merge sort, Heap sort, Sorting on Several Keys, List and Table Sorts, Summary of Internal Sorting.
+             \n\nGraphs: The Graph Abstract Data Type, Elementary Graph operations (dfs and bfs), Minimum Cost Spanning Trees (Prim’s and Kruskal’s Algorithms).
+             \n\nSuggested Reading:
+             \n1. Ellis Horowitz, Dinesh Mehta, S. Sahani. Fundamentals of Data Stuctures in C++, Universities Press. 2007.
+             \n 2.T.H. Cormen, C.E. Leiserson, and R.L. Rivest.Introduction toAlgorithms,Prentice Hall of India 1996.
+             \n3. Mark Allen Weiss, Data Structures and Algorithm Analysis in C++, Pearson Education 2006"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+    </ScrollView>
+
+</RelativeLayout>

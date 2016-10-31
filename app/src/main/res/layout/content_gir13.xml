@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.gir13"
+    tools:showIn="@layout/activity_gir13">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-I
+
+\n\nIntroduction to Digital Image Processing: Origins and Applications of Digital Image Processing. Fundamental Steps in Digital Image Processing, Components of Digital Image Processing System. Elements of Visual Perception, Light and the Electromagnetic Spectrum, Image Sensing and Acquisition, Image Sampling and Quantization
+
+\n\nUNIT-II
+
+\n\nFiltering in the Frequency Domain: Preliminary Concepts, Sampling and the Fourier Transform of Sampled Functions, The Discrete Fourier Transform (DFT) of One Variable, Extension to Function of Two Variables, Image Smoothing and Sharpening using Frequency Domain Filters.
+
+\n\nUNIT-III
+
+\n\nFiltering Intensity Transformations and Spatial: Histogram Processing, Fundamental of Spatial Filtering, Smoothing and Sharpening Spatial Filters
+
+\n\nImage Segmentation: Point, Line and Edge Detection, Thresholding-(Foundation , Basic global thresholding, Otsus method) , Region-Based Segmentation.
+
+\n\nUNIT-IV
+
+\n\nImage Compression: Fidelity Criteria, Image Compression Models, Image Formats, Containers and Compression Standards
+
+\n\nCompression Methods: Huffman Coding, Golomb Coding, Arithmetic Coding, LZW Coding, Run-Length Coding.
+
+\n\nUNIT-V
+
+\n\nRestoration: Noise Models, Inverse filtering. Least squares Filtering. Color Image Processing : Color fundamentals, Color models, Pseudocolor Image Processing, Basics of full color image processing.
+
+\n\nSuggested Reading:
+
+\n1.Gonzalez R.C., Woods R.E: Digital Image Processing, Pearson Education, Third Edition 2012.
+
+\n2.William K. Pratt, “Digital Image Processing”, John Wiley and Sons Inc. 3rd Edition, 2001.
+
+\n3.McAndrew, Introduction to Digital Image Processing , Cengage Learning 2004.
+
+\n4.Sonka, Hlavac, Boyle, Digital Image Processing and Computer Vision, Cengage learning, 2008.Rosenfeld A. Kak AC: Digital Picture Processing Vol.I and II Acad, Press, 2nd Edition, 1982. "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.ana5"
+    tools:showIn="@layout/activity_ana5">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-I
+            \n\nDC and AC Circuits: Analysis of circuits using loop current method, Thevenin’s and Norton’s theorems, Sinusoidal sources, Phasor representation of sinusoidal quantities, Average and rms values, Active power, Reactive power, Energy stored in inductance and capacitance, Mutual inductance, Dot convention, analysis of simple coupled circuits.
+             \n\nUnit-II
+             \n\nProduction of 3-Phase Voltages: Analysis of 3-phase balanced circuits, 3-phase power measurement by two-wattmeter method.
+             \n\n Transformers: Principle of transformation of voltages and currents, Equivalent circuit of transformer on no load and load, Efficiency and regulation of transformer, OC and SC tests, Auto-transformer.
+             \n\nUnit - III
+             \n\nDC Machines: Construction and working principle of a DC machine, Production of emf in a generator, Types of excitation, Characteristics of series, shunt and compound motors, Speed control and application of DC motors, Losses and efficiency, three point starter.
+             \n\nUnit-IV
+             \n\nInduction Motors: Production of rotating magnetic field, Construction and principle of operation of induction motors, Speed-torque characteristics, Methods of starting and Speed control of 3-phase induction motors,
+             \n\nUnit-V
+             \n\nSingle-Phase and Special Motors: Various types of single phase motors, Spilt phase, Capacitor start and Capacitor run, Basic features of Stepper motor and Brushless DC motor.
+             \n\n
+               Suggested Reading:
+               \n1.Naidu M.S. and Kamakshiah S, Introduction to Electrical Engineering, Tata McGraw Hill, 1995.
+               \n2.Jhon Bird, Electrical Circuit theory and Technology, Routledge Taylor and Francis Group, Fourth Edition, 2012.
+               \n3.Mehtu V.K., Principles of Electrical Engineering and Electronics, S.Chand and Co.,1999.
+               \n4.A.Chakrabarti, Sudipta Nath,Chandan Kumar Chanda, ‘Basic Electrical Engineering” Tata McGraw Hill Education PVT. LTD., 2009."
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+    </ScrollView>
+
+</RelativeLayout>

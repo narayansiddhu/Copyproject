@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.programlab"
+    tools:showIn="@layout/activity_programlab">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Write the following Programs Using C Programming Language
+            \n\n1.      Sin x and Cos x values using series expansion.
+            \n\n2.     Frequency of occurrence and special characteristics like n\t, white spaces.
+            \n\n3.    Bubble sort with an array.
+            \n\n4.     Linear and Binary Searches.
+            \n\n5.    Matrix addition and multiplication using pointers.
+            \n\n6.     Generation of address labels using structures.
+            \n\n7.     Sequential file operations.
+            \n\n8.     Functions of string manipulations without using library functions.
+            \n\nWrite the following Programs using C++ Programming Language.
+            \n\n1.      Finding maximum, minimum and sum of given set of numbers.
+            \n\n2.     Implementation of a matrix class.
+            \n\n3.     Classes for Bank Account, Student Information, Library catalog.
+            \n\n4.     Creation of complex class with operator overloading.
+            \n\n5.     Creation of inheritance hierarchy for graphic shapes.
+            \n\n6.     Template functions for min ( ) and max ( ) for finding minimum and maximum in a list of numbers.
+            \n\n7.     Programs for finding the number of characters, words and sentences in the given text input.
+            \n\n8.    Program to write error Handling Code using Exceptions."
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+    </ScrollView>
+
+</RelativeLayout>

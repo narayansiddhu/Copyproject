@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.bob7"
+    tools:showIn="@layout/activity_bob7">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-I
+
+\n\nEvolution of fiber optic system, Elements of Optical Fiber Transmission link, Ray Optics, Optical Fiber Modes and Configurations, Mode theory of Circular Waveguides, Overview of Modes and Key concepts, Linearly Polarized Modes, Single Mode Fibers and Graded Index fiber structure.
+
+\n\nUNIT-II
+
+\n\nAttenuation - Absorption losses, Scattering losses, Bending Losses, Core and Cladding losses, Signal Distortion in Optical Waveguides-Information Capacity determination, Group Delay, Material Dispersion, Waveguide Dispersion, Signal distortion in SM fibers-Polarization Mode dispersion, Intermodal dispersion, Pulse Broadening in Guided Index fibers, Mode Coupling, Design Optimization of Single Mode fibers-Refractive Index profile and cut-off wavelength.
+
+\n\nUNIT-III
+
+\n\nDirect and indirect Band gap materials, LED structures, Light source materials, Quantum efficiency, LED power, Modulation of LED, laser Diodes, Modes and Threshold condition, Rate equations, External Quantum efficiency, Resonant frequencies, Laser Diodes, Temperature effects, Introduction to Quantum laser, Fiber amplifiers, Power Launching and coupling, Lensing schemes, Fiber-to-Fiber joints, Fiber splicing.
+
+\n\nUNIT-IV
+
+\n\nPIN and APD diodes, Photo detector noise, SNR, Detector Response time, Avalanche Multiplication Noise, Comparison of Photo detectors, Fundamental Receiver Operation, preamplifiers, Error Sources, Receiver Configuration, Probability of Error, Quantum Limit.
+
+
+\n\nUNIT-V
+
+\n\nPoint-to-Point link system considerations -Link Power budget, Rise - time budget, Noise Effects on System Performance, Operational Principles of WDM and Applications. Erbium-doped Amplifiers. Introductory concepts of SONET/SDH Network.
+
+\n\nSuggested Reading:
+
+\n1.Gourd Keiser, “Optical Fiber Communication,” 4/e, TMH, 2000.
+
+\n2.J.Senior, “Optical Communication, Principles and Practice,” PHI, 1994.
+
+\n3.J.Gower, “Optical Communication System,” PHI, 2001.
+\n4.Binh, “Digital Optical Communications,” First Indian Reprint 2013, (Taylor and Francis), Yesdee Publications. "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

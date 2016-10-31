@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.enrique5"
+    tools:showIn="@layout/activity_enrique5">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-I
+            \n\nRegister Transfer and Microoperations: Register transfer language, Register Transfer, Bus and, Memory Transfers, Arithmetic Microoperations: Binary Adder, Subtractor, Binary Incrementer, Arithmetic Circuit. Logic Microoperations: List of Logic Microoperations, hardware Implementation. Arithmetic. Logic Shift unit.
+            \n\nBasic Computer Organization and Design: Instruction Codes: Stored program organization, Indirect Address. Computer Registers: Common Bus System. Computer Instructions: Instruction Set Completeness. Timing and Control, Instruction Cycle: Fetch and Decode, Register Reference Instructions. Memory
+            \n\nReference Instructions: Example Instructions, Control Flow Chart. Input-Output and Interrupt: Configuration, Instructions, Program Interrupt, Interrupt Cycle. Complete Computer Description. Design of Basic Computer, Basics of Accumulator Logic.
+            \n\nUNIT-II
+            \n\nMicroprogrammed Control: Control Memory, Address Sequencing: Control Branching Mapping of Instruction, Subroutines. Microprogram Example: Computer Configuration, Microinstruction Format, Symbolic Microinstructions.The Fetch Routine, Symbolic Microprogram, Binary Microprogram. Design of Control Unit: Microprogram Sequencer Central Processing Unit: General Register Organization: Control World Stack Organization: Register Stack, Memory Stack, Reverse Polish Notation, Evaluation of Expressions. Instruction Formats: Three, Two, One, Zero Address Instructions, RISC Instructions. Addressing Modes. DataTransfer and Manipulation: Data Transfer Instructions, Data Manipulation Instruction, Arithmetic Instruction Logical, Shift and Bit Manipulation Instructions.
+            \n\nProgram Control: Status Bit Conditions, Conditional Branch Instructions Subroutine Call and Return, Program Interrupt, Types of Interrupts, Reduced Instruction Set Computer: CISC.Characteristics, RISC Characteristics, Overlapped Register Windows.
+            \n\nUNIT-III
+            \n\nPipeline and Vector Processing: Parallel Processing, Pipelining, Instruction Pipeline, RISC Pipeline, Vector Processing: Vector Operations, Matrix Multiplication, Memory Interleaving, Super Computers. Array Processors: Attached Array Processor, SIMD Array Processor.
+            \n\nComputer Arithmetic: Addition and Subtraction: With Signed Magnitude Data, Implementation and algorithm, Addition and Subtraction with 2’s Complement Data. Multiplication Algorithms with signed magnitude data, algorithm, Booth’s algorithm, Array multiplier. Division Algorithms with signed magnitude data, divide overflow, algorithm. Floating Point Arithmetic Operations, Decimal Arithmetic Unit: BCD Adder, Subtractor.
+            \n\nUNIT-IV
+            \n\nInput Output Organization: Input-Output Interface: I/O Bus and Interface Modqles, I/O Versus Memory Bus, Isolated vs Memory Mapped I/O. Asynchronous Data Transfer: Strobe Control, Handshaking, Asynchronous Serial Transfer, Asynchronous Communication Interface.
+            \n\nModes of Transfer: Programmed I/O, Interrupt driven I/O. Priority Interrupt: Daisy Chaining, Parallel Priority Interrupt, priority Encoder. Direct Memory Access: DMA Controller and Transfer. Input-Output Processor (lOP): CPU-IOP Communication, IBM 370 I/O Channel, Intel 8089-IOP. Serial Communication.
+            \n\nUNIT-V
+            \n\nMemory Organization: Memory Hierarchy, Main Memory: RAM and ROM Chips, Address Map, Memory Connection to CPU. Auxiliary Memory: Disks and Tapes. Associative Memory: Hardware Organization, Match Logic, Read. Operation and Write Operation. Cache
+            \n\nMemory: Associative Mapping, Direct. Mapping, Set-Associative Mapping, Writing into Cache Initialization. Virtual Memory: Address and Memory Space, Address Mapping, Page Replacement.
+            \n\nSuggested Reading:
+            \n1.M. Morris Mano, Computer System Architecture, 3rd edition, Pearson Education Asia, 2002.
+            \n2.William Stallings, Computer Organization and Architecture, 6th Edition, Pearson Education Asia, 2003.
+            \n3.V.Carl Hamacher, Z.G Vranesic, S.G. Zaky, Computer Organization, McGraw Hill, 2004.
+            \n4.David A. Patterson, John L. Hennessy, Computer Organization and Design. Morgan, Elsevier Inc, 2009.
+            \n"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+    </ScrollView>
+
+</RelativeLayout>

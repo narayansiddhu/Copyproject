@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.sid3"
+    tools:showIn="@layout/activity_sid3">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT I :\n\n
+
+\n\nPreliminary Concepts: Reasons for Studying Concepts of Programming Languages, Programming Domains, Language Evaluation Criteria, Influences on Language Design, Language Categories, Language Design Trade-offs, Implementation Methods, Programming Environments, Evolution of the Major Programming Languages.
+
+
+
+\n\nDescribing Syntax and Semantics: General Problem of Describing Syntax, Formal Methods of Describing Syntax, Attribute Grammars, Describing the Meaning of Programs.
+
+
+
+\n\nUNIT II :
+
+\n\nNames, Binding, Type Checking, and Scopes: Names, Variables, The Concept of Binding, Type Checking, Strong Typing, Type Compatibility, Scope, Scope and Lifetime, Referencing Environments, Named Constants.
+
+\n\nData Types: Primitive Data Types, Character String Types, User- Defined Ordinal Types, Array Types , Associative Arrays, Record Types, Union Types, Pointer and Reference Types.
+
+\n\nExpressions and Assignment Statements: Arithmetic Expressions, Overloaded Operators, Type Conversions, Relational and Boolean Expressions, Short-Circuit Evaluation, Assignment Statements, Mixed- Mode Assignment.
+
+
+
+\n\nUNIT III
+
+\n\nStatement-Level Control Structures: Selection Statements, Iterative Statements, Unconditional Branching, Guarded Commands.
+
+\n\nSubprograms: Fundamentals and Design Issues for Subprograms, Local Referencing Environments, Parameter –Passing Methods, Parameters That are Subprograms Names, Overloaded Subprograms, Generic Subprograms, Design Issues for Functions, User-Defined Overloaded Operators.
+
+\n\nImplementing Subprograms: The General Semantics of Calls and Returns, Implementing “Simple” Subprograms, Implementing Subprograms with Stack-Dynamic Local Variables, Nested Subprograms, Blocks, Implementing Dynamic Scoping.
+
+\n\nAbstract Data Types: The Concept of Abstraction, Introduction to Data Abstraction, Design Issues for Abstract Data Types, Language Examples, Parameterized ADT, Encapsulation Constructs, Naming Encapsulation.
+
+\n\nUNIT IV
+
+\n\nObject Oriented Programming: Design Issues, Object Oriented Programming in Smalltalk, C++, Java, C#, Ada 95, Ruby, The Object Model of JavaScript, Implementation of Object Oriented Constructs.
+
+\n\nConcurrency: Subprogram level Concurrency, Semaphores, Monitors, Massage Passing, Ada Support for Concurrency, Java Threads, C# Threads, Statement-Level Concurrency.
+
+\n\nException Handling and Event Handling: Introduction to Exception Handling, Exception Handling in Ada, C++ and Java, Introduction to Event Handling, Event Handling with Java.
+
+\n\nUNIT V :
+
+\n\nFunctional Programming Languages: Introduction, Mathematical Functions, Fundamentals of FPL, LISP, Introduction to Scheme, COMMON LISP, ML, Haskell, Application of Functional Programming Languages and A Comparison of Functional and Imperative Languages.
+
+\n\nLogic Programming Languages: Introduction to Predicate Calculus, Predicate Calculus and Proving Theorems, An Overview of Logic Programming. The Origins, Basic Elements and Deficiencies of Prolog, Applications of Logic Programming.
+
+\n\nScripting Languages: Key concepts, Case Study: Python(From the Suggested Reading 2).
+
+
+
+\n\nSuggested Reading:
+
+\n1. Concepts of Programming Languages Robert .W. Sebesta 8/e, Pearson
+
+\nEducation, 2008.
+
+\n2. Programming languages –Watt, Wiley Dreamtech, 2004.
+
+\n3. Programming Languages –Louden, Second Edition, Cengage, 2003.
+
+\n4. Programming languages –Ghezzi, 3/e, John Wiley, 1998.
+"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+    </ScrollView>
+</RelativeLayout>

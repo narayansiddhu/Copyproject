@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.nud12"
+    tools:showIn="@layout/activity_nud12">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="List of Experiments:
+
+For 8086:
+
+\n\nSection 1: Using MASM/TASM
+
+\n\n1.Programs for signed/unsigned multiplication and division.
+
+\n\n2.Programs for finding average of N 16-bit numbers.
+
+\n\n3.Programs for finding the largest number in an array.
+
+\n\n4.Programs for code conversion like BCD numbers to 7-Segment.
+
+\n\n5. Programs for compute factorial of a positive integer number
+
+\n\nSection 2: Using 8086 Kit (Interfacing)
+
+\n\n1.8279 – Keyboard Display: Write a small program to display a string of characters.
+
+\n\n2. 8255-PPI: Write ALP to generate triangular wave using DAC.
+
+\n\n3.8253- Timer/Counter: Application of different modes.
+
+\n\n4.8251-USART: Write a program in ALP to establish Communication between two processors.
+
+\n\n5.Traffic Signal Controller.
+
+\n\nFor 8051:
+
+\n\nSection 3: Using 8051 Kit (Simple Programs)
+
+\n\n1. Data Transfer – Block move, Exchange, sorting, Finding largest element in an array.
+
+\n\n2.Arithmetic Instructions: Multibyte operations.
+
+\n\n3 .Boolean and Logical Instructions (Bit manipulations).
+
+\n\n4.Programs to generate delay, programs using serial port and on-Chip timer/Counter.
+
+\n\n5.Use of JUMP and CALL instructions.
+
+\n\nSection 4 : Program Development using ‘C’ cross compiler for 8051
+
+\n\n1.Square Wave Generation using timers.
+
+\n\n2.Interfacing of keyboard and 7-segment Display Module.
+
+\n\n3.ADC interfacing for temperature monitoring.
+
+\n\n4. DAC interfacing for Generation of Sinusoidal wave.
+
+\n\n5.Stepper motor control (clockwise, anticlockwise and in precise angles)
+
+\n\nList of Equipment:
+
+\n\n1.8086 Kit (with inbuilt assembler/disassembler).
+
+\n\n2.MASM/TASM software. "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.tit9"
+    tools:showIn="@layout/activity_tit9">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-I
+
+\n\nGPS Fundamentals: GPS Constellation, Principle of operation, GPS Orbits, Orbits mechanics and satellite position determination, time references. Geometric dilution of precision : GDOP, VDOP, PDOP.
+
+\n\nUNIT-II
+
+\n\nCoordinate Systems: Geometry of ellipsoid, geodetic reference system. Geoids, Ellipsoid and Regional datum, WGS-84, IGS ECI, ECEF.
+
+\n\nVarious error sources in GPS: Satellite and Receiver clock errors, ephemeris error, atmospheric errors, the receiver measurement noise and UERE.
+
+\n\nUNIT-III
+
+\n\nGPS measurement: GPS signal structure, C/A and P-code and carrier phase measurement, position estimation with pseudo range measurement, Spoofing and anti Spoofing, GPS navigation, observation data formats.
+
+\n\nUNIT-VI
+
+\n\nGPS Augmentation systems: Principle of DGPS, Types of DGPS: LADPS, WADGPS.
+
+\n\nSatellite Based Augmentation system (SBAS) : WAAS, GAGAN.
+
+\n\nGround Based Augmentation System (GBAS): LAAS.
+
+\n\nUNIT-V
+
+\n\nGPS Application: Surveying Mapping Marine, air and land Navigation, Military and Space Application. GPS Integration with GIS, INS, Pseudolite and Cellular.
+
+\n\nNew Satellite Navigation system; GLONASS, Galileo System.
+
+\n\nSuggestion Reading:
+
+\n1.Satheesh Gopi, “Global positioning system: Principles and Application, TMH, 2005.
+
+\n 2.Pratap Misra and Per Enge, “Global Positioning System Signals, Measurement, and Performance,” Ganga- Jamuna Press, 2/e, Massachusetts, 2010.
+
+\n 3.B.Hofmann-Wellenhof, H.Lichtenegger, and J.Collins, “GPS Theory and Practice,” Springer Verlog, 2008.
+
+\n 4.Bradford W.Parkinson and James J. Spilker, “Global Positioning System: Theory and Application,” Vol.II, American Institution of Aeronautices and Astronautics Inc., Washington, 1996. "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.bob5"
+    tools:showIn="@layout/activity_bob5">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-I
+
+\n\nIndustrial Organisation : Types of various Business Organisations, Organisation structures and their relative merits and demerits. Functions of management.
+
+\n\nPlant Location and Layouts: Factors affecting the location of plant and layout. Types of layouts and their merits and demerits.
+
+\n\nUNIT-II
+
+\n\nWork Study: Definitions, objectives of method study and time study. Steps in conducting method study. Symbols and charts used in method study. Principles of motion economy. Calculation of standard time by time study and work sampling. Performance rating factor. Types of ratings. Jobs evaluation and performance appraisal. Wages, incentives, bonus, wage payment plans.
+
+\n\nUNIT-III
+
+\n\nInspection and Quality Control: Types and objectives of inspection S.Q.C., its principles. Quality control by chart and sampling plans. Quality circles, introduction to ISO.
+
+\n\nUNIT-IV
+
+\n\nOptimisation: Introduction to linear programming and its graphical solutions. Assignment problems.
+
+\n\nProject Management: Introduction to CPM and PERT .Determination of critical path.
+
+\n\nMaterial Management : Classification of materials, Materials planning.
+
+\n\nDuties of purchase manager. Determination of economic ordering quantities. Types of materials purchase.
+
+\n\nUNIT-V
+
+\n\nCost Accounting: Elements of cost. Various costs. Types of overheads. Breakeven analysis and its applications. Depreciation. Methods of calculating depreciation fund. Nature of financial management. Time value of money .Techniques of capital budgeting and methods. Cost of Capital, Financial leverage.
+
+\n\nSuggested Reading :
+
+\n1.Pandey I.M., “Elements of Financial Management”, Vikas Pulications House, New Delhi, 1994.
+
+\n2.Khanna O.P., “Industrial Engineering and Management”,Dhanapat Rai and Sons.
+
+\n3.Marshall/Bansal, “Financial Engineering”, PHI.
+
+\n4.Keown, “Financial Management”, 9/e, PHI.Chandra Bose,”Principles of Management and Administration”, PHI. "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

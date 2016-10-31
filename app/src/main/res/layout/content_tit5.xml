@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.tit5"
+    tools:showIn="@layout/activity_tit5">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-I
+
+\n\nMechanism of speech production, source filter model of speech production, speech sounds . Differential PCM. Adaptive delta modulation, Adaptive differential PCM (ADPCM).
+
+\n\nShort time spectral analysis, cepstral analysis, Auto correlation function, Linear predictive analysis, pitch synchronous analysis.
+
+\n\nUNIT-II
+
+\n\nShort –time Energy function, zero crossing rate, End point detection, vector quantization. Format Tracking; Pitch extraction.
+
+\n\nUNIT-III
+
+\n\nFormat synthesizer; Linear predictive synthesizer, phone use synthesis, Introduction to Text-to-speech and Articulator speech synthesis.
+
+\n\nUNIT-IV
+
+\n\nSub-band coding, Transforms coding, channel decoder, Formant decoder, cepstral decoder, linear predictive decoder, vector quantizer coder.
+
+\n\nUNIT-V
+
+\n\nProblems in Automatic speech recognition, Dynamic warping, Hidden Markow models, speaker Identification / verification.
+
+\n\nSuggested Reading :
+
+\n1.Daniel Jurefskey and James H. Martin, “Speech and Language Processing”, Pearson Education, 2003.
+
+\n2.Rabiner and Schafer, “Digital Processing of Speech Signals”, PHI, 1978.
+
+\n3.Owens F.J., “Signal Processing of Speech”, Macmillan, 2000.
+
+\n4.Papamchalis, “Practical Approaches to Speech Coding”, PHI, 1987. "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

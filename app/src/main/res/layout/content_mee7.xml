@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.mee7"
+    tools:showIn="@layout/activity_mee7">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.Voltage series feedback amplifier
+
+\n\n2.Voltage shunt feedback amplifier
+
+\n\n3.Current series feedback amplifier.
+
+\n\n4.Current shunt feedback amplifier
+
+\n\n5.Hartley Oscillator
+
+\n\n6.Colpitt’s oscillator
+
+\n\n7.RC Phase shift oscillator
+
+\n\n8.Wein Bridge Oscillator
+
+\n\n9.Linear wave shaping - Integrator and Differentiator
+
+\n\n10.Nonlinear wave shaping - Clipping
+
+\n\n11.Class-B Power Amplifiers
+
+\n\n12.Clamping Circuits (Diode)
+
+\n\n13.Difference Amplifier (Op. Amp)
+
+\n\nSuggested Reading :
+
+\n\n1.Paul B. Zbar, Albert P. Malvino , Michael A. Miller, Basic Electronics, A Text-Lab Manual,7th Edition, TMH, 1994.
+\n\n2.Paul B. Zbar, Industrial Electronics, A Text – Lab Manual, 3rd Edition, TMH, 1983.
+
+\n\nGeneral Note :
+
+\n\ni.There should not be more than 2 students per batch while performing any of the lab experiment.
+
+\n\nii.Mini Project cum design exercise :
+
+\n\na)The students must design, rig-up, and test the circuits wherever possible and should carryout the experiments individually.
+\n\nb)This exercise carries sessional marks of 10 out of 25, while the remaining 15 marks are for the remaining lab exercises. "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

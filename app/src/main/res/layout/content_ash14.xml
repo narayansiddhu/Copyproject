@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.ash14"
+    tools:showIn="@layout/activity_ash14">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.Use of 8-bit and 32-bit Microcontrollers (such as 8051 Microcontroller, ARM2148 / ARM2378, LPC 2141/42/44/46/48), Microcontroller and C –compiler (Keil, Ride etc.) to:
+\n\nI) Interface Input – Output and other units such as: Relays, LEDs, LCDs, Switches, keypads, Stepper Motors, Sensors, ADCs, Timers.
+\n\nII) Demonstrate Communications: RS232, IIC and CAN protocols,
+\n\nIII) Develop Control Applications such as: Temperature controller, Elevator controller, Traffic Controller.
+\n\n2.Development and Porting of Real time applications on to Target machines such as Intel or other Computers using any RTOS.
+\n\nI) Understanding Real Time Concepts using any RTOS through demonstration of:
+\n\na)Timing
+\n\nb)Multi-tasking
+\n\nc)Semaphores
+\n\nd)Message Queues
+\n\ne)Round-Robin Task Scheduling
+\n\nf)Preemptive Priority based Task Scheduling
+\n\ng)Priority Inversion
+\n\nh)Signals
+\n\nII) Applications development using any RTOS:
+\n\na)Any RTOS Booting.
+\n\nb)Application Development under any RTOS."
+
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.tit1"
+    tools:showIn="@layout/activity_tit1">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-I
+
+\n\nIntroduction to radar, radar block diagram and operation, radar frequencies, Applications of radar, Prediction of range performance, minimum detectable signal, receiver noise, probability density function, SNR, Integration of radar pulses, radar cross-section of targets, PRF and range ambiguities, transmitter power, system losses.
+
+\n\nUNIT-II
+
+\n\nDoppler effect, CW radar, FM CW radar, multiple frequency CW radar. MTI radar, delay line canceller, range gated MTI radar, blind speeds, staggered PRF, limitations to the performance of MTI radar, non-coherent MTI radar.
+
+\n\nUNIT-III
+
+\n\nTracking radar: sequential lobing, conical scan, monopulse: amplitude comparison and phase comparison methods, Radar antennas. Radar displays. Duplexer.
+
+\n\nOrbital aspects of Satellite Communication: Introduction to geo-synchronous and geo-stationary satellites, Kepler’s laws, Locating the satellite with respect to the earth, sub-satellite point, look angles, mechanics of launching a synchronous satellite, Orbital effects, Indian scenario in communication satellites.
+
+\n\nUNIT-IV
+
+\n\nSatellite sub-systems: Attitude and Orbit control systems, Telemetry, Tracking and command control system, Power supply system, Space craft antennas, multiple access techniques, comparison of FDMA, TDMA, CDMA.
+
+\n\nUNIT-V
+
+\n\nIntroduction to satellite link design, basic transmission theory, system noise temperature and G/T ratio, design of down link and uplink, design of satellite links for specified C/N, satellite data communication protocols.
+
+\n\nSuggested Reading :
+
+\n1.Merril. I. Skolnik, “Introduction to Radar Systems”, 2/e, MGH, 1981.
+
+\n2.Mark A. Richards, James A. Scheer and William A. Holm,“Principles of Modern Radar: Basic Principles,” YesDee Publishing Pvt. Ltd., India, 2012.
+
+\n3.Byron Edde, “Radar: Principles, Technology, Applications”,Pearson, 2008.
+
+\n4.Timothy Pratt and Charles Bostian, “Satellite Communications”, John Wiley, 1986.
+
+\n5.Dennis Roddy, “Satellite Communications”, MGraw Hill, Millan, 4th edition, 2013. "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

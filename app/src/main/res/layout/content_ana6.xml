@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.ana6"
+    tools:showIn="@layout/activity_ana6">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-I
+            \n\nEnvironmental studies: Definition, scope and importance, need for public awareness. Natural resources: Water resources; use and over utilization of surface and ground water, floods, drought, conflicts over water, dams benefits and problems. Effects of modern agriculture, fertilizer-pesticide problems, water logging salinity. Energy resources, growing energy needs, renewable and non-renewable energy sources. Land Resources, land as a resource, land degradation, soil erosion and desertification.
+             \n\nUNIT-II
+             \n\nEcosystems: Concepts of an ecosystem, structure and functions of an ecosystem, producers, consumers and decomposers, energy flow in ecosystem, food chains, ecological pyramids, aquatic ecosystem (ponds, streams, lakes, rivers, oceans, estuaries).
+             \n\nUNIT-III
+             \n\nBiodiversity: Genetic species and ecosystem diversity, bio-geographical classification of India. Value of biodiversity, threats to biodiversity, endangered and endemic species of India, conservation of biodiversity.
+             \n\nUNIT-IV
+             \n\nEnvironmental Pollution: Causes, effects and control measures of air pollution, water pollution, soil pollution, noise pollution, thermal pollution and solid waste management.
+             \n\nEnvironment Protection Act: Air, water, forest and wild life acts, issues involved in enforcement of environmental legislation.
+             \n\nUNIT-V
+             \n\nSocial Aspects and the Environment: Water conservation, watershed management, and environmental ethics. Climate change, global warming, acid rain, ozone layer depletion. Environmental protection act, population explosion.
+             \n\nDisaster Management: Types of disasters, impact of disasters on environment, infrastructure and development. Basic principles of disaster mitigation, disaster management, and methodology, disaster management cycle, and disaster management in India.
+             \n\nSuggested Reading :
+             \n1.A. K. De, Environmental Chemistry, New Age Publications, 2002.
+             \n2.E. P. Odum, Fundamentals of Ecology, W.B. Sunders Co., USA.
+             \n3.GL. Karia and R.A. Christian, Waste Water Treatment, Concepts and Design Approach, Prentice Hall of India, 2005.
+             \n4.Benny Joseph, Environmental Studies,TataMcGraw-Hill, 2005
+             \n5.V. K. Sharma, Disaster Management, National Centre for Disaster Management, IIPE, Delhi,"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+    </ScrollView>
+
+</RelativeLayout>

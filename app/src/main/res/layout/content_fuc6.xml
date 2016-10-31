@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.fuc6"
+    tools:showIn="@layout/activity_fuc6">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-I
+
+\n\nOpen and Closed loop Systems, Continuous time and discrete time control systems. Control system components, Error sensing devices, Potentiometers. Synchros, AC-DC servo motors-Block diagram representation, Transfer function and impulse response, Signal flow graphs.
+
+\n\nUNIT-II
+
+\n\nTime Response: Types of Input, Transient response of second order system for step input. Time domain specifications - Types of system- static error coefficients, Error Series-Routh-Hurwitz criterion of stability. Root Locus Technique- Typical systems analyzed by root locus technique-Effect of location of roots on system response PID Controller.
+
+\n\nUNIT-III
+
+\n\nFrequency Response Plots: Bode Plots, Frequency domain specifications. : Mp, wp for a second order system, Nyquist criterion for a stability, relative stability, gain and phase margin, Compensation: Cascade Compensation using Bode plots.
+
+\n\nUNIT-IV
+
+\n\nState Space Representation: Concept of State, State Variable, State Models of linear time invariant systems. Derivation for state models from transfer functions and differential equations. State Transition matrix- Solution of State equations by time domain method. Observability and Controllability.
+
+\n\nUNIT-V
+
+\n\nDiscrete Control Analysis: Introduction to signals and systems, The Z-transformation, digital control, advantages and disadvantages. Digital control system architecture. The discrete transfer function. Sample data system. Transfer function of sample data systems- Z-plane specifications of control system design.Z-domain stability.
+
+\n\nSuggested Reading:
+
+\n\n1.I.J.Nagrath, M.Gopal, Control System Engineering, New Age International (P) Limited Publishers, 5th Edition, 2007.
+
+\n\n2.J.F.Franklin and J.D.Powell, Digital Control of Dynamic Systems,Addison Wesley, 1980.
+
+\n\n3.M.Gopal, Control Systems Principles and Design, Tata McGraw Hill, 2nd Edition, 2003.
+
+\n\n4.K.Ogata, Modern Control Systems, 3rd Edition.PHI, 2000.
+
+\n\n5.B.C. Kuo, Automatic Control Systems, 8th edition, Prentice Hall, New Delhi, 2002.
+
+\n\n6.Shinners S.M., Modern Control Engineering, Prentice Hall, New Jersey, 1995.
+
+\n\n7.D'azzo and Houpis, Linear Control System Analysis and Design, 4th edition, Singapore, 1995. "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

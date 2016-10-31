@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.you2"
+    tools:showIn="@layout/activity_you2">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-I
+
+\n\nSynchronous Machines: Constructional Details, Types of windings – Winding factors -e.m.f. equation -Fractional pitch and fractional slot windings -Suppression of harmonics and tooth ripple -Armature reaction and reactance -Synchronous impedance.
+
+UNIT-II
+
+\n\nSynchronous Generator: Voltage Regulation -Phasor diagram of alternator with non-salient poles -O.C. and S.C characteristics – Synchronous impedance, Ampere turn, ZPF methods for finding regulation –Principle of two reaction theory and its application for the salient pole synchronous machine analysis -Synchronism and parallel operation.
+
+\n\nUNIT-III
+
+\n\nSynchronous Motor: Theory of operation- Vector diagram –Variation of current and p.f. with excitation -Hunting and its prevention –Current and power diagram Predetermination of performance –Methods of Starting and Synchronizing. Synchronizing Power. Synchronous Condenser.
+
+\n\nUNIT-IV
+
+\n\nTransient Stability Studies of Synchronous Machines: Elementary ideas of transient behavior of an Alternator -Three phase short circuit of an Alternator -Elementary ideas of the stability of synchronous machine connected to infinite Bus. Special Machines -Permanent Magnet Motors, Switched Reluctance Motors, Hysteresis Motors.
+
+\n\nUNIT-V
+
+\n\nTwo phase servo motor characteristics- Single phase motors- Theory and operation of single phase motors-Shaded pole, Split phase and capacitor motors -Compensated and uncompensated series and repulsion motors. Linear Induction motors.
+
+
+\n\nSuggested Reading:
+
+\n\n1.I.J.Nagrath and D.P. Kothari, Electrical Machines, Tata McGraw Hill, 2004, 3rd ede.
+
+\n\n2.S.K.Bhattacharya, Electrical Machines, Tata McGraw Hill, 2002.
+
+\n\n3.P.S.Bhimbhra, Generalized Theory of Electrical Machines, Fifth Edition, Khanna Publishers, l995,
+
+\n\n4.M.G Say, The Performance and Degin of A.C Machine, Pitman Publications, 1985. "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

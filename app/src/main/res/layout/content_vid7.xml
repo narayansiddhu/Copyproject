@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.vid7"
+    tools:showIn="@layout/activity_vid7">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="List of Experiments :
+
+\n\n1.V-I Characteristics of Silicon and Germanium diodes and measurement of static and dynamic resistances
+
+\n\n2.Zener diode characteristics and its application as voltage regulator
+
+\n\n3.Design, realization and performance evaluation of half wave rectifiers without filters and with LC and p section filters
+
+\n\n4.Design, realization and performance evaluation of full wave rectifiers without filters and with LC and p section filters
+
+\n\n5.Plotting the characteristics of BJT in Common Base configuration and measurement of h-parameters
+
+\n\n6.Plotting the characteristics of BJT in Common Emitter configuration and measurement of h-parameters
+
+\n\n7.Plotting the characteristics of JFET in CS configurations and measurement of Transconductance and Drain resistance
+
+\n\n8.BJT biasing circuits
+
+\n\n9.FET biasing circuits
+
+\n\n10.Common Emitter BJT Amplifier and measurement of Gain, bandwidth, input and output impedances
+
+\n\n11.Common Source FET Amplifier and measurement of Gain, bandwidth, input and output impedances
+
+\n\n12.Emitter Follower / Source Follower circuits and measurement of Gain, bandwidth, input and output impedance
+
+\n\n13.Characteristics of special devices-UJT and SCR
+
+\n\n14.Characteristics of Tunnel diode and photo diode
+
+\n\nSuggested Reading:
+
+\n1.Paul B. Zbar, Albert P. Malvino, Michael A. Miller, Basic Electronics, A Text - Lab Manual, 7th Edidtion, TMH 2001.
+
+\n\nSpecial Note:
+
+\ni)Wherever possible, Analysis and design of circuits should be carried out using SPICE tools.
+
+\nii)Five marks be allocated to SPICE design and analysis and the remaining 20 marks are for other internal lab assessments.
+
+\n\nGeneral Note:
+\n1.The experiments should be performed on bread board using discrete components.
+
+\n2.There should not be more than 2 students per batch while performing any of the lab experiment.
+
+\nA minimum of 12 experiments should be performed  "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

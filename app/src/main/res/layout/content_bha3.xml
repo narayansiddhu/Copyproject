@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.bha3"
+    tools:showIn="@layout/activity_bha3">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Unit-I
+\n\nIntroduction : Definition and Scope of Operations Research.
+
+\n\nLinear Programming: Introduction, Formulation of linear programming problems, graphical method of solving LP problem, simplex method, maximization and minimization, Degeneracy in LPP, Unbounded and, Infeaseable solutions.
+
+\n\nUnit-II
+
+\n\nDuality : Definition, Relationship between primal and dual solutions, Economic Interpretation, Post optimal of sensitivity analysis, Dual Simplex Method.
+
+\n\nUnit-Ill
+
+\n\nTransportation Models : Finding an initial feasible solution - North West corner method, Least cost method, Vogel’s Approximation method, Finding the optimal solution, optimal solution by stepping stone and MODI methods, Special cases in Transportation problems - Unbalanced Transportation problem.
+
+\n\nAssignment Problems : Hungarian method of Assignment problem, Maximization in Assignment problem, unbalanced problem, problems with restrictions, travelling salesman problems.
+
+\n\nUnit-IV
+
+\n\nReplacement Models : Introduction, replacement of items that deteriorate igoring change in money value, replacement of items that deteriorate considering change in money value with time, replacement of items that fail suddenly - Individual replacement policy, Group replacement policy.
+
+\n\nGame Theory: Introduction, 2 person zero sum games, Maximi - Minimax principle, Principle of Dominance, Solution for mixed strategy problems, Graphical method for 2 x n and m x 2 games.
+
+\n\nUnit-V
+
+\n\nSequencing Models : Introduction, General assumptions, processing n jobs through 2 machines, processing ‘n’ jobs through m machines, Processing 2 jobs through m machines.
+
+\n\nQueuing Theory : Introduction, single channel - poission arrivals - exponential service times with infinite population and finite population, Multi channel - poisson arrivals - Exponential service times with infinite population.
+
+\n\nIntroduction to optimization Techniques: Single objective and Multi objective optimization Techniques like G.A, NSGA, P.Q.O. and MPSO Techniques.
+
+\n\nSuggested Reading :
+
+\n1.          Hamdy, A. Taha, “Operations Research-An Introduction”, Sixth Edition, Prentice Hall of India Pvt. Ltd., 1997.
+
+\n2.          S.D. Sharma, “Operations Research “, Kedarnath, Ramnath and Co., Meerut, 2009.
+
+\n3.          Hrvey M. Wagner, “Principles of Operations Research “, Second Edition, Prentice Hall of India Ltd., 1980.
+
+\n4.          V.K. Kapoor, “Operations Research “, S. Chand Publishers,New Delhi, 2004.
+
+\n5.          R. Paneer Selvam, “Operations Research“, Second Edition, PHI Learning Pvt. Ltd., New Delhi, 2008.
+
+\n6.          Prof. Shanker Narasimha, Data Reconciliation."
+
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+    </ScrollView>
+</RelativeLayout>

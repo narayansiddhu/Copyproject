@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.bha2"
+    tools:showIn="@layout/activity_bha2">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-I
+\n\nIntroduction to Simulation. Advantages and Disadvantages of Simulation, Areas of application, System and System Environment, Components of a system, Discrete and Continuous Systems, Model of a System, Types of Models, Discrete-Event System Simulation, Steps in a Simulation Study, Simulation Examples.
+
+\n\nUNIT-II
+\n\nOverview of statistical models and queuing systems, Programming languages for simulation, Continuous and discrete simulation languages - FORTRAN, GPSS, SIMAN, S1MSCRIPT, SLAM and MODSIM III
+
+\n\nUNIT- III
+\n\nRandom Numbers: generation, properties of random numbers, generation of pseudo-random numbers, tests for random numbers, Random variate: generation, inverse transformation technique, uniform distribution, exponential distribution. Weibul‘s distribution, triangular distributions, Direct transformation for the normal distribution, convolution method of Erlang distribution, Acceptance rejection techniques: Poisson distribution, Gamma distribution.
+
+\n\nUNIT-IV
+Input data analysis: Data Collection, Identify the distribution, parameter and estimation. Goodness of fit tests: Chi square test-KS test, Multivariate and time series input models, Verification and validations of simulation models, Model building, verification and validation: Verification of simulation models, Calibration and validation of models face validity, Validation of model assumptions, validation input/output Transformations, Input/output validation using historical input data, Input/output validation using Turing test.
+
+\n\nUNIT-V
+\n\nOutput data analysis, stochastic nature of output data, Types of simulation with respect to output analysis. Measures of performance and their estimation, Output analysis for terminating simulations, Output analysis for steady-state simulations, Comparison and evaluation of alternative system designs: Comparison of several system designs. Statistical models for estimating the effect of design alternatives.
+
+\n\nSuggesting Reading:
+\n1. Jerry Banks, John S. Carson II, Barry L. Nelson, and David M. Nicol. Discrete-Event System Simulation, Pearson Education Asia, 2001.
+\n2. Narsingh Deo. System Simulation with Digital computers. Prentice Hall of India, 1979.
+\n3. Anerill M Law and W. David Kelton, Simulation modeling and analysis. McGrw Hill, 2009."
+
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.nud10"
+    tools:showIn="@layout/activity_nud10">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-1
+
+\n\nIntroduction to embedded systems, Characteristics and quality attributes of embedded systems, Challenges in embedded system design, Application and domain specific embedded systems.
+
+\n\nUNIT-II
+
+\n\nEmbedded System Architecture: Instruction set architecture, CISC and RISC instruction set architecture, basic embedded processor/ microcontroller architecture, CISC examples Motorola(68HC11), RISC example-ARM,DSP processor, Harvard architecture microcontroller example-PIC.
+
+\n\nUNIT-III
+
+\n\nEmbedded Computing Platform: programming for embedded systems using C, Device drivers, Program modeling concepts.
+
+\n\nProcess of Embedded System Development: Embedded software development on microcontroller platform, Network-based embedded applications and embedded control applications.
+
+\n\nUNIT-IV
+
+\n\nOperating System for Embedded System: Real time operating systems based embedded system design, Introduction to embedded systems design with micro C/OS-II and Vx works.
+
+\n\nPerformance Issues of an Embedded System: CPU performance, Analysis and optimization of CPU power consumption, Program execution time, Energy and power, Program size.
+
+\n\nUNIT-V
+
+\n\nEmbedded Systems Development Environment: IDE, cross compilation, Disassembler, Simulators, Emulators and debugging, Target hardware debugging, Boundary scan.Product enclosure design and development tools, Embedded product development life cycle-different phases and approaches of EDLC. Trends in embedded industry.
+
+\n\nSuggested Reading:
+
+\n1.Shibu K V, Introduction to Embedded Systems, Tata McGraw Hill, 2010.
+
+\n2.Raj Kamal, Embedded Systems Architecture, Programming and Design, Tata McGraw Hill, 2010.
+
+\n3.Dr.K.V.K.K. Prasad, Embedded/Real time Systems: Concepts, Design and Programming, Dreamtech Press, (2004). "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

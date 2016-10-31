@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.dic1"
+    tools:showIn="@layout/activity_dic1">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Unit-I
+
+\n\nElements of Digital Communication System, Comparison of Digital and Analog Communication Systems. Analog to Digital Conversion, Quantization and Encoding techniques, PCM. Companding in PCM systems: µ-law and A-law. Applications of PCM: PCM-TDM. Introduction to Linear Prediction Theory. Modulation and demodulation of DPCM and DM. Quantization noise and Slope overload error in DM. Modulation and demodulation of ADM. Comparison of PCM, DPCM, DM and ADM. SNR of PCM and DM. Vocoders.
+
+\n\nUnit-II
+
+\n\nUncertainty, Information and entropy. Source coding, Shannon – Fano algorithm and Huffman coding. Discrete memoryless channels, Probability relations in a channel, priori and posteriori entropies, cascaded channels, mutual information, Channel capacity, information rate and information capacity. Rate distortion.
+
+\n\nUnit-III
+
+\n\nTypes of transmission errors, need for error control coding, Linear Block Codes (LBC): description of LBC, generation, Syndrome and error detection, minimum distance of a block code, error correcting and error detecting capabilities, Standard array and syndrome decoding, Hamming codes. Binary cyclic codes (BCC): description of cyclic codes, encoding, decoding and error correction of cyclic codes using shift registers, BCH codes. Convolution codes: description, encoding and decoding.
+
+\n\nUnit-IV
+
+\n\nBase band digital data transmission, error probability, matched filter, correlation receiver, coherent and non-coherent ASK, FSK, PSK, DPSK and QPSK, and error probability. Need for MSK Modulation, Comparison of digital carrier modulation schemes. M-ary signaling schemes. Synchronization methods.
+
+\n\nUnit-V
+
+\n\nNeed for spreading a code, generation and characteristics of PN sequences. Direct Sequence Spread Spectrum and Frequency hopping spread spectrum systems and their applications. Acquisition schemes for spread spectrum receivers, Tracking of FH and DS signals.
+
+\n\nSuggested Reading:
+
+\n1.Simon Haykin, “Communication Systems,” 4/e, Wiley India, 2011.
+
+\n2.Herbert Taub, Donald L. Shilling and Goutam Saha, “Principles of Communication Systems,” 3/e, TMH, 2008.
+
+\n3.P. Ramakrishna Rao, “Digital Communication,” 1/e, TMH, 2011.
+
+\n4.A. Bruce Carlson and Paul B. Crilly, “Communication Systems,” 5/e, 2011.
+\n5.Sam Shanmugham.K., “Digital and Analog Communication Systems,” Wiley, 1979. "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

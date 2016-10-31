@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.tit15"
+    tools:showIn="@layout/activity_tit15">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dealing with a real time problem should be the focus of under graduate project.
+
+\n\nFaculty members should prepare project briefs (giving scope and references) well in advance, which should be made available to the students in the department.
+
+\n\nThe project may be classified as hardware / software modeling / simulation. It may comprise any or all elements such as analysis, design and synthesis.
+
+\n\nThe department should appoint a project coordinator who will coordinate the following.
+
+\n\nGrouping of students ( a maximum of 3 in group ) Allotment of projects and project guides
+\n\nProject monitoring at regular intervals.
+
+\n\nAll project allotment are to be completed by the 4th week of IV– Year, I-Semester, so that the students get sufficient time for completion of the project.
+
+\n\nAll projects will be monitored at least twice in a semester through individual presentations.
+
+\n\nEvery student should maintain a project dairy, wherein he/she needs to record the progress of his/her work and get it signed at least once in a week by the guide(s). If working outside and college campus, both the external and internal guides should sign the same.
+
+\n\nSessional marks should be based on the grades / marks, awarded by a monitoring project committee of faculty members as well as the marks given by the guide.
+
+\n\nEfforts be made the some of the projects are carried out in reputed industries / research organizations with the help of industry coordinators. Problems can also be invited from the industries to be worked out through undergraduate projects.
+
+
+\n\nCommon norms should be established for final documentation of the project report by the respective department on the following lines:
+
+\n\n1.The project little should be task oriented for example “Analysis and Modeling of ………..”
+
+\n\n2.Objectives of the project should be identified clearly and each student of the project batch should fulfill at least one of the objectives identified. The chapters of the project report should reflect the objectives achieved.
+
+\n\n3.Contents of the report should include the following
+
+\n\na.Title page
+
+\n\nb.Certificate
+
+\n\nc.Acknowledgements
+
+\n\nd.Abstract (limited to one/two paragraphs, page no.1 should start from this)
+
+\n\ne.Contents (Ch. No.         Title of the chapter/section Page No.)
+\n\nf.List figures (Fig. No.     caption of the figure        Page No.)
+\n\ng.List of Tables (Table. No.              Caption of the table            Page No.)
+\n\nh.List of Symbols (ex. C:                 Velocity of light 3 ´ 108 m/s  )
+
+\n\ni.Chapter I should be introduction (limited 4-5 Pages) This should contain sections as objectives of the project, technical approach, literature survey, the importance of the project and organization of the report.
+
+\n\nj.Chapter II, Last two chapters should be on results with discussions and conclusions.
+
+\n\nk.References in IEEE format which should be duly referred in the report.
+
+\n\nl.Appendices
+
+\n\nThe algorithm related to the software developed should be thoroughly discussed.
+
+\n\nm.Index.
+
+\n\n4.The project reports should be hard bound.
+
+\n\nThe project work if found inadequate and gets an Unsatisfactory grade, the candidate should repeat the project work with a new problem or improve the quality of work and report it again.
+
+\n\nThe project report should be evaluated and one of the following grades may be awarded at the external examination.
+
+\n\nGrade :  Excellent / Very Good / Good / Satisfactory / Unsatisfactory. "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

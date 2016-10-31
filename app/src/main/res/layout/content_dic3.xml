@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.dic3"
+    tools:showIn="@layout/activity_dic3">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Unit-I
+
+\n\nPrinciples of radiation, retarded potential and isotropic radiator, Basic antenna parameters: patterns, radiation intensity, far field, near field, Gain and directivity, Antenna Polarization, effective aperture, aperture efficiency. Point sources, Current distribution, infinitesimal dipole.
+
+\n\nUnit-II
+
+\n\nHalf-wave dipole, quarter wave monopole, Effect of earth on vertical patterns, Loop antenna, Far field pattern of circular loop with uniform current. Helical Antennas: Axial mode pattern, wideband characteristics, radiation efficiency, Q, Bandwidth, S/N ratio.
+
+\n\nUnit-III
+
+\n\nArrays of point sources, two element array with equal and unequal amplitudes, different phases. Linear array with uniform distribution, binomial array, principle of pattern multiplication. Broadside and End fire arrays, effect of inter element phase shift on beam scanning.
+
+\n\nUnit-IV
+
+\n\nVHF,UHF turnstile antennas, Rhombic Antenna, Yagi - Uda Array, Log periodic Antenna, Horn, Parabolic Reflector, Lens antennas. Microstrip antennas: different types, advantages and disadvantages of Microstrip antennas (Working principle and characteristics only).
+
+\n\nAntenna Measurements: Antenna Test Site, impedance, radiation pattern and gain measurement techniques, Antenna temperature.
+
+\n\nUnit-V
+
+n\n\Ground wave propagation, Space and Surface waves, Tropospheric refraction and reflection, Duct propagation, Sky wave propagation, Regular and irregular variations in ionosphere. Friis transmission formula, Line of sight propagation.
+
+\n\nSuggested Reading:
+
+\n1.John D. Krauss, Ronald J. Marhefka and Ahmad S. Khan, “Antennas and Wave Propagation,” 4/e, TMH, 2010.
+
+\n2.Constantine A. Balanis, “Antenna Theory: Analysis and Design,” 3/e, John Wiley, 2005.
+
+\n3.Edward C. Jordan and Kenneth G. Balmain, “Electromagnetic Waves and Radiating Systems,” 2/e, PHI, 2001.
+
+\n4.Chatterjee, R., “Antenna Theory and Practice,” New Age Publishers, 2008. "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

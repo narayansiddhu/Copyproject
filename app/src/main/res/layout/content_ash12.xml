@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.ash12"
+    tools:showIn="@layout/activity_ash12">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-I
+
+\n\nIntroduction : Definition, Applications and Types of Real Time Systems, Typical Case Studies of Real Time Systems, Timing Constraints.
+
+\n\nA Reference Model for Real Time Systems: Processors and Resources, Periodic Task Model, Precedence and Data Dependency, Temporal, Functional and Resource parameters, Scheduling Hierarchy.
+
+\n\nUNIT-II
+
+\n\nReal Time Scheduling: Different Approaches- Clock Driven, Priority
+Driven, Scheduling of Periodic, Aperiodic and Sporadic Jobs in Priority
+ Driven Systems.
+
+\n\nUNIT-III
+
+\n\nResource Management: Resources and Resource Access Control, Critical Section, Priority: Ceiling Protocols, Concurrent Access to Data Objects.
+
+\n\nUNIT-IV
+
+\n\nImplementation Aspects: Timing Services and Scheduling Mechanisms, Other Basic Operating System Functions, Processor Reserves and Resource Kernel, Open System Architecture, Capabilities of Commercial Real Time Operating Systems, Predictability of General Purpose Operating Systems.
+
+\n\nUNIT-V
+
+\n\nCase Studies: Vx – Works, RT Linux.
+
+\n\nSuggested Reading:
+
+\n1.Jane W.S. Liu ”Real Time System”, Pearson Education Asia,2001.
+
+\n2.C.M. Krishna and Kang 0. Shin, “Real Time Systems”, McGraw Hill Companies Inc., 1997.
+
+\n3.Raymond J.A. Buhr, Donald L. Bailey, “An Introduction to Real Time Systems”, Prentice Hall International, 1999.
+
+\n4.K.V.K.K Prasad, “Embedded Real Time Systems, Concepts, Design and Programming”, Dream Tech, 2003."
+
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+    </ScrollView>
+</RelativeLayout>

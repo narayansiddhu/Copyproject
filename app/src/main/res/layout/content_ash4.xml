@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.ash4"
+    tools:showIn="@layout/activity_ash4">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT I
+\n\nEmbedded Computing: Introduction, Complex Systems and Microprocessor; Embedded
+System Design Process, Formalisms for System Design, Design Examples, The 8051
+Architecture:Introduction, 8051 Micro Controller Hardware, Input/Output Ports and
+Circuits, External Memory, Counter and Timers, Serial data Input/Output, interrupts.
+
+\n\nUNIT II
+\n\nBasic Assembly Language Programming Concepts: Assembly Language Programming
+Process, Programming Tools and Techniques, Programming the 8051, Data Transfer
+and Logical Instructions.
+\n\nArithmetic Operations, Decimal Arithmetic, Jump and Call Instructions, Further Details
+on Interrupts.
+
+\n\nUNIT III
+\n\nApplications: Interfacing with Keyboards, Displays, D/A and NO Conversions, Multiple
+Interrupts, Serial Data Communication, Introduction to Real-Time Operating
+Systems:Tasks and Task States, Tasks and Data, Semaphores, Shared Data, Message
+Queues, Mailboxes and Pipes, Timer Functions, Events, Memory Management, Interrupt
+Routines in an RTOS Environment.
+
+\n\nUNIT IV
+\n\nBasic Design Using a Real-Time Operating System: Principles, Semaphores and
+Queues, Hard Real-Time Scheduling Considerations, Saving Memory and Power, An
+example RTOS like UC-OS(Open Source).
+\n\nEmbedded Software Development Tools:
+Host and Target machines, Linker/Locators for Embedded Software, Getting Embedded
+Software into the Target System, Debugging Techniques: Testing on Host Machine,
+Using Laboratory Tools, An Example System.
+
+\n\nUNIT V
+\n\nIntroduction to advanced architectures: ARM and SHARC, Processor and memory
+organization and Instruction level parallelism, Net advanced embedded Systems, Design
+Examples-Elevator Controller.
+
+\n\nSuggested Reading:
+\n1.Computers and Components, Wayne Wolt Elsevier.
+\n2.The 8051 Microcontroller; Third Edition,Kenneth J.Ayala, Thomson.
+\n3.An Embedded Software Primer, David E.Simor,Pearson Education
+\n4.Embedding System building blocks, Labrosse, via CMP Publishers.
+\n5.Embedded Systems, Raj Kamal, Tata Mc Graw Hill.
+"
+
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+    </ScrollView>
+</RelativeLayout>

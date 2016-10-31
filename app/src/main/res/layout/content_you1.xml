@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.you1"
+    tools:showIn="@layout/activity_you1">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-I
+
+\n\nIntroduction to Digital Signal Processing: Classification of Signals and Systems. Linear shift invariant systems, stability and causality, Sampling of Continuous signals -Signal Reconstruction, quantizing and encoding, linear constant co-efficient difference equations, properties of discrete system-linearity.
+
+\n\nUNIT-II
+
+\n\nFourier Analysis: Distinguishing Fourier transform of discrete singular and discrete Fourier transform, Discrete Fourier series, Phase and amplitude spectra, Properties of Discrete Fourier Transform, Linear Convolution of sequence using DFT, Frequency domain representation of discrete time system DTFT and DFT , Computation of DFT. Fast Fourier transform: Radix- 2 decimation in time and decimation in frequency FFT algorithms, Inverse FFT.
+
+\n\nUNIT-III
+
+\n\nZ- Transform: Application of Z- Transforms for solution of difference equations of digital filters system function -stability criterion, Realization of filters -direct, canonic. Cascade and parallel form, linear phase realization.
+
+\n\nUNIT-IV
+
+\n\nIIR Filters: Design of Butterworth Chebyshev filters, IIR filter design by impulse invariant bilinear transformation, impulse invariance method, step invariance method
+
+\n\nUNIT-V
+
+\n\nFIR Filters: Characteristics of FIR Digital Filters. Frequency response, comparison of FIR, IIR filters -Window techniques, Design of these filters, using -Rectangular, Hamming, Bartlet, Kaiser windows, Architecture and features of TMS 320F/2047 and ADSP signal processing chips, Applications of DSP.
+
+\n\nSuggested Reading:
+
+\n\n1.P. VenkataRamani, M.Bhaskar, “Digital Signal Processor; Architecture, Programming and Application “, TataMcGrawHill-2004
+
+\n\n2.Avatar Singh, S.Srinivasan, “Digital Signal Processing, Thomson Publication, 2004.
+
+\n\n3.Lafley, DSP Processing. fundamentals. architecture and feature. S Chand Publishers and Co. 2000
+
+\n\n4.Jackson L.B. Digital Filters and Signal Processing. Second edition, Kluwer Academic Publishers. 1989
+
+\n\n5.Oppenheim A V, and Schafer R. W. Digital Signal Processin, Prentice Hall Inc. 1975. "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

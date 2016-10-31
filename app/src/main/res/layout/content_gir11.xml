@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.gir11"
+    tools:showIn="@layout/activity_gir11">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-I
+\n\nElements of Probability Theory - Probability Distributions: Random variables, density and distribution functions, Mathematical expectation-Mean and Variance, Binominal distribution, Poisson distribution, Normal distribution, Exponential distribution, Weibull distribution.
+
+\n\nUNIT-II
+
+\n\nDefinition of Reliability: Component reliability, Hazard rate, derivation of the reliability function in terms of the hazarad rate. Causes of failures, types of failures. Bath tub curve, MTTR, MTBF. Reliability logic diagrams for series, parallel, series-parallel, non-series-parallel configurations. Minimal cut-set and decomposition methods
+
+\n\nUNIT-III
+
+\n\nDiscrete Markov Chains: General modeling concepts, stochastic transitional probability matrix, time dependent probability evaluation and limiting state probability evaluation. Absorbing states. Continuous Markov Processes: Modeling concepts, State space diagrams, Stochastic Transitional Probability Matrix, Evaluating limiting state Probabilities. Reliability evaluation of repairable systems.
+
+\n\nUNIT-IV
+
+\n\nGenerating System Reliability Analysis: Generation system model – capacity outage probability tables – Recursive relation for capacitive model building – sequential addition method – unit removal – Evaluation of loss of load and energy indices. Frequency and Duration methods – Evaluation of equivalent transitional rates of identical and non-identical units – Evaluation of cumulative probability and cumulative frequency of non-identical generating units – 2-level daily load representation - merging generation and load models
+
+
+
+\n\nUNIT-V
+
+\n\nDistribution System Reliability Analysis: Radial networks –Evaluation of Basic reliability indices, performance indices - load point and system reliability indices – customer oriented, loss and energy oriented indices. Parallel networks- inclusion of bus bar failures, scheduled maintenance – temporary and transient failures – weather effects – common mode failures –Evaluation of various indices.
+
+\n\nSuggested Reading:
+
+\n1.Roy Billinton and Ronald N Allan,Reliability Evaluation of Engineering Systems”, Plenum Press.
+
+\n\n2.Roy Billinton and Ronald N. Allan, Reliability Evaluation of Power Systems , Plenum Press, New York and London (Second Edition), 1996.
+
+\n\n3.J. Endrenyi, John Wiley and Sons, Reliability Modeling in Electric Power Systems, 1978. (First Edition). "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

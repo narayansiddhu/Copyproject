@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.bha6"
+    tools:showIn="@layout/activity_bha6">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT- I
+
+\n\nInteraction Paradigms: Computing Environments, Analyzing Interaction Paradigms, Interaction Paradigms
+
+\n\nInteraction Frameworks and Styles: Frameworks for Understanding Interaction, Coping with Complexity, Interaction Styles
+
+\n\nUNIT- II
+
+\n\nInteraction Design Process: Iterative Design, User-Centered Design, Interaction Design Models, Overview of Interaction Design Models
+
+\n\nDiscovery : Discovery Phase Framework, Collection, Interpretation ,Documentation
+
+\n\nDesign : Conceptual Design, Physical Design, Evaluation, Interface Design Standards, Designing the Facets of the Interface
+
+\n\nUNIT- III
+
+\n\nDesign Principles: Principles of Interaction Design, Comprehensibility,Learnability, Effectiveness/Usefulness, Efficiency/Usability, Grouping,Stimulus Intensity , Proportion , Screen Complexity, Resolution/Closure, Usability Goals
+
+\n\nInteraction Design Models: Model Human Processor , Keyboard Level Model, GOMS, Modeling Structure, Modeling Dynamics, Physical Models
+
+\n\nUsability Testing: Usability, Usability Test, Design the Test, Prepare for the Test, Perform the Test, Process the Data
+
+\n\nUNIT-IV
+
+\n\nInterface Components: The WIMP Interface, Other Components Icons : Human Issues Concerning Icons, Using Icons in Interaction Design, Technical Issues Concerning Icons
+
+\n\nColor: The Human Perceptual System, Using Color in Interaction Design, Color Concerns for Interaction Design, Technical Issues Concerning Color
+
+\n\nUNIT- V
+
+\n\nText : Human Issues Concerning Text, Using Text in Interaction Design, Technical Issues Concerning Text
+
+\n\nSpeech and Hearing : The Human Perceptual System, Using Sound in Interaction Design, Technical Issues Concerning Sound
+
+\n\n\Touch and Movement: The Human Perceptual System, Using Haptics in Interaction Design, Technical Issues Concerning Haptics
+
+\n\nSuggested Reading:
+
+\n1. Steven Heim, The Resonant Interface: HCI Foundations for Interaction Design, Addison-Wesley, 2007.
+
+\n2. J. Preece, Y. Rogers, and H. Sharp, Interaction Design: Beyond Human-Computer Interaction, Wiley and Sons, 2 nd Ed., 2007.
+
+\n3. Ben Shneiderman, Catherine Plaisant, Designing the User Interface: Strategies for Effective Human-Computer Interaction,5 th edition, , Addison-Wesley, 2009.
+"
+
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+    </ScrollView>
+</RelativeLayout>

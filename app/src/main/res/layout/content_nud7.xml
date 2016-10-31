@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.nud7"
+    tools:showIn="@layout/activity_nud7">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-I
+
+\n\nIntroduction to Nuclear Physics: Basic nuclear properties, mass and abundance of nuclides, nuclear mass and binding energy, radio active decay, units for measuring nuclear radiation and radiation dose. Alpha decay, beta decay, gamma decay; detection of nuclear radiation, nuclear reactions, neutron physics, nuclear fission, chain reaction, controlled fission reactors, atom bomb, nuclear fusion, controlled fusion reactors, hydrogen bomb.
+
+\n\nUNIT-II
+
+\n\nVarious Types of Nuclear Reactors: Types of nuclear materials-fuels, moderators, coolants, control rods, shielding materials etc. PWR, BWR, Heavy water, CANDU, gas-cooled, liquid-metal cooled reactors, fast breed reactors.
+
+\n\nUNIT-III
+
+\n\nNuclear Power Plants: Heat transfer aspects of nuclear power plants, Nuclear power plants: layout, site selection, controls and instrumentation, India’s Programme for nuclear power, Survey of present nuclear power plants in India and future scenario.
+
+\n\nUNIT-IV
+
+\n\nSafety Aspects of Nuclear Power Reactors: Biological effects of nuclear radiation. Reactor shielding, Reactor safety, Nuclear power and environment, nuclear reactor accidents; review of the Three-Mile-Island accident, and the Chernobyl accident. Storage and disposal of nuclear waste.3 14
+
+\n\nUNIT-V
+
+\n\nNuclear Fusion Reactors: Basic properties of nuclear fusion and thermo nuclear reactions, technology of controlled fusion reactors, International Thermonuclear Energy Research (ITER) project in France.
+
+\n\nSuggested Reading:
+
+\n\n1.Samuel Glasstone and A. Sesonke, “Nuclear Reactor Engineering” Vol. 1 and 2
+
+\n\n2.J. Kenneth Shultis and Richard E. Faw, “Fundamentals of Nuclear Science and Engineering”.
+
+\n\n3.John R.Lamarsh and Antony J.Baratta, “Introduction to nuclear power engineering” "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

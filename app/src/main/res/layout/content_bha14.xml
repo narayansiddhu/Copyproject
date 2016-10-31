@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.bha14"
+    tools:showIn="@layout/activity_bha14">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-I
+
+\n\nIntroduction to Cloud Computing : Cloud Computing in a Nutshell, System Models for Distributed and Cloud Computing, Roots of Cloud Computing, Grid and Cloud, Layers and Types of Clouds, Desired Features of a Cloud, Basic Principles of Cloud Computing, Challenges and Risks, Service Models.
+
+\n\nUNIT-II
+
+\n\nVirtual Machines and Virtualization of Clusters and Data Centers, Levels of Virtualization, Virtualization Structures/Tools and Mechanisms, Virtualization of CPU, Memory and I/O Devices, Virtual Clusters and Resource Management, Virtualization Data-Center Automation.
+
+\n\nCase studies : Xen Virtual machine monitors- Xen API. VMware - VMware products-Vmware Features. Microsoft Virtual Server - Features of Microsoft Virtual Server.
+
+\n\nUNIT-III
+
+\n\nCloud computing architectures over Virtualized Data Centers : Data-Center design and Interconnection networks, Architectural Design of Compute and Storage Clouds, Public Cloud Platforms, GAE, AWS, Azure, Inter-cloud Resource Management
+
+\n\nUNIT-IV
+
+\n\nCloud Security and Trust Management, Data Security in the Cloud : An Introduction to the Idea of Data Security, The Current State of Data Security in the Cloud CryptDb: Onion Encryption layers-DET,RND,OPE,JOIN,SEARCH, HOM, and Homomorphic Encryption, FPE.
+
+\n\nTrust, Reputation and Security Management.
+
+\n\nUnit-V
+
+\n\nCloud Programming and Software Environments : Features of Cloud and Grid Platforms, parallel and distributed Programming Paradigms, Programming Support of Google App Engine, Programming on Amazon AWS and Microsoft Azure, Emerging Cloud Software Environments.
+
+\n\nCommon Standards in Cloud Computing : The Open Cloud Consortium, the Distributed Management Task Force, Standards for Application Developers, Standards for Messaging. Internet Messaging Access Protocol (IMAP), Standards for Security, Examples of End-User Access to Cloud Computing.
+
+\n\nSuggested Reading:
+
+\n1) John W. Rittinghouse, ?Cloud Computing: Implementation, Management, and Security?. James F. Ransome, CRC Press 2009.
+
+\n2) Kai Hwang. Geoffrey C.Fox, Jack J. Dongarra, ?Distributed and Cloud Computing From Parallel Processing to the Internet of Things?, Elsevier, 2012.
+
+\n3) Rajkumar Buyya, James Broberg and Andrzej M. Goscinski,?Cloud Computing: Principles and Paradigms (Wiley Series on Parallel and Distributed Computing), Wiley Publishing �2011
+
+\n4) Raluca Ada Popa, Catherine M.S. Redfield, Nickolai Zeldovich, and Hari Balakrishnan, ?CryptDB: Protecting Confidentiality with encrypted Query Processing?23rd ACM Symposium on Operating Systems Principles (SOSP 2011), Cascais, Portugal October 2011.
+
+\n5) A Fully Homomorhic Encryption Scheme, Craig Gentry, September 2009.
+
+\nDavid Marshall, Wade A. Reynolds,
+\nAdvanced Server Virtualization: VMware and Microsoft Platform in the Virtual Data Center,
+\nAuerbach Publications, 2006.
+"
+
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+    </ScrollView>
+</RelativeLayout>

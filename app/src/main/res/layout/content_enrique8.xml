@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.enrique8"
+    tools:showIn="@layout/activity_enrique8">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="List of Experiments:
+            \n\n1.CRO-Applications, Measurements of R, L and C using LCR meter, Color code methodsoldering practice.
+            \n\n 2.Characteristics of Semiconductors diode(Ge, Si and Zener).
+            \n\n3.   Static characteristics of BJT-Common Emitter.
+            \n\n4.   Static characteristics of BJT-Common Base.
+            \n\n5.   Static characteristics of FET.
+            \n\n6.   RC-Phase Shift Oscillator.
+            \n\n7.   Hartley and Colpitt’s Oscillators.
+            \n\n8.   Common Emitter Amplifier.
+            \n\n9.   A stable Multivibrator.
+            \n\n10. Full-wave rectifier with and without filters using BJT.
+            \n\n11. Operational Amplifier applications.
+            \n\n12. Strain Guage Measurement.
+            \n\n13. Analog-to-Digital and Digital to Analog Converters.
+            \n\nSuggested Reading :
+            \n1.David Bell A., Operational Amplifiers and Linear ICS, Prentice Hall of India, 2005.
+            \n2.David Bell A.,Laboratoryfor Electronic Devices and Circuits, Prentice Hall of India, 2007.
+            \n3.Boylested R.L. and Nashelsky, Electronics Devices and Circuit Theory, Prentice HallIndia,2006.
+            \n"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+    </ScrollView>
+
+</RelativeLayout>

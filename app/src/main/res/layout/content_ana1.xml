@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.ana1"
+    tools:showIn="@layout/activity_ana1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/hello_sid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UNIT–I
+
+\n\nFunctions of Complex variables : Limit and Continuity of function, Analytic functions, Cauchy-Reimann equations, Cartesian and Polar forms, Harmonic functions, Complex integration, Cauchy's theorem, Derivative of Analytic functions, Cauchy's integral formula and it's applications.
+
+
+\n\nUNIT–II
+
+\n\nResidue theory and Transformations: Taylor's and Laurent's Series Expansions, Zeroes and Singularities, Residues, Residue theorem, Evaluation of real Integrals using Residue theorem, Conformal Mapping, Bilinear transformation..
+
+\n\nUNIT–III
+
+\n\nZ-Transforms :Introduction, Basic Theory of Z-transforms, Z-transform of some standard sequences, Existence of Z-transform, Linearity property, Translation theorem, Scaling property, Initial and Final value theorems, Differentiation of Z-transforms, Convolution theorem, Solution of difference equations using Z-transforms.
+
+\n\nUNIT–IV
+
+\n\nFourier Transforms: Introduction, Fourier integrals, Fourier sine and cosine integrals, Complex form of Fourier integral, Fourier transform, Fourier sine and cosine transforms, Finite Fourier sine and cosine transforms, Properties of Fourier transforms, Convolution theorem for Fourier transforms.
+\n\nUNIT–V
+
+\n\nNumerical Methods: Solutions of Algebraic and Transcendental equations, Bisection method and Newton-Raphson’s  method, Interpolation, Newton’s Forward and Backward difference interpolation, Lagrange’s interpolation, Newton’s divided difference interpolation, Numerical differentiation, Solution of differential equations by Euler’s method and Runge-Kutta method of order four.
+
+
+
+\n\nSuggested Reading:
+\n1.R.K. Jain and S.R.K. Iyengar, Advanced Engineering Mathematics, Narosa Publications 4th    Edition 2014
+\n2.B.S. Grewal, Higher Engineering Mathematics, Khanna Publications, 43rd  Edition, 2014.
+\n3.Erwin Kreyszig,  Advanced Engineering Mathematics, 9th Edition, 2012.
+\n4.James Brown and Ruel Churchill, Complex variables and Applications, 9th edition, 2013.
+\n5.Vasishtha and Gupta, Integral Transforms, Krishnan Prakashan Publications, 2014."
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        />
+    </ScrollView>
+
+</RelativeLayout>

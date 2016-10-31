@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.nan4"
+    tools:showIn="@layout/activity_nan4">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-I
+
+\n\nSignals: Definitions and classifications, Analogy between vectors and signals, signal representation by a discrete set of orthogonal functions, orthogonality and completeness, Continuous-time, energy and power signals, Representation of Continuous-time signals: Fourier series – Trignometric and Exponential Fourier series, computational formulae, symmetry conditions, The complex Fourier spectrum.
+
+\n\nFourier Transform: The direct and inverse FT, existence of FT, Properties of FT, The Frequency Spectrum.
+
+\n\nUNIT-II
+
+\n\nLaplace Transform: The direct LT, Region of convergence, existence of LT, properties of LT. The inverse LT, Solution of differential equations, system transfer function. Linear Convolution: Graphical interpretation, properties of convolution, Correlation: Auto and Cross correlation, graphical interpretation, properties of correlation.
+
+\nn\UNIT-III
+
+\n\nDiscrete-time signals and systems: Sampling, classification of DT signals, Discrete-time energy and power signals, Linear Shift invariant systems, Stability and Causality, Linear constant coefficient systems, Frequency domain representation of discrete time systems and signals.
+
+\n\nLinear Convolution: Graphical interpretation, properties of convolution. Correlation: Auto and Cross correlation, graphical interpretation, properties of correlation.
+
+\n\nUNIT- IV
+
+\n\nZ-Transform: The direct ZT, Region of convergence, Z-plan e and S-plane correspondence. Inverse ZT, Properties of Z-transforms, Solution to linear difference equations, System transfer function.
+
+\n\nUNIT- V
+
+\n\nDiscrete Fourier series, Sampling the z-transform, Discrete Time Fourier Transform (DTFT), properties of DTFT, Discrete Fourier Transform(DFT), properties of DFT, Linear convolution using DFT.
+
+\n\nSuggested Reading:
+
+\n\n1.B.P. Lathi, Signals, Systems and Communication, BS Publications, 2006.
+
+\n\n2.Luis F. Chaparro, Signals and Systems using MATLAB, Academic press, 2011
+
+\n\n3.Alan V. Oppenheim and Ronald W. Schafer, Digital Signal Processing, PHI, 2008.
+
+\n\n4.P. Ramakrishna Rao, Signals and Systems, McGraw Hill, 2008.
+
+\n\n5.Alan V. Oppenheim, Alan S. Wilsky and S. Hamid Nawab, Signals and Systems, 2nd ed., PHI, 2009. "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

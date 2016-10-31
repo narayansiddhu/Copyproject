@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.dic2"
+    tools:showIn="@layout/activity_dic2">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Unit-I
+
+\n\nFast Fourier Transform: Overview of Discrete time Fourier Transform (DTFT), Discrete Fourier transform (DFT), – Efficient computation of DFT- Properties of DFT .
+
+\n\nFFT algorithms –Radix-2 FFT algorithms – Decimation in Time – Decimation in Frequency algorithms - in place computation- bit reversal-Use of FFT algorithms in Linear Filtering and Correlation.
+
+\n\nUnit-II
+
+\n\nDigital filters (FIR) Design: Amplitude and phase responses of FIR filters – Linear phase filters – Windowing techniques for design of Linear phase FIR filters – Rectangular, Bartlet, hamming, Blackman, Kaiser – realization and finite word length effects.
+
+\n\nUnit-III
+
+\n\nDigital filters (IIR) Design: Butterworth and Chebychev approximation- IIR digital filter design techniques- Impulse Invariant transformation - Bilinear transform techniques- Digital Butterworth-Chebychev filters,-comparisons between FIR and IIR filters.
+
+\n\nUnit-IV
+
+\n\nMultirate Digital Signal Processing : Introduction -Decimation by a Factor D- Interpolation by a Factor I- Sampling Rate Conversion by a Rational Factor I/D- Implementation of Sampling Rate Conversion-Multistage implementation of Sampling Rate Conversion- Sampling Rate Conversion by an Arbitrary factor- Application of Multirate Signal Processing.
+
+
+\n\nUnit-V
+
+\n\nIntroduction to DSP Processors: Difference between DSP and other microprocessors architectures- their comparison and need for ASP, RISC and CPU- General purpose DSP processors- TMS 320C 54XX processors, architecture, addressing modes-instruction set.
+
+\n\nSuggested Reading:
+
+\n\n1.Alan V. Oppenheim and Ronald W. Schafer, “Digital Signal Processing,” PHI, 2/e, 2010.
+
+\n\n2.John G. Proakis and Dimtris G. Manolakis, “Digital Signal Processing Principles, Algorithms and Application,” PHI, 3/e, 2000.
+
+\n\n3.Ashok Ambardar, “Digital Signal Processing: A Modern Introduction,” Cengage Learning, 2009.
+
+\n\n4.Li Tan, “Digital Signal Processing: Fundamentals and Applications,” Elsevier, 2012.
+
+\n\n5.B.Venkataramani and M. Bhaskar, “Digital Signal Processor Architecture, Programming and Application,” TMH, 2002. "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

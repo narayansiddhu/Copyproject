@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.Englab"
+    tools:showIn="@layout/activity_englab">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The following are the objectves of the course :
+            \n   To enable the students to
+            \n\nlearn the sound systems of English
+            \n\nunderstand word stress of English
+            \n\nparticipate in group discussions and debates
+            \n\nimprove their presentation and participation skills
+            \n\nunderstand how interviews are conducted
+            \n\nNote :While teaching the following items, emphasis may be laid on intensive practice in the language lab. Lecturing may be avoided, as far as possible.
+            \n\n1.Introduction to English Phonetics : Organs of Speech : the respiratory, articulatory and phonatory systems.
+            \n\n2.Sound Systems of English : Phonetic sounds, introduction to International Phonetic Alphabet, classification and description of English phonetic           sounds; minimal pairs; The syllable
+            \n\n3.Connected Speech : Strong forms, weak forms, contracted forms,ellision.
+            \n\n4.Word Stress : Primary stress, secondary stress, functional stress, rules of word stress.
+            \n\n5.Rhythm and Intonation : Introduction to rhythm and intonation.
+            \n\n6.Presentation Skills : Making effective presentations, expressions which can be used in presentations, use of non-verbal communication, coping with stage fright, handling questions and answer session use of audio visual aids, power point presentations.
+            \n\n7.Interview Skills : Planning and preparing for interviews, facing interviews confidently, use of suitable expressions during interviews.
+            \n\n8.Group Discussion : Objectives of GD; Types of GD's Initiating, continuing and concluding a GD; Team work.
+            \n\n9.Debate : Differences between a debate and a group discussion, essentials of a debate, paritipating in a debate.
+            \n\n10.Public Speaking : Advantages of public speaking, essentials of an effective speech, rehearsal techniques, planning and delivering a speech, speaking strategies.
+            \n\n11. Role play : Use of dialogues in a variety of situations and settings.
+            \n\n12. Use of dictionary and thesaurus : Advantages of using a dictionary and thesaurus effective use of dictionary and thesaurus.
+            \n\n13. Listeninng activities
+            \n\nLab Manual Recommended :
+            \n\n1. E.Suresh  Kumar, A Handbook for English Language Laboratories (with CD) Revised edition, Cambridge University Press India Pvt. Ltd. 2014
+            \n\nBooks Recommended :
+            \n\n1.T. Balasubramanian, A Text book of English Phonetics for Indian Students, Macmillan, 2008.
+            \n\n2.Edgar Thorpe, Winning at Interviews, Pearson Education, 2006.
+            \n\n3.J. Sethi et al, A Practical Course in English Pronunciation (with CD), Prentice Hall of India, 2005.
+            \n\n4.Hari Mohan Prasad, How to Prepare for Group Discussions and Interviews, Tata McGraw Hill, 2006."
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+    </ScrollView>
+
+</RelativeLayout>

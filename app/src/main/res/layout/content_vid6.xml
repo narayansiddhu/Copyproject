@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.vid6"
+    tools:showIn="@layout/activity_vid6">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Unit-I
+
+\n\nDC Generators: Constructional details, Simple lap and wave windings, Methods of excitation, Induced emf, Basic ideas of armature reaction and commutation, Characteristics of shunt, series and compound generators and applications.
+
+\n\nDC Motors: Torque developed in motors, Motor starter, Characteristics of shunt, series and compound motors, Speed control of DC motors.
+
+\n\nUnit-II
+
+\n\nBalanced three-phase system: Star-delta connection, Relationship between line and phase quantities, Measurement of power by Two-Wattmeter method. AC Generators: Construction, emf equation, Armature reaction, Synchronous impedance, Regulation.
+
+\n\nUnit-III
+
+\n\nTransformers: Single-phase transformer: Construction, Theory of operation, Phasor diagram under no-load and loaded conditions, OC and SC tests on transformer, Efficiency and regulation, Auto transformer, Theory of operation.
+
+\n\nUnit-IV
+
+\n\nInduction Motors: Construction, Production of rotating magnetic field, Slip-torque characteristics, Starters for cage and wound rotor induction motors, Single-phase induction motors, Construction, Theory of operation, Characteristics of shaded pole, Split phase and Capacitor motors, Applications.
+
+\n\nUnit-V
+\n\nPower Systems: Basic ideas of thermal, hydro, nuclear and non-conventional generating systems and layout, Block schematic of power systems, Transmission using high voltages, Advantages, Basic ideas of line parameters, Short line calculations.
+
+\n\nSuggested Reading:
+\n1.H.Cotton, Electrical Technology, BI Publications, 2002.
+\nM.L. Soni, P.V. Gupta and V.S. Bhatnagar, A Course in Electrical Power, Dhanpat Rai and Sons, Delhi, 2005. "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.bha1"
+    tools:showIn="@layout/activity_bha1">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-I
+\n\nIntroduction: Fundamentals of Data Mining, Kinds of Patterns can be mined, Technologies Used, Applications and Issues in Data Mining
+\n\nTypes of Data: Attribute types, Basic Statistical descriptions of Data, Measuring data Similarity and Dissimilarity
+\n\nData Preprocessing: Need of Preprocessing, Data Cleaning, Data Integration, Data Reduction, Data Transformation
+\n\nUNIT-II
+\n\nData Warehouse and OLAP: Data Warehouse, Data Warehouse Modeling, Data Warehouse Design and Usage, Data Warehouse Implementation, Data Generalization by Attribute-oriented induction
+\n\nUNIT-III
+\n\nMining Frequent Patterns, Associations and Correlations: Market Basket Analysis, Association rule mining, Frequent Item set mining methods, Pattern Evaluation methods, Constraint based frequent pattern mining, Mining Multilevel and Multidimensional patterns
+\n\nUNIT-IV
+\n\nClassification :  General approach to classification, Classification by Decision Tree Induction , Bayes Classification methods, Bayesian Belief Networks, Classification by Backpropogation,  Lazy Learners, Other Classification methods , Classification using Frequent patterns,  Model Evaluation  and selection
+\n\nUNIT-V
+\n\nCluster Analysis: Basic Clustering methods, Partitioning methods, Density –Based Methods, Grid-based methods, and Evaluation of Clustering, Outlier Analysis and Detection methods
+ \n\nData Mining Trends and Research Frontiers: Mining Complex Data Types, Data Mining Applications, Data Mining Trends
+
+\n\nSuggested Reading:
+\n1. Data Mining – Concepts and Techniques - Jiawei Han and Micheline Kamber and Jain Pei, Third Edition, India ( 2011).
+
+\n\nReferences:
+\n1. Data Mining Introductory and advanced topics – Margaret H Dunham, Pearson education
+\n2.  Data Mining Techniques – Arun K Pujari, University Press.
+\n3.  Data Warehousing in the Real World – Sam Anahory and Dennis Murray Pearson Edn
+\n4.  Data Warehousing Fundamentals – Paulraj Ponnaiah Wiley Student ed.
+\n5. The Data Warehouse Life cycle Tool kit – Ralph Kimball Wiley student   edition."
+
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+    </ScrollView>
+</RelativeLayout>

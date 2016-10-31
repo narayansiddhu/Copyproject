@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.bha17"
+    tools:showIn="@layout/activity_bha17">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Solving a real life problem should be the focus of U.G. projects. Faculty members should propose the projects (brief scope and references) well in advance which should be made available to the students at the department library. The project could be classified as hardware, software, modeling, simulation etc. The project should involve one or many elements of techniques such as analysis, design, synthesis.
+
+\n\nThe department will appoint a project coordinator who will coordinate the following:
+
+\n\nGrouping of students (maximum of 3 in a group) Allotment of projects and project guides
+\n\nProject monitoring at regular intervals.
+
+\n\nAll projects allotment is to be completed by the 4th week of 4th year 1st semester so that the students get sufficient time for completion of the project.
+
+\n\nAll projects will be monitored at least twice in a semester through student presentations. Sessional marks are to be based on the Grades/ Marks, awarded by a monitoring committee comprising of faculty members as well as by the supervisor.
+
+\n\nEfforts should be made that some of the projects are carried out in industries with the help of industry coordinators, Problems can also be invited from the industries to be worked out through U.G. projects.
+
+\n\nCommon norms will be established for the final documentation of the project report by the respective departments.
+
+\n\n*Excellent / Very Good / Good / Satisfactory / Unsatisfactory
+
+\n\nNote: Three periods of contact load will be assigned to each project guide.
+"
+
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.nan7"
+    tools:showIn="@layout/activity_nan7">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I.Regular Lab Experiments
+
+\n\nPART – I
+
+\n\n1.Clipping and Clamping Circuits
+
+\n\n2.Astable, Monostable and Bistable multivibrators
+
+\n\n3.Schmitt Trigger
+
+\n\n4.Voltage to Frequency converter
+
+\n\n5.Design and frequency response of Single stage and Multistage RC - Coupled amplifier using BJT.
+
+\n\n6.Design and frequency response of Single stage and Multistage RC - Coupled amplifier using FET.
+
+\n\n7.Voltage series feedback amplifier
+
+\n\n8.Current shunt feedback amplifier.
+
+\n\n9.RC phase shift oscillator, Hartley oscillator and Colpitts Oscillator.
+
+\n\n10.Design of Class-A power amplifier.
+
+\n\n11.Design of Class-B power amplifier.
+
+\n\n12.Tuned Amplifiers (Single and Double)
+
+\n\nPART – II
+
+\n\n1.Measurement of image impedance and characteristic impedance.
+
+\n\n2.Design and verification of Constant-K low-pass filter.
+
+\n\n3.Design and verification of m-derived high-pass filter.
+
+\n\n4.Design and verification of L-type matching network.
+
+\n\nII.     Mini Project cum Design Exercise(s)
+
+\nExample : Design of
+\ni.An audio power amplifier with specified power output and the associated power supply that can take audio input from microphone and deliver the output to a loudspeaker.
+
+\nii.Switch Mode Power Supply or Linear Power Supply using discrete components.
+
+\n\nSuggested Reading:
+
+\n1.Paul B. Zbar, Albert P. Malvino, Michael A. Miller, Basic Electronics, A Text - Lab Manual, 7th Edidtion, TMH 2001.
+
+\nSpecial Note:
+
+\n1.Sessional marks are to be awarded as per the following breakup.
+
+\ni.20 marks for the regular lab exercises
+
+\nii. 5 marks for the Mini project-cum-design exercise(s).
+
+\n\nGeneral Note :
+
+\n1.A total of not less than 14 experiments must be carried out during the semester. (Wherever possible, more than 1 lab experiment should be carried out in one lab session of 3 periods per week).
+
+\n2.The experiments should be performed on bread board using discrete components.
+
+\n3.There should not be more than 2 students per batch while performing any of the lab experiment.
+
+\n4.Wherever possible, Analysis and design of circuits should be carried out using SPICE tools. "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

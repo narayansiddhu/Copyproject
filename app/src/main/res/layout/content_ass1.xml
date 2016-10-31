@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.ass1"
+    tools:showIn="@layout/activity_ass1">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Unit-I
+
+\n\nDifferential Amplifiers: Classification, DC and AC analysis of single/ dual input Balanced and unbalanced output Configurations using BJTs. Level Translator.
+
+\n\nOperational Amplifier: Op-amp Block Diagram, ideal Op-amp Characteristics, op-amp and its features, Op-Amp parameters and Measurements, Input and Output Offset voltages and currents, Slew Rate, CMRR, PSRR. Frequency Response and Compensation techniques.
+
+\n\nUnit-II
+
+\n\nOp-amp Applications I: Inverting and Non-inverting Amplifiers with ideal and non-ideal Op-amps, Voltage Follower, Difference Amplifier, Summing Amplifier, Ideal and Practical Integrator, Differentiator, V to I and I to V converters, Instrumentation Amplifier, Sample and Hold Circuit, Log and Antilog amplifiers, Precision Rectifiers.
+
+\n\nUnit-III
+
+\n\nOp-amp Applications II: Schmitt Trigger with and without reference voltage, Astable Multivibrator, Monostable multivibrator, Triangular waveform generator.
+
+\n\nActive Filters: Introduction, Butterworth 1st order, 2nd order low pass and high pass filters. Wide and Narrow Band-pass, Band-reject and All-pass filters.
+
+\n\nUnit-IV
+
+\n\nTimer: Introduction to 555 timer and its functional diagram, Monostable, Astable and Schmitt Trigger applications.
+
+\n\nIC Function Generator: Analysis and Design of Function Generators using IC 8038 Voltage Controlled Oscillator: Operation and Applications using IC 566.
+
+\n\nPhase Locked Loops: Introduction, Principles, Block Schematic and Description of IC 565, Applications of PLL: Frequency multiplication and frequency synthesis.
+
+\n\nUnit-V
+
+\n\nIC Regulators: Introduction, Analysis and design of regulators using 78XX and 723 monolithic ICs, Current limiting and Current foldback techniques using IC 723.
+
+\n\nData Converters: Introduction, basic Digital to Analog Converter techniques, Weighted Resistor DAC, Inverted R-2R Ladder DAC. Analog to Digital Converter: Types; Parallel Comparator ADC, Successive Approximation ADC and Dual Slope ADC. DAC and ADC specifications.
+
+\n\nSuggested Reading:
+
+\n1.David A. Bell, “Operational Amplifiers and Linear ICs,” 3/e, Oxford Publications, 2011.
+
+\n2.Roy, Chowdhury D., and Jain, Shail B., “Linear Integrated Circuits,” 4/e, New Age International Publishers, 2010.
+
+\n3.Sergio Franco, “Design with Operational Amplifiers and Analog Integrated Circuits,” 3/e, TMH, 2008.
+
+\n4.Ramakant A. Gayakwad, “Op-Amps and Linear Integrated Circuits,” 4/e, PHI, 2010.
+
+\n5.K.R.Botkar, “Integrated Circuits,” 10/e, Khanna Publishers, 2010. "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

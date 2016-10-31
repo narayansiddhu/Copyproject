@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.tit6"
+    tools:showIn="@layout/activity_tit6">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-I : OVERVIEW OF WIRELESS SENSOR NETWORKS
+
+\n\nChallenges for Wireless Sensor Networks-Characteristics requirements-required mechanisms, Difference between mobile ad-hoc and sensor networks, Applications of sensor networks- Enabling Technologies for Wireless Sensor Networks
+
+\n\nUNIT-II : ARCHITECTURES
+
+\n\nSingle-Node Architecture - Hardware Components, Energy Consumption of Sensor Nodes, Operating Systems and Execution Environments,
+
+\n\nNetwork Architecture - Sensor Network Scenarios, Optimization Goals and Figures of Merit, Gateway Concepts.
+
+\n\nUNIT-III : NETWORKING SENSORS
+
+\n\nPhysical Layer and Transceiver Design Considerations, MAC Protocols for Wireless Sensor Networks, Low Duty Cycle Protocols And Wakeup Concepts - S-MAC, Zigbee: IEEE 802.15.4 MAC Layer, The Mediation Device Protocol, Wakeup Radio Concepts, Address and Name Management, Assignment of MAC Addresses, Routing Protocols- Energy-Efficient Routing, Geographic Routing.
+
+\n\nUNIT-IV : INFRASTRUCTURE ESTABLISHMENT
+
+\n\nTopology Control, Clustering, Time Synchronization, Localization and Positioning, Sensor Tasking and Control.
+
+\n\nUNIT-V  : SENSOR NETWORK PLATFORMS AND TOOLS
+
+\n\nOperating Systems for Wireless Sensor Networks, Sensor Node Hardware – Berkeley Motes, Programming Challenges, Node-level software platforms, Node-level Simulators, State-centric programming.
+
+\n\nSuggested Reading:
+
+\n1.Holger Karl and Andreas Willig, “Protocols And Architectures for Wireless Sensor Networks,” John Wiley, 2005.
+
+\n2.Feng Zhao and Leonidas J. Guibas, “Wireless Sensor Networks - An Information Processing Approach,” Elsevier, 2007.
+
+\n3.Kazem Sohraby, Daniel Minoli, and Taieb Znati, “Wireless Sensor Networks- Technology, Protocols and Applications,” John Wiley, 2007.
+
+\n4.Anna Hac, “Wireless Sensor Network Designs,” John Wiley, 2003. "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

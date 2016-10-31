@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.sai1"
+    tools:showIn="@layout/activity_sai1">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-I
+            \n\nIntroduction: Database System Applications, Purpose of Database Systems, View of Data, Database Languages, Relational Databases, Database Design, Specialty Databases, Data Storage and Querying, Data Mining and Information Retrieval, Database Architecture, Database Users and Administrators.
+             \n\nDatabase Design and E-R Model: Overview of the Design Process, The E-R Model, Constraints, E-R Diagrams, E-R Design Issues, Extended E-R Features, Reduction to Relation Schemas, Other Aspects of Database Design.
+             \n\nUNIT – II
+             \n\nRelational Model: Structure of Relational Databases, Database Schema, Keys, Relational Operations, Additional Relational Algebra Operations, Extended Relational Algebra Operations, Modification of the Database.
+             \n\nStructured Query Language: Overviews, Basic Structure of SQL Queries, Set Operations, Null Values, Additional Basic Operations, Aggregate Functions, Nested Sub Queries, Views, Join Expression.
+             \n\nUNIT – III
+             \n\nAdvanced SQL: SQL Data Types, Integrity Constraints, Authorization, Functions and Procedural Constructs, Recursive Queries, Triggers, JDBC, ODBC, Embedded SQL.
+             \n\nRelational Database Design: Features of Good Relational Design Atomic Domains and First Normal Form, Decomposition Using Functional Dependencies, Functional Dependency Theory, Algorithm for Decomposition, Decomposition using Multivalve Dependencies.
+             \n\nUNIT – IV
+             \n\nIndexing and Hashing: Basic Concepts, Ordered Indices, B+ Tree Index Files, B Tree Index Files, Multiple-Key Access, Static Hashing, Dynamic Hashing, Comparison of Ordered Indexing and Hashing, Bitmap Indices.
+             \n\nTransaction Management: Transaction Concept, Storage Structure Transaction Atomicity and Durability, Transaction Isolation and Atomicity, Serializability, Recoverability, Transaction Isolation Levels, Implementation of Isolation Levels.
+             \n\nUNIT – V
+             \n\nConcurrency Control: Lock-Based Protocols, Timestamp-Based Protocols, Validation-Based Protocols, Multiple Granularity, Multiversion Schemes, Deadlock Handling, Insert or Delete Operation and Predicate Read, Concurrency in Index Structures.
+             \n\nRecovery System: Failure Classification, Storage Structure, Recovery and Atomicity, Recovery Algorithms, Buffer Management, Failure with Loss of Nonvolatile Storage, ARIES, Remote Backup Systems.
+             \n\nSuggested Reading:
+             \n\n1.Abraham silberschatz, Henry F Korth, S Sudarshan, “Database System Concepts”, Sixth Edition, McGraw-Hill International Edition, 2011.
+             \n\n2.Date CJ, Kannan A, Swamynathan S, “An Introduction to Database Systems”, Eight Edition, Pearson Education, 2006
+             \n\n3.Raghu Ramakrishnan, Johnnes Gehrke, “Database Management Systems”,Third Edition, McGraw Hill, 2003
+             \n\n4.Ramez Elmasri, Durvasul VLN Somayazulu, Shamkant B Navathe, Shyam K Gupta, “Fundamentals of Database Systems”, Fourth Edition, Pearson Education, 2006.
+             \n\n5.Peter Rob, Carlos Coronel, “Database Systems”, Thomson, 2007."
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.ash7"
+    tools:showIn="@layout/activity_ash7">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-I
+\n\nGraphics Systems and Models: Graphics system; Images; Physical and synthetic; Imaging system; synthetic camera model; programming interface ; graphics architectures programmable pipelines; performance characteristics. Graphics Programming: Programming two-dimensional applications; OpenGL API; Primitives and attributes; color; viewing, control functions
+
+
+\n\nUNIT-II
+\n\nInput and Interaction: Input device; clients and servers; displays lists; display lists and modeling; programming event driven input; picking ; building interactive models; animating Interactive programs; logic operations. Geometrics Objects: Three - dimensional primitives; coordinates systems and frames; frames in OpenGL; Modeling colored cube.
+\n\nUNIT-III
+\n\nTransformations: Affine Transformations;  Transformations in homogenous coordinates; concatenation of Transformations; OpenGL transformation matrices; Viewing: Classical and Computer views;  Viewing with a computer; Positioning of camera; Simple projections; Projections in OpenGL; Hidden surface removal; Parallel-projection matrices; Perspective projection matrices
+\n\nUNIT-IV
+\n\nLighting and Shading: Light sources; The Phong lighting model;  Computational vectors; Polygonal shading; Light sources in OpenGL;  Specification of matrices in OpenGL; Global illumination; From Vertices To Frames: Basic implementation  strategies; line-segment clipping; polygon clipping; clipping  of other primitives; clipping in three dimensions; Rasterization ; Bresenham’s algorithm; Polygon Rasterization ; Hidden surface removal; anti-aliasing; display considerations.
+
+
+\n\nUNIT-V
+\n\nModelling and Hierarchy: Hierarchal models; trees and traversal; use of tree data structure; animation; Graphical objects;  Scene graphs; Simple scene graph API; Open Scene graph;  other tree structures; Curves and Surfaces: Representation of curves and surfaces; design criteria; Bezier curves and surfaces;  Cubic B-splines; General B-splines;  rendering curves and surfaces; curves and surfaces in OpenGL.
+
+
+\n\nSuggested Readings:
+\n1.Edward Angel ,Computer Graphics  A Top-Down Approach Using OpenGL,    Peasrson Education, 5th edition -2009.
+\n2.Fransis S Hill Jr., Stephen M Kelley, Computer Graphics Using OpenGL, Prentice-Hall  Inc.,   3rd edition , 2007.
+
+\n3.Jim X. Chen, Foundation of 3D Graphics Programming Using JOGL and Java3D, Springe Verlag, 2006.
+
+\n4.Hearn Donald, Pauline Baker M: Computer Graphics,  2nd edition , 1995"
+
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+    </ScrollView>
+</RelativeLayout>

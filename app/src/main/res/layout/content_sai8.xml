@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.sai8"
+    tools:showIn="@layout/activity_sai8">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.Printing file flags for specified descriptor.
+             \n\n2.Print type of file for each command line arguments
+             \n\n3.Recursively descend a directory hierarchy counting file types
+             \n\n4.Program using process related system calls
+             \n\n5.Program s to create threads
+             \n\n6.Implement CPU scheduling algorithms (a) Round Robin   (b) SJF (c)FCFS
+             \n\n7.Implement page replacement algorithms (a) FiFo (b) LRU
+             \n\n8.Echo server using pipes
+             \n\n9.Echo server using messages
+             \n\n10.Producer- Consumer problem using shared memory.
+             \n\n11.Readers – Writers problem using message passing
+             \n\n12.Dinning philosopher problem using semaphore
+             \n\n13.Bankers algorithm for Deadlock detection and avoidance
+             \n\n14.Program using file locking
+             \n\n15.Programs using LINUX shell scripts.
+             \n\n16.Case study of android OS"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+    </ScrollView>
+
+</RelativeLayout>

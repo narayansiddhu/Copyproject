@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.bob13"
+    tools:showIn="@layout/activity_bob13">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Part A
+\n\nWrite the Code using VERILOG, Simulate and synthesize the following
+\n\n1.Arithmetic Units: Adders and Subtractors.
+
+\n\n2.Multiplexers and De-multiplexers.
+
+\n\n3.Encoders, Decoders, Priority Encoder and Comparator.
+
+\n\n4.8-bit parallel adder using 4-bit tasks and functions.
+
+\n\n5.Arithmetic and Logic Unit with minimum of eight instructions.
+
+\n\n6.Flip-Flops.
+
+\n\n7.Registers/Counters.
+
+\n\n8.Sequence Detector using Mealy and Moore type state machines. Note:-
+
+\n\n1.All the codes should be implemented appropriately using Gate level, Dataflow and Behavioral Modeling.
+
+\n\n2.All the programs should be simulated using test benches.
+
+\n\n3.Minimum of two experiments to be implemented on FPGA/CPLD boards.
+
+\n\nPart B
+
+\n\nTransistor Level implementation of CMOS circuits
+
+\n\n1.Basic Logic Gates----------------: Inverter, NAND and NOR.
+
+\n\n2.Half Adder and Full Adder.
+\n\n3. 4:1 Multiplexer.
+
+\n\n4.2:4 Decoder.
+
+\n\nMini Project:
+
+\n\ni)      8 bit CPU           (ii) Generation of different waveforms using DAC iii)         RTL code for Booth’s algorithm for signed binary number multiplication
+
+iv)       Development of HDL code for MAC unit and realization of FIR Filter.
+
+v)         Design of 4-bit thermometer to Binary Code Converter
+ "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

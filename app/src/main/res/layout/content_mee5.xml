@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.mee5"
+    tools:showIn="@layout/activity_mee5">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Unit-I
+
+\n\nElectrostatic fields: Brief review of vector analysis- Introduction to different coordinate systems- Coulomb’s law (point charges and charge distribution) - Electric field and flux density- Gauss law- Gauss divergence theorem-Potential Energy and Electrical Potential- Relationship between E and V-Dielectric Materials- Capacitance (Parallel plate, Two wire transmission line) - Electric and Equipotential plots- Integral and Point form of Maxwell’s Electrostatic Equation.
+
+\n\nUnit-II
+
+\n\nMagneto static Fields : Electrical Currents( Conduction and Convection)-Calculations of Magnetic fields using Biot-Savart’s law and Amperes law-Magnetic scalar and Vector Potentials-Magnetic Materials- Forces in Magnetic fields- Lorentz force equation- Force between parallel conductors- Magnetic Torque and Dipole Moment- Inductance Calculations( Solenoid, Toroid, Parallel transmission line)- Mutual Inductance- Integral and Point forms of Maxwell’s Magneto static equation.
+
+\n\nUnit-III
+
+\n\nBoundary Value Problems and Numerical Methods : Boundary conditions for Electric and Magnetic Fields- Poisson’s and Laplace equations- Analytical solutions- By direct Integration( One Dimensional)- Numerical solution of One dimensional by Finite Difference method- Analytical solutions( Variable and separable) two dimensions- Numerical Solutions of two dimensional by finite difference method- Introduction to Finite Element and Method of Moments.
+
+\n\nUnit-IV
+
+\n\nTime Varying Electromagnetic fields and Wave Propagation: Faraday’s law of Induction- Equation of continuity- Displacement current- Final forms of Maxwell’s Equations- Power and Poynting theorem- Time- Harmonic Electromagnetic fields- Wave equations (One dimension) - Plane Wave Propagation in perfect and Lossy Dielectric.
+
+\n\nUnit-V
+
+\n\nElectromagnetic Interference and Compatibility(Theoretical Aspects only): Introduction to Electromagnetic Interference and Electromagnetic Compatibility ( EMI and EMC)- Sources and Characteristics of EMI- Control Techniques of EMI- Grounding- Shielding- Filtering.
+
+\n\nSuggested Reading:
+
+\n1.Hayt, W.H and J.A Buck, Engineering Electromagnetics, 7th Edition, Mc Graw Hill, 2006.
+
+\n2.Sadiku, M.N.O, Elements of Electromagnetics, 4th edition, Oxford University press, 2007.
+
+\n3.Karl E. Lonngren, Sava V.Savov, Randy J.Jost, Fundamentals of Electromagnetics, With MATLAB, PHI, NewDelhi. "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

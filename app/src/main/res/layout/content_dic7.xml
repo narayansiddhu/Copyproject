@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.dic7"
+    tools:showIn="@layout/activity_dic7">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.PCM generation and detection
+
+\n\n2.Error control coding
+
+\n\n3.Data formats / channel encoding and decoding.
+
+\n\n4.Linear Delta Modulation and Demodulation.
+
+\n\n5.Adaptive Delta Modulation and demodulation.
+
+\n\n6.ASK generation and Detection.
+
+\n\n7.FSK generation and Detection.
+
+\n\n8.BPSK generation and detection
+
+\n\n9.QPSK generation and detection
+
+\n\n10.Minimum Shift Keying generation and detection
+
+\n\n11.Optical Fibre measurements:
+
+\n\nNumerical aperture, Attenuation, E-O and O-E characteristics
+
+\n\n12.Digital Fibre Optic Multiplexed Link
+
+\n\n13.Modem characteristics.
+
+\n\n14.Wavelength Division Multiplexing
+
+\n\n
+General Note: At least 10 experiments are to be conducted. "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

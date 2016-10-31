@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.ass4"
+    tools:showIn="@layout/activity_ass4">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Unit-I
+
+\n\nControl System fundamentals and Components: Classification of control systems, Open and Closed loop systems, Error sensing devices – potentiometers and syncros. AC and DC servo motors. Mathematical modeling of mechanical systems and their conversion into electrical systems. Block diagram reduction and Signal flow graphs.
+
+\n\nUnit-II
+
+\n\nTime response: Transfer function and Impulse response, types of input. Transient response of second order system for step input. Time domain specifications. Types of systems, static error coefficients, error series, Routh - Hurwitz criterion for stability.
+
+\n\nRoot locus techniques: Analysis of typical systems using root locus techniques. Effect of location of roots on system response.
+
+\n\nUnit-III
+
+\n\nFrequency response plots: Bode plots, frequency domain specifications. Gain margin and Phase Margin. Principle of argument, Polar plot, Nyquist plot and Nyquist criterion for stability.
+
+\nn\Compensation: Cascade and feedback compensation using Bode plots. Phase lag, lead, lag-lead compensators. PID controller.
+
+\n\nUnit-IV
+
+\n\nDiscrete Control Analysis: Digital control, advantages and disadvantages, and digital control system architecture. The discrete transfer function. Sampled data system. Transfer function of sample data systems. Stability of Discrete data systems.
+
+\n\nUnit-V
+
+\n\nState Space Representation: Concept of state and state variables. State models of linear time invariant systems, State transition matrix, Solution of state equations. Design of digital control systems using state-space concepts. Controllability and observability.
+
+\n\nSuggested Reading:
+
+\n1.Nagrath, I.J., and Gopal, M., “Control System Engineering,” New Age Publishers, 5/e, 2009.
+
+\n2.Ogata, K., “Modern Control Engineering,” 5/e, PHI, 2010.
+
+\n3.Benjamin C. Kuo, “Automatic Control Systems,” 7/e, PHI, 2010.
+
+\n4.Richard C. Dorf and Robart H. Bishop, “Modern Control Systems,” 11/e, Pearson, 2008.
+
+\n5.Gopal, Madan, “Digital Control Engineering,” 1/e, New Age Publishers, 2008. "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.kiss6"
+    tools:showIn="@layout/activity_kiss6">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-I
+
+\n\nLaws of Thermodynamics : Steady flow energy equation-conditions of reversible and irreversible process-Modes of Heat transfer-conduction and convection, radiation - concept of black body radiation - steady state conduction - Heat transfer through plane walls, cylinders, critical radius of insulation for cylinders.
+
+\n\nHeat Exchanger : Classification, Industry applications, LMTD calculations, parallel and counter flows.
+
+\n\nRefrigeration System : Types, co-efficient of performance and ton, SVC and air refrigeration and properties of refrigerants, eco friendly refrigerants, Psychometric Processes for summer and winter A/c only.
+
+\n\nUNIT-II
+
+\n\nPrinciples of IC Engines : Petrol and Diesel, 2 stroke / 4 stroke and load characteristics, compressors - concept of multi stage compression, Types, load characteristics, Calculation of mechanical and thermal efficiencies.
+
+\n\nGeneration of steam : Boilers - Gas Turbines - types - classification - constant pressure.
+
+\n\nUNIT-III
+
+\n\nGears : Classification, Gear trains, types - Single, compound, Inverted and Epi cyclic gear trains, Belt and rope drives, open and cross belt, length of belt, ratio of tension flat belts, condition for maximum power.
+
+\n\nUNIT-IV
+
+\n\nIntroduction to Bernoulli's equation, applications - Venturi meter, Orifice meter, Flow through pipes - Hagen's formula, Friction loss in pipes, Darcy's formula, Reynolds number and its significance.
+\n\nHydraulic Turbines : Classification - working principle - Francis, Kaplan, Pelton Wheels, Work done, power output, efficiency, specific speed, Unit quantities, Draft Tube, Performance characteristic curves.
+
+\n\nUNIT-V
+
+\n\nPumps : Working principles and construction details of Centrifugal and reciprocating pumps, Effect of friction, acceleration head, work done, power required with and without air vessels, Problems faced in pumps, precaution, cavitation, primary velocity triangles of centrifugal pumps.
+
+\n\nSuggested Reading :
+
+\n1.R.K. Rajput, Thermal Engineering, Laxmi Publications, 2005.
+
+\n2.Thomas Bevan Theory of Machines, CBS Publishers, 1995.
+
+\n3.Yadav, Steam and Gas Turbines, Central Publishing House Ltd., 2004.
+
+\nS. Ramamrutham, Hydraulic Machines, Dhanpat Rai and Sons, 2004. "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

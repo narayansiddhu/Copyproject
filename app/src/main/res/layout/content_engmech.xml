@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.Engmech"
+    tools:showIn="@layout/activity_engmech">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-I\n\nInstruments and their use:  Lettering and types of lines. Scales  reduced and enlarged scales, representative fraction, types of scales -plain, diagonal and vernier.
+            \n\nGeometrical construction: - Construction of regular polygons inscribed in a circle, given the side of the polygon or diameter of a circle.
+            \n\nCurves used in engineering practice: - Conic sections-Ellipse, Parabola and Hyperbola. Cycloid, Epi cycloid, hypocycloid and Involute for one turn.
+            \n\nUNIT-II\n\nProjections of points and straight lines: - Points placed in different quadrants. Projections of straight lines in first angle projection and traces.\n\n
+            Projections of planes: - Perpendicular planes, traces of planes, oblique planes and auxiliary planes.
+            \n\nUNIT - III\n\nProjections of solids: - Polyhedra, solids of revolution, projection of solids in simple positions, axis inclined to one and both the reference planes.
+            \n\nUNIT - IV\n\n
+            Sections of solids: -True shape of section, sections of prisms, pyramids, cylinders and cones.\n\nDevelopment of surfaces: - Development of surface of various solids such as prisms, pyramids, cylinders and cone in simple position.
+            \n\nUNIT - V\n\nIsometric Projections: - Isometric view, Isometric scale, Isometric projections/views  of prisms, pyramids, cylinder, cone, sphere and combination of two or three solids.
+            \n\nOrthographic projections: - Conversion of pictorial view (isometric view) to orthographic view in first angle projection.
+            \n\nSuggested Reading :\n1. N.D. Bhatt, Elementary Engineering Drawing, Charotar Publications, 2004.
+            \n2.Basant Agarwal and C.M. Agarwal, Engineering Drawing, Tata McGraw Hill Education Pvt. Ltd., 2014
+            \n3.K.L. Narayana and P. Kannaiah, Text Book of Engineering Drawing, Scitech publications, 2002
+            \nText Books for Reference :
+            \n1. K. Venugopal, Engineering Drawing and Graphics + AutoCAD, New Age International, 2007.
+            \n2. P.S. Gill, Engineering Drawing, S.K. Kataria andSons, 2009.
+            \n3. B.V.R. Gupta and M. Raja Roy, Engineering Drawing,I.K. International Publishing House Pvt. Ltd., 2009."
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+        />
+    </ScrollView>
+
+</RelativeLayout>

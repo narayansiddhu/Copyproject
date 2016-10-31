@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.ash1"
+    tools:showIn="@layout/activity_ash1">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT I
+\n\nCharacterization of Distributed Systems
+\nIntroduction, Examples of distributed systems, Resource sharing and the web,Challenges
+\n\nSystem Models
+ \nIntroduction, Architectural models, Fundamental models.
+\n\nOperating System Support Introduction
+\nThe operating system layer, Protection, Processes and threads, Communication and invocation, Operating system architecture.
+
+\n\nUNIT II
+\n\nInterprocess communication
+\nIntroduction, The API for the internet protocols, External data representation and
+marshalling.Client Server communication, Group Communication, Case stufy:
+\n\nInterprocess communication
+ \nIntroduction UNIX. Distributed objects and Remote Invocation Introduction, Communication between distributed objects, Remote procedure call, Events and notifications, Case study: Java RMI.
+Name Services Introduction, Name services and the Domain Name System, Directory services, Case study of the X.5000 Directory Service.
+
+\n\nUNIT III
+\n\nTime and Global States
+\nIntroduction, Clocks events and process states, Synchronizing physical clocks, Logical
+clocks, Global states, Distributed debugging.
+\n\nCoordination and Agreement
+\nIntroduction, distributed mutual exclusion, Election, Multicast communication,Consensus and related problems.
+
+\n\nUNIT IV
+\n\nTransactions and Concurrency Control
+\nIntroduction, Transactions, Nested transactions, Locks Optimistic concurrency control.
+\nTimestamp ordering, Comparison of methods for concurrency control.
+\n\nDistributed Transactions
+\nIntroduction, Flat and nested distributed transactions,Atomic commit process, Concurrency control in distributed transactions, Distributed deadlocks, Transaction recovery.
+Replication
+\nIntroduction, System model and group communication, Fault-tolerant services.
+\nCase study: The gossip architecture,CODA.
+
+\n\nUNIT V
+\n\nDistributed Shared Memory
+\nIntroduction, Design and implementation issues, Sequential consistency and Ivy case
+study.\n Release consistency and Munin case study, Other consistency model.
+\n\nDistributed File Systems
+\nIntroduction, File service architecture, Case study: Sun Network File System.
+\nEnhancements and further developments.
+
+\n\nSuggesting Readings:
+ \n1.Colouris, Dollimore, Kindberg, “ Distributed Systems concepts and Design” -   5th Ed. Pearson Education, 2011
+ \n2. Andrew S. Tanenbaum, Van Steen, “ Distributed Systems “, Pearson      Education , 2010.
+ \n3.  Singhal M, Shivratari N.G, “Advanced Concepts Introduction, Operating           Systems” McGraw Hill, 2001.
+\n4.  Pradeep K Sinha, “ Distributed Opearating Systems: Concepts and Design”,           Pearson Education Asia India, 2007.
+"
+
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+    </ScrollView>
+</RelativeLayout>

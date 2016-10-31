@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.sai7"
+    tools:showIn="@layout/activity_sai7">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.SQL
+
+             \n\na.Creating Database (Exercising commands like DDL,DML,DCL and TCL)
+             \n\nb.Exercising all types of Joins
+             \n\nc.Creating tables in I Normal ,II Normal , III Normal and BCNF Form.
+             \n\nd.Creating table using combination of constraints.
+             \n\ne.Exercising Simple to Complex Queries
+             \n\nf.Usage of Stored Functions.
+             \n\ng.Creating Password and Security features for an Application.
+             \n\nh.Usage of File locking, Table locking facilities in an Applications
+             \n\n2.PL/SQL
+             \n\na.Demonstration of Blocks, Cursors, Procedures, Functions and Packages.
+             \n\nb.Demonstrate Exception Handling .
+             \n\nc.Usage of Triggers to perform operation on Single and Multiple Tables.
+             \n\nd.PL/SQL Procedures for data validation
+             \n\n3.FORMS
+             \n\nCreation of forms for College Information System, Library Information System and Recruitment Cell.
+             \n\n4.REPORTS
+             \n\na.Creation of Reports based on different queries .
+             \n\nb.Creation of small full fledged Database Application spread over 3 sessions.
+             \n\nNote : The creation of sample database for the purpose of the experiments is Expected to be pre-decided by the instructor.
+             \n\nSuggested Reading :
+             \n\n1.Nilesh Shah, Database Systems Using Oracle PHI,2007.
+             \n\n2.Rick F Van der Lans, “Introduction to SQL”, Fourth Edition, Pearson Education, 2007.
+             \n\n3.Benjamin Rosenzweig, Elena Silvestrova, “Oracle PL/SQL by Example”, Third Edition, Pearson Education,2004.
+             \n\n4.Albert Lulushi, “Oracle Forms Developer’s Handbook”, Pearson Education, 2006."
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+    </ScrollView>
+
+</RelativeLayout>

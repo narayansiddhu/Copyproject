@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.gir14"
+    tools:showIn="@layout/activity_gir14">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-I
+
+\n\nIntroduction: Neural networks, application scope of neural networks, fuzzy logic, genetic algorithm, hybrid systems, Soft computing. Artificial neural networks: Fundamental concepts, Evolution of neural networks, basic model of Artificial neural networks, Important terminology of ANNs, McCulloch-pitts neuron model, Linear separability, Hebb Network Supervised Learning Network: Perceptron networks, adaptive linear neuron (Adaline), Multiple adaptive linear neuron, Back propagation network, Radial basis Function network (Architecture and Training algorithms)
+
+\n\nUNIT-II
+
+\n\nAssociative Memory Networks: Training algorithm for pattern Association, Associative memory network, Hetroassociative memory network (Architecture and Training algorithm), Bidirectional associative memory network Architecture, Discrete Bidirectional associative memory network, Continuous BAM ,Analysis of hamming distance, Energy function and storage capacity, Hopfield networks discrete and continuous. Unsupervised Learning Networks: Fixed weight competitive Nets, Kohonen self organizing network, Learning vector quantization (Architecture and Training algorithm) Adaptive Resonance theory network. Special networks: Simulated Annealing Networks,Boltzmann machine, Gaussian machine
+
+\n\nUNIT-III
+
+\n\nFuzzy Logic: Introduction to Classical sets and fuzzy sets, Classical sets,Fuzzy sets: Operations and Properties. Fuzzy Relations: Cardinality, Operations and Properties, Equivalence and tolerance. Membership function: Fuzzification, membership value assignment: Inference, rank ordering, angular fuzzy sets
+
+\n\nUNIT-IV
+
+\n\nDefuzzification: Lamda Cuts for fuzzy sets and relations, defuzzification methods Fuzzy arithmetic and fuzzy measures: Fuzzy arithmetic, extension principle, fuzzy measures, measures of fuzziness, fuzzy integral Fuzzy rule base and approximate reasoning: truth values and tables in fuzzy logic, fuzzy propositions formation of rules ,decomposition of compound rules, aggregation of fuzzy rules, fuzzy reasoning, fuzzy inference system, fuzzy expert systems
+
+\n\nUNIT-V
+
+\n\nFuzzy decision making: Individual, multiperson, multi objective, multi attribute, Fuzzy Bayesian decision making, Fuzzy logic control system: control system design, architecture and operation of FLCsystem,FLC system models,Aplication of FLC system.
+
+\n\nGenetic Algorithim: Introduction,basic operators and terminology, Traditional algorithm vs genetic algorithm, simple GA, general genetic algorithm, schema theorem, Classification of genetic algorithm, Holland classifier systems, genetic programming , applications of genetic algorithm
+
+\n\nSuggested Reading:
+
+\n1.S. N. Sivanandam and S.N.Deepa, “Principles of Soft Computing”,Wiley India, 2008.
+
+\n2.Limin Fu, “Neural Networks in Computer Intelligence”, McGraw Hill, 1995.
+
+\n3.Timoty J. Ross, “Fuzzy Logic with Engineering Applications”,McGraw Hill, 1997. "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

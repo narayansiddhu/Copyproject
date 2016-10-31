@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.bob3"
+    tools:showIn="@layout/activity_bob3">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-I
+\n\nData communication, Network Topologies: LAN, WAN, MAN, Types-Bus, Star, Ring, Hybrid. Line configurations. Reference Models: OSI, TCP/IP.
+
+\n\nData Link Layer: Design issues, Framing, Error Detection and Correction, Flow control Protocols: Stop and Wait, Sliding Window, ARQ Protocols, HDLC.
+
+\n\nUNIT-II
+\n\nMAC Sub Layer: Multiple Access Protocols: ALOHA, CSMA, Wireless LAN. IEEE 802.2, 802.3, 802.11, 802.16 standards. Bluetooth, Bridges and Routers.
+
+\n\nCircuit switching: Circuit Switching Principles and concepts. Packet switching: Virtual circuit and Datagram subnets.
+
+\n\nUNIT-III
+
+\n\nNetwork Layer: Network layer Services, Routing algorithms : Shortest Path Routing, Flooding, Hierarchical routing, Broadcast, Multicast, Distance Vector Routing, and Congestion Control Algorithms.
+
+\n\nInternet Working: The Network Layer in Internet and ATM Networks.
+
+\n\nUNIT-IV
+\n\nTransport Layer: Transport Services, Elements of Transport Layer, Connection management, TCP and UDP protocols, ATM AAL Layer Protocol.
+
+\n\nUNIT-V
+\n\nApplication Layer: Domain Name System, SNMP, Electronic Mail, World Wide Web.
+
+\n\nNetwork Security: Cryptography Symmetric Key and Public Key algorithms, Digital Signatures, Authentication Protocols.
+
+
+\n\nSuggested Reading:
+\n1.Andrew S Tanenbaum, “Computer Networks,” 5/e, Pearson Education, 2011.
+
+\n2.Behrouz A. Forouzan, “Data Communication and Networking,”3/e, TMH, 2008.
+
+\n3.William Stallings, “Data and Computer Communications,” 8/e, PHI, 2004.
+
+\n4.S.Keshav, “An Engineering Approach to Computer Networks,”2/e, Pearson Education. "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

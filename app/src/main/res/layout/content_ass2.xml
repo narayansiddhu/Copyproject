@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.ass2"
+    tools:showIn="@layout/activity_ass2">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Unit-I
+
+\n\nManufacturer’s designations for integrated circuits, Development of integrated circuits, Integrated circuit package types, Pin identifications and temperature ranges, IC characteristics, Introduction to diode and transistor logic families. TTL logic family, TTL series, Output configurations, Open Collector, Totem pole, Tri State logic.
+
+\n\nUnit-II
+
+\n\nConcept of negative logic, ECL logic family, MOS logic family (pMOS and nMOS) CMOS logic family and its characteristics, CMOS transmission gate ( bilateral switch), and its applications, CMOS open drain and high impedance outputs. Dynamic MOS logic family, dynamic MOS inverter, dynamic NAND and NOR gates, Comparison of various logic families. Interfacing of CMOS and TTL driving CMOS ECL driving TTL and TTL driving ECL.
+
+\n\nUnit-III
+
+\n\nDesign using TTL-74XX and CMOS 40XX series: Demultiplexers, drivers for LED and LCD displays, Multiplexers and their applications, Parity generators and Checker circuits, Digital Comparator and Digital. Parallel and serial binary adder/subtractor circuits using 2’s compliment, Multiplier, Decimal adder, look- ahead adder.
+
+\n\nUnit-IV
+
+\n\nFlip-flops and their conversions, Design of Synchronous and Asynchronous counters, Decade Counters, Cascading of BCD counters, application of counters, Shift register and applications, Familiarity with 74 XX and CMOS 40XX series of IC Counters. Sequence detector.
+
+\n\nUnit-V
+
+\n\nROM, MROM,EPROM, EEPROM,RAM, Types, Architecture’s, operation and applications, NVRAM, Flash memory, CCD. Expanding word size and capacity. ASICs, Introduction to PLD’s, Architectures of PAL, PLA with operation.
+
+\n\nSuggested Reading:
+
+\n1.Ronald J. Tocci, Neal S. Widmer and Gregory L. Moss, “Digital Systems: Principles and Applications,” PHI, 10/e, 2009.
+
+\n2.David A. Hodges, Horace G Jackson and Resve A Saleh “Analysis and Design of Digital Integrated Circuits,” 3/e, McGraw Hill, 2003.
+
+\n3.Jain R.P., “Modern Digital Electronics,” 3/e, TMH, 2003.
+
+\n4.Sonde, B. S., “Introduction to system Design using IC’s,” Wiley, 2/e, 1994.
+
+\n5.Morris R L and Miller J R, “Designing with TTL Integrated Circuits,” TMH, 1971. "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

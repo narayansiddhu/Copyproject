@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.nan5"
+    tools:showIn="@layout/activity_nan5">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-I
+
+\n\nWave-Shaping: RC, RL and RLC circuits, response to Step, Pulse, Square, Exponential and Ramp inputs. Integrating and differentiating circuits, Compensated attenuators. Switching operation of Diodes, BJTs and FETs. Non-linear wave shaping using Diodes and Transistors. Clipping and Clamping circuits, Clamping circuit theorem.
+
+\n\nUNIT-II
+
+\n\nMultivibrators: Analysis and design of Transistor Multivibrators – Bistable, Monostable and Astable circuits. Operation of regenerative comparator (Schmitt Trigger). Time base generators: Speed, transmission and displacement errors.
+
+\n\nAnalysis and Design of sweep circuits using UJT and SCR.
+
+\n\nUNIT-III
+
+\n\nBoolean – Algebra: Introduction to Boolean Algebra, Demorgan’s theorem, Canonical forms and standard forms, Simplification of switching functions using theorems, Introduction to Logic Gates, Ex-OR, Ex-NOR operations. Minimization of Switching Functions: Karnaugh map method, Quine McCluskey tabular method.
+
+\n\nLogic function realization: AND-OR, OR-AND and NAND / NOR realizations.
+
+\n\nUNIT-IV
+
+\n\nCombinational Logic Design: Binary Adders, Subtractors, Code converters, Decoders and Encoders, Priority Encoder, contact networks, static and hazard free design.
+
+
+\n\nIntroduction to Sequential Logic: Types of Flip-Flops, Excitation Tables and Flip-Flop Conversions, Classification of sequential circuits.
+
+\n\nUNIT-V
+
+\n\nSequential Logic Design: State Diagram and State Table, Design of synchronous and asynchronous counters.
+
+\n\nFinite State Machines: Moore Type and Mealy Type FSM, Design of Sequence Detector using Moore and Mealy FSM. One Hot Encoding.
+
+\n\nSuggested Reading:
+
+\n1.Jacob Millman and Herbert Taub, Pulse, Digital and Switching Waveforms, TMH, 3rd edition, 2011.
+
+\n2.Zvi Kohavi, Switching And Finite Automata Theory, TMH, 2nd edition, 2001.
+
+\n3.M. Morris Mano, Digital Design, PHI, 2nd edition, 1994.
+
+\n4.Stephen Brown and Zvonko Vranesic, Fundamentals of Digital Logic with VHDL Design, TMH, 3rd edition, 2010
+
+\n5.David A. Bell, Solid state Pulse Circuits, 4th edition, PHI, 2009. "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

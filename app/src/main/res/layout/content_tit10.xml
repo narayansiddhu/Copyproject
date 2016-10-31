@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.tit10"
+    tools:showIn="@layout/activity_tit10">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-I
+
+\n\nEvolution of neural networks; Artificial Neural Network: Basic model, Classification, Feed forward and Recurrent topologies, Activation functions; Learning algorithms: Supervised, Un-supervised and Reinforcement; Fundamentals of connectionist modeling: McCulloach – Pits model, Perceptron, Adaline, Madaline.
+
+\n\nUNIT–II
+
+\n\nTopology of Multi-layer perceptron, Back propagation learning algorithm, limitations of Multi-layer perceptron. Radial Basis Function networks: Topology, learning algorithm; Kohenen’s self-organising network: Topology, learning algorithm; Bidirectional associative memory Topology, learning algorithm, Applications.
+
+\n\nUNIT–III
+
+\n\nRecurrent neural networks: Basic concepts, Dynamics, Architecture and training algorithms, Applications; Hopfield network: Topology, learning algorithm, Applications; Industrial and commercial applications of Neural networks: Semiconductor manufacturing processes, Communication, Process monitoring and optimal control, Robotics, Decision fusion and pattern recognition.
+
+\n\nUNIT–IV
+
+\n\n Classical and fuzzy sets: Introduction, Operations and Properties, Fuzzy Relations: Cardinality, Operations and Properties, Equivalence and tolerance relation, Value assignment: cosine amplitude and max-min method; Fuzzification: Membership value assignment- Inference, rank ordering, angular fuzzy sets. Defuzzification methods, Fuzzy measures, Fuzzy integrals, Fuzziness and fuzzy resolution; possibility theory and Fuzzy arithmetic; composition and inference; Considerations of fuzzy decision-making.
+
+\n\nUNIT-V
+
+\n\nBasic structure and operation of Fuzzy logic control systems; Design methodology and stability analysis of fuzzy control systems; Applications of Fuzzy controllers. Applications of fuzzy theory.
+
+\n\nSuggested Reading:
+
+\n1.Limin Fu, “Neural Networks in Computer Intelligence,” McGraw Hill, 2003.
+
+\n2.Fakhreddine O. Karray and Clarence De Silva., “Soft Computing and Intelligent Systems Design, Theory, Tools and Applications,” Pearson Education, India, 2009.
+
+\n3.Timothy J. Ross, “Fuzzy Logic with Engineering Applications,”McGraw Hill,1995.
+
+\n4.B.Yegnanarayana, “Artificial Neural Networks,” PHI, India, 2006. "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

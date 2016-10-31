@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.bob8"
+    tools:showIn="@layout/activity_bob8">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-I
+
+\n\nElements of Digital Image Processing Systems, Digital image representation, elements of visual perception, Image sampling and Quantization, Basic Relationships between pixels.
+
+\n\nUNIT-II
+
+\n\nFourier transform, FFT, Discrete cosine transform, Hadamard transform, Haar transform, Slant transform and Hotelling transform and their properties.
+
+\n\nUNIT-III
+
+\n\nSpatial enhancement techniques: Histogram equalization, direct histogram specification, Local enhancement.
+
+\n\nFrequency domain techniques: Low pass, High pass and Homomorphic Filtering, Image Zooming Techniques.
+
+\n\nUNIT-IV
+
+\n\nImage Degradation model, Algebraic approach to restoration, inverse filtering, Least mean square filter, Constrained least square restoration and interactive restoration. Speckle noise and its removal techniques.
+
+\n\nUNIT-V
+
+\n\nRedundancies for image compression, Huffman Coding, Arithmetic coding, Bit-plane coding, loss less and lossy predictive coding.
+
+\n\nTransform coding techniques: Zonal coding and Threshold coding.
+
+\n\nSuggested Reading:
+
+\n1.Gonzalez R.C. and Woods R.E., “Digital Image Processing,” 2/ e, PHI, 2005.
+
+\n2.Vipul Singh, Digital Image Processing with Matlab and Lab view Elsevier 2013.
+
+\n3.Madhuri A.Joshi, “Digital Image Processing: An algorithmic Approach,” PHI, 2006.
+\n4.Qidwai, “Digital Image Processing,” First Indian Reprint 2013, (Taylor and Francis), Yesdee Publications.
+        "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

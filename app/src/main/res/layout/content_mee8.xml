@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.mee8"
+    tools:showIn="@layout/activity_mee8">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.Performance test on multi-cylinder petrol or diesel engine
+
+\n\n2.Measurement of discharge by Venturi meter
+
+\n\n3.Measurement of velocity by Pitot tube
+
+\n\n4.Measurement of discharge by Orifice meter / Rotameter
+
+\n\n5.Determination of Flash and Fire points of lubricants
+
+\n\n6.Determination of Thermal conductivity of a composite wall
+
+\n\n7.Determination of Heat transfer coefficient under Natural convection
+
+\n\n9.Determination of volumetric efficiency of multi stage reciprocating air Compressor
+
+\n\n10.Study of construction details of a Gear box (for EEE only)
+
+\n\n11.Performance of (a) Francis, (b) Kaplan and (c) Pelton wheel Turbines
+
+\n\n12.Performance and characteristics of (a) Reciprocating and (b) Centrifugal "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

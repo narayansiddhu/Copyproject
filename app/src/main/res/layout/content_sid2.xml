@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.sid2"
+    tools:showIn="@layout/activity_sid22">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-I
+            \n\nIntroduction – Programs related to compilers. Translation process. Major data structures. Other issues in compiler structure. Boot strapping and porting.
+             \n\nLexical analysis – The role of Lexical Analyzer. Input Buffering. Specification of Tokens. Recognition of Tokens. The Lexical-Analyzer Generator Lex.
+             \n\nUNIT-II
+             \n\nSyntax Analysis – Introduction. Top-Down parsing, Brute Forcing, Recursive Descent, Predicative LL(1), Bottom-Up parsing : Introduction to LR Parsing,Powerful LR parsers SLR, CALR, LALR, Using Ambiguous Grammars, Parser Generators - Yacc.
+             \n\nUNIT-III
+             \n\nSyntax Directed Translation – Syntax Directed Definitions. Evaluation Orders for SDDs. Applications of Syntax Directed Translation.
+             \n\nSymbol Table Organization - Structure of Symbol table, Symbol Table organization for Block Structured and non block Structure languages, Data Structures of symbol Table.
+             \n\nUNIT-IV
+             \n\nIntermediate code generation : Variants of syntax trees. Three-Address Code, Types and Declarations. Translation of Expressions. Type Checking. Control Flow.
+             \n\nStorage Organization. Stack Allocation of Space. Access to Non local Data on the Stack. Heap Management. Introduction to Garbage Collection.9 20
+             \n\nUNIT-V
+             \n\nCode Generation – Issues in the Design of a Code Generator. The Target Language. Addresses in the Target Code Basic Blocks and Flow Graphs. Optimization of Basic Blocks. Peephole Optimization. Register Allocation and Assignment. Machine Independent Optimizations – The Principal Sources of Optimizations, Introduction to data flow analysis, Foundation of data flow analysis.
+
+             \n\nError Recovery : Introduction, Error detecting and Reporting in various Phases, Lexical Errors, Syntax Errors handling, and error Recovery in various Phases.
+             \n\nSuggested Reading:1.Alfred V Aho, Monica S Lam, Ravi Sethi, Jeffrey D Ullman –Compilers: Principles, Techniques and Tools, Pearson Education 2nd Edition 2007.
+             \n\n2.Keith D Cooper and Linda Tarezon, Engineering a Compiler, Morgan Kafman, Second edition.
+             \n\n3.Lex and Yacc, John R Levine, Tony Mason, Doug Brown, Shroff Publishers.
+             \n\n4.Kenneth C Louden, Compiler Construction: Principles and Practice, Cengage Learning.
+             \n\n5.Lex and Yacc, John R Levine, Oreilly Publishers."
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+    </ScrollView>
+
+</RelativeLayout>

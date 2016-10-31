@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.sai4"
+    tools:showIn="@layout/activity_sai4">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-I
+            \n\n Introduction to Software Engineering:
+            \n\nGeneric view of Process: Software Engineering, Process Framework, CMM, Process Patterns, Process Assessment, Personal and Team Process, Process Technology, Product and process.
+            \n\nProcess Models: Perspective Models, Waterfall Model, Incremental Process Models, Evolutionary Process Models, Specialized Process Models, The Unified Process.
+            \n\nAn Agile View of Process: What is Agility, Agile Process, and Agile Process Models.
+            \n\nUNIT-II
+            \n\nPlanning and Managing the Project: Tracking Progress, Project Personnel, Effort Estimation, Risk Management, the Project Plan, Process Models and Project Management, Information Systems Example, Real-time Example
+            \n\nRequirement Engineering: A bridge to design and construction, Requirement Engineering tasks, Initiating Requirement Engineering Process, Eliciting Requirement, Developing Uses cases, Building the Analysis Model, Negotiating Requirements, Validating Requirements.
+            \n\nUNIT-III
+            \n\nBuilding the Analysis Model: Requirements Analysis Modeling approaches, Data modeling concepts, Object oriented analysis , Scenario based modeling, Flow oriented modeling, Class-based modeling, Creating a Behavioral Modeling.
+            \n\nDesign Engineering: Design with in the context of SE, Design Process and Design quality, Design concepts, The Design Model, Pattern-based Software Design.
+            \n\nUNIT-IV
+            \n\nCreating Architectural Design: Software architecture, Data design, Architectural Styles and Patterns, Architectural Design, Assessing alternative Architectural Designs, Mapping data flow into software Architecture.
+            \n\nModeling Component-Level Design: What is a Component, Designing Class-Based components, Conducting Component–level Design, Object Constraint Language, Designing Conventional Components.
+            \n\nPerforming User Interface Design: The Golden Rules, User Interface Analysis and Design, Interface Analysis, Interface Design Steps, Design Evaluation.
+            \n\nUNIT-V
+            \n\nTesting Strategies: A Strategic approach to software testing, strategic issues, test strategies for O-O software, validation testing, system testing, art of debugging.
+            \n\nTesting Tactics: Software Testing Fundamentals, Black-Box and white box Testing, basis path testing, Control Structure Testing, O-O Testing methods, Testing Methods applicable on the class level, inter class Test case design, Testing for Specialized environments, architectures and applications, Testing Patterns.
+            \n\nProduct Metrics: Software quality, A framework for product metrics, Metrics for the analysis model, metrics for the Design model, metrics for source code, Metrics for Testing, Metrics for maintenance.
+            \n\nSuggested Reading:
+            \n1.Roger S. Pressman, “Software Engineering –A Practitioners Approach”, 6th Edition, Pearson Education, India, 2005.
+            \n2.Shari Lawrence Pfleeger, “Software Engineering Theory and Practices” 4th Edition - Pearson Education, India, 2011.
+            \n3.Pankaj Jalote, “An Integrated Approach to Software Engineering”, 3rd Edition, Springer Link Edition, India, 2005."
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+    </ScrollView>
+
+</RelativeLayout>

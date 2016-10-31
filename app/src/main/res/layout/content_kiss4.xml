@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.kiss4"
+    tools:showIn="@layout/activity_kiss4">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Unit-I
+
+\n\nPrinciples of Measurement and Instrumentation: Objectives of measurements, analog versus digital measurements, accuracy, precision and uncertainty, sources of measurement error. Standard cell and standard resistance. Basic characteristics of measuring instruments with a moving element.
+
+\n\nInstruments: Ammeter, Voltmeter. Expression for torque of moving coil, moving iron, dynamometer, induction and electrostatic instruments. Extension of range of instruments wattmeter, Torque expression for dynamometer instruments. Reactive power measurement.
+
+\n\nUnit-II
+
+\n\nEnergy meters, single phase and poly phase, Driving torque and braking torque equations. Errors and testing compensation, maximum demand indicator, power factor meters, frequency meters, electrical resonance and Weston type of synchroscope.
+
+\n\nUnit-III
+
+\n\nBridge Methods: Measurement of inductance, capacitance and resistance using Bridge.Maxwell’s Anderson, Wein, Heaveside Cambell’s Desauty’s, Schering’s bridges, kelvin’s doublebridge, price guard wire bridge loss of charge method, Megger, Wagners Earthing device.
+
+\n\nUnit-IV
+
+\n\nMagnetic Measurements: Ballistic galvanometer, calibration by Hibbert’s magnetic standard flux meter, Lloyd-fischer square for measuring iron loss.Testing of ring and bar specimens. Determination of B-H curve and hysteresis loop using CRO, determination of leakage factor.
+
+\n\nUnit-V
+
+\n\nPotentiometers and Instrument Transformers: Crompton’s DC and AC polar and coordinate types. Applications, Measurement of impedance. Calibration of ammeter, voltmeter and wattmeter. Use of Oscilloscope in frequency, phase and amplitude measurements. Instrument transformers. Ratio and Phase angle errors and their reduction.
+
+\n\nSuggested Readings:
+
+\n1.A.K.Sawhney, A Course in Electrical and Electronics Measurements and Instruments- Dhanpat Rai and Sons,Delhi,2005.
+
+\n2.Umesh Sinha, Electrical and Electronics Measurements and Instrumentation, Satya Prakashan.
+
+\n3.F.W.Golding and Widdis, Electrical Measurements and Measuring Instruments, 5th Edition-2010. "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.sid7"
+    tools:showIn="@layout/activity_sid7">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select one large Information System/Approach and device the following using CASE TOOL.
+
+\n\n1.Data Flow diagram.
+ \n\n2. E-R diagram.
+
+\n\n3.Dynamic Model and Using Finite State Automata.
+
+\n\n4.Software Requirement Specification Document (SRS)
+
+\n\n5.Functional Decomposition and Structure.
+\n\n6.Data Dictionary.
+\n\n7.Module Specifications.
+\n\n8.Test Data Generation.
+\n\n9.Cost and Resource Estimates.
+\n\n10.Verification
+
+\n\n11.User Manual
+
+\n\n12.Study of Software Maintenance Tools (SCCS, Debug Tools).
+
+\n\n13.A case study using Case Tool supporting
+"
+
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+    </ScrollView>
+</RelativeLayout>

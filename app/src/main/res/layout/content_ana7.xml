@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.ana7"
+    tools:showIn="@layout/activity_ana7">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.A program to illustrate the concept of class with constructors, methods and overloading.
+            \n\n2.A program to illustrate the concept of inheritance and dynamic polymorphism.
+            \n\n3.A program to illustrate the usage of abstract class.
+            \n\n4.A program to illustrate multithreading.
+            \n\n5.A program to illustrate thread synchronization.
+            \n\n6.A program using StringTokenizer.
+            \n\n7.A program using Linked list class.
+            \n\n8.A program using TreeSet class.
+            \n\n9.A program using HashSet and Iterator classes.
+            \n\n10.A program using map classes.
+            \n\n11.A program using Enumeration and Comparator interfaces.
+            \n\n12.A program to illustrate the usage of filter and Buffered I/O streams.
+            \n\n13.A program to illustrate the usage of Serialization.
+            \n\n14.An application involving GUI with different controls, menus and event handling.
+            \n\n15.A program to implement AWT/Swing.
+            "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+    </ScrollView>
+
+</RelativeLayout>

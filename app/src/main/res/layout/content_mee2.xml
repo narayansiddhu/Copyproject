@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.mee2"
+    tools:showIn="@layout/activity_mee2">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT - I
+
+\n\nSimple Stresses and Strains : Definitions types of stresses and strains. Hooke's stress-strain diagrams for engineering materials. Modulus of elasticity, Poisson's ratio, volumetric strain, and relationship between elastic constants. Compound bars, and temperature stresses.
+
+\n\nUNIT-II
+
+\n\nShear Force and Bending Moment : Shear force and bending moment diagrams for catilever, simply supported beams and beams with overhangs under point loads and uniformly distributed loads, Relationship between intensity of load, shear force and bending moment.
+
+\n\nUNIT-III
+
+\n\nTheory of Simple Bending : Assumptions and derivation, Modulus of section, moment of resistance, and determination of flexural stresses. Direct and bending stresses on rectangular, circular and standard structural sections. Distribution of shear stresses on rectangular, circular, I-, T-, standard steel and hollow sections.
+
+\n\nUNIT-IV
+
+\n\nDeflections : Slope and deflections by the method of double integration in cantilever, simply supported beams, and simple beams with overhangs under point loads and uniformly distributed loads.
+
+\n\nStrain Energy : Concepts and applications, Stresses and deformations in bars due to gradually applied loads, sudden and impact loads.
+
+\n\nUNIT-V
+
+\n\nTorsion : Theory of torsion, and derivation of basic equation. solid and hollow circular shafts, strain energy, transmission of power; combined bending and torsion.
+
+\n\nSprings : Close coiled helical springs subjected to axial loads and couples' strain energy in springs.
+
+
+\n\nSuggested Reading :
+
+\n1.D.S. Prakash Rao, Strength of Materials, A Practical Approach,Universities Press, Hyderabad, 1999.
+
+\n2.G.H. Ryder, Strength of Materials, Harper and Row, Fourth Edition, New York, 1987.
+
+\n3.A. Pytel and F.L. Singer, Strength of Materials, Harper and Row, fourth Edition, New York, 1987.
+
+\n4.S.S. Bhavakatti, Strength of Materials, Vikas Publications, "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

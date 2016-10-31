@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.tit7"
+    tools:showIn="@layout/activity_tit7">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-I
+
+\n\nIndian Industrial Environment – competence, Opportunities and Challenges. Entrepreneurship and Economic growth. Small Scale Industry in India – Objectives, Linkage among small, medium and heavy industries. Types and forms of enterprises.
+
+\n\nUNIT-II
+
+\n\nIdentification and characteristics of entrepreneurs. Emergence of First generation entrepreneurs, environmental influence and women entrepreneurs. Conception and evaluation of ideas and their sources. Choice of Technology - Collaborative interaction for Technology development.
+
+\n\nUNIT-III
+
+\n\nProject formulation, Analysis of market demand, Financial and Profitability and analysis and Technical analysis. Project financing in India.
+
+\n\nUNIT-IV
+
+\n\nProject Management during construction phase, project organization, project planning and control using CPM, PERT techniques, Human aspects of project management. Assessment of tax burden.
+
+\n\nUNIT-V
+
+\n\nBehavioral aspects of entrepreneurs : Personality – determinants, attributes and models. Leadership concepts and models. Values and attitudes. Motivation aspects. Change behavior.
+
+\n\nTime Management: Various approaches of time management, their strengths and weaknesses. The urgency addiction and time management matrix.
+
+
+\n\nSuggested Reading :
+
+\n1.Vasant Desai , “Dynamics and Entrepreneurial Development and Management”, HPH, 1997.
+
+\n2.Prasanna Chandra, “Project- Planning, Analysis, Selection, Implementation and Review”, TMH, 1995.
+
+\n3.Stephen R. Covey and A. Roger Merrill, “First Things First”, Simon and Schuster publication, 1994.
+
+\n4.G.S. Sudha, “Organizational Behaviour”, NPH, 1996.
+
+\n5.Robert D. Hisrich, Michael P. Peters, “Entrepreneurship”, 5/e, TMH, 2005. "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

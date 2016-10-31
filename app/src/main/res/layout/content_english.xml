@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.english"
+    tools:showIn="@layout/activity_english">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-I\n\nEffective Communication : Role and importance of communication; Features of human communiction; Process of communication; Types of communication: Verbal - Formal versus informal communication, one way versus two-way communication; Non-verbal communication; Barriers to communication
+            \n\nUNIT-II\n\nOral communication: Importance of oral communication; Importance of listening in effective communication.; Interpersonal Communication, Models of interpersonal development - Johari Window; Styles of communication, persuasion techniques.
+            \n\nUNIT-III\n\nWritten Communication : Paragraph writing; precis writing, expansion, essay writing, Report writing; Types of reports, Writing technical reports; writing scientific papers; Communication through letters: official and personal letters, letters of complaint, letters of enquiry and responses, resume writing; cover letters, writing a statement of purpose, e-mail etiquette, mobile etiquette.
+            \n\nUNIT-IV\n\nRemedial English : Common errors, words often confussed, tense and aspects, articles, prepositions, connectives and correlative conjuncts, voice, concord, direct and indirect speech, question tags, punctuation, homonyms, homophones, synonyms, antonyms, one-word substitutes; Idiomatic usage, degrees of comparision, affixes.
+            \n\nUNIT-V\n\nReading comprehension, readinhg strategies.\n The following five lessons are prescribed :
+            \n1. Dr. APJ Abdul Kalam
+            \n2. Sathya Nadella
+            \n 3.  Azim Premji.
+            \n 4.  Sachin Tendulkar
+            \n 5. Sam Pitroda
+            \n Textbook Prescribed:
+            \n1. E. Suresh Kumar, Engineering English, Orient Blackswan, 2014
+            \nSuggested Reading :
+            \n 1.E. Suresh Kumar et al., Communication  Skills  and  Soft  Skills, Pearson, 2011.
+            \n 2.Sanjay Kumar and Pushp Lata, Communication Skills, OUP, 2011
+            \n3.Kavita Tyagi and Padma Misra, Professional Communication, PHI, 2011.
+            \n4.Meenakshi Raman and Sangeeta Sharma, Technical Communication: Principles and Practice, OUP, 2011."
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+        />
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.ass8"
+    tools:showIn="@layout/activity_ass8">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="              PART-A
+
+\n\n[Experiments on assembly language programming for 8086 using Assembler]
+
+\n\n1.Study and use of 8086 microprocessor trainer kit and execution of programs.
+
+\n\n2.Programs using different addressing modes.
+
+\n\n3.Multiplication and division.
+
+\n\n4.Single byte, multi byte binary and BCD addition and Subtraction.
+
+\n\n5.Code conversions.
+
+\n\n6.String Searching and Sorting
+
+\n\n7.Generation of waveforms and gating applications using 8253/ 8254 timers.
+
+\n\n8.Generation of waveforms using DAC interface.
+
+n\\n9.Monitor utilities of 8086 kit for Keyboard/displaying results.
+
+                                  \n\nPART-B
+
+\n\n[Experiments on assembly language programming for 8051 using Assembler.]
+
+\n\n10.Familiarity and use of 8051/8031 Microcontroller trainer kit, and execution of programs
+
+\n\n11.Programs using different addressing modes.
+
+\n\n12.Timer and counter programming.
+
+\n\n13.Interfacing for D/A applications.
+
+\n\n14.Interfacing for A/D applications.
+
+\n\n15.Interfacing traffic signal control.
+
+\n\n16.Program to control stepper motor.
+
+\n\n17.7-segment display/LCD display interfacing.
+
+\n\n18.Keyboard interfacing.
+
+\n\nGeneral Note:
+
+\n\n1. At least 5 experiments from each part.
+
+\n\n2.A total of not less than 10 experiments must be carried out during the semester.
+
+\n\nAnalysis and design of circuits, wherever possible should be carried out using SPICE tools. "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.tit11"
+    tools:showIn="@layout/activity_tit11">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-I
+
+\n\nRandom variable, Random processes, stationary random processes, statistical average, statistical averages for joint random processes, Discrete-Time Random signals, Time averages for a Discrete Time Random processes, Mean-Ergodic Process, Correlation Ergodic Processes, Power density Spectrum, Representation of a Stationary Random Processes, Rational power spectra, Relation between the filter parameters and autocorrelation.
+
+\n\nUNIT-II
+
+\n\nForward and Backward linear prediction-Forward and Backward linear prediction, Relationship of an AR process to linear prediction, Solution of linear equations- The Levinson- Durbin algorithm, Wiener Filters- Wiener filters for Filtering and Prediction, FIR Wiener filter, Orthogonality Principle in linear Mean square Estimation, IIR Weiner Filter, Noncausal Weiner filter.
+
+\n\nUNIT-III
+
+\n\nPower Spectrum Estimation: Estimation of Spectra from finite duration observation of a signal. Periodogram. DFT in power spectrum estimation. Non-parametric methods – Bartlett’s, Welch’s and Blackman-Tukey methods, Performance Characteristics of Nonparametric Power Spectrum Estimators, Computational requirements and performance characteristics.
+
+\n\nUNIT-IV
+
+\n\nParametric methods – Relation between auto correlation sequence and model parameters. Methods for AR model parameters. Yule – Walker method, Burg method, unconstrained Least squares methods. Sequential estimation methods. Selection of AR model order, Moving average (MA) and ARMA models for Power spectrum estimation.
+
+\n\nUNIT-V
+
+\n\nEigen Analysis algorithms for Spectrum estimation- Pisarenko’s harmonic decomposition method. Eigen structure methods – Music and ESPIRIT. Order selection criteria. Filter Bank methods- Filter bank realization of the periodogram, Capon’s minimum variance method.
+
+\n\nSuggested Reading:
+
+\n1.John G. Proakis and Dimitris G. Manolakis, “Digital Signal Processing-Principles, Algorithms and Applications,” 4/e, Pearson/PHI, 2007.
+
+\n2.D.G. Manolakis, Ingle and S.M. Kogon, “Statistical and Adaptive Signal Processing,” McGraw Hill, 2000.
+
+\n3.John G. Proakis, Rader, et al, “Algorithms for Statistical Signal Processing,” Pearson Education, Asia Publishers, 2002.
+
+\n4.Emmanuel Ifeachor and Barrie W. Jervis, “Digital Signal Processing - A Practical Approach,” Pearson, 2004. "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

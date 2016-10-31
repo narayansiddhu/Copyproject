@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.CseEnglish"
+    tools:showIn="@layout/activity_cse_english">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-I\n\nSystem of forces: - Introduction — statics, concept of force, components of forces in a plane, Resultant of coplanar concurrent forces, moment of force and its coplanar applications, Couple- Resultant of coplanar non concurrent forces.
+             \n\nEquilibrium of forces: - Free body diagrams, equations of equilibrium, equilibrium of planar force system.
+             \n\nUNIT - II
+             \n\nSpatial Force System:- Components of forces, Resultant of forces, vector notation- Dot and cross product, moment of force and its applications, equilibrium of concurrent force system.
+             \n\nFriction: - Theory of friction, types of friction, laws of friction, application of friction to a single body and connecting systems, wedges, Introduction to belt friction.
+             \n\nUNIT - III
+             \n\nCentroid and centre of gravity:- Significance of centroid and moment of area. Centroids of elementary areas and lines, composite areas. Theorems of Pappus and its applications, centroid of volumes. centre of gravity of bodies.
+             \n\nMoment of Inertia:- Definition, polar Moment of Inertia, transfer formula, Moment of Inertia of elementary areas and composite areas. Product of inertia of elementary and composite areas. Mass moment of inertia of elementary bodies.
+             \n\nUNIT — IV
+             \n\nKinematics: - Introduction to Dynamics, Rectilinear motion, curvilinear motion, Normal and tangential components of acceleration, types of rigid body motion, fixed axis rotation
+             \n\nKinetics: D' Alembert's principle applied to particle motion, connected systems. Analysis as a rigid body in translation and fixed axis rotation.
+             \n\nUNIT — V
+             \n\nWork Energy Method: - Equation of translation, work energy principle applied to particle motion and connected systems, fixed axis rotation. Impulse and Momentum:- Introduction, linear impulse momentum, principle of conservation of linear momentum, elastic impact and types of impact, loss of kinetic energy, co-efficient of restitution.
+             \n\nSuggested Reading :
+             \n1.     F.L Singer, Engineering Mechanics, Harpper Collins Publishers, India. 1975
+             \n2.     Vijay Kumar Reddy et al, Singer's, Engineering Mechanics Statics and Dynamics SI Units, B.S Publications, 2014
+             \n3.     S.S. Bhavikatti et al, Engineering Mechanics, New Age International, 1994.
+             \nText Books for Reference :
+             \n1.      M.V. Shashigiri Rao et al, Engineering Mechanics, Universities Press, 2005
+             \n2.     R. C Hibbeler et al , Engineering Mechanics, Pearson education, 2009.
+             \n3.     S. Rajasekaran et al, Engineering Mechanics, Vikas Publications, 1999.
+             \n4.     Basudeb Bhattacharya, Engineering Mechanics, Oxford Press, 2014
+             \n5.     N H Dubey, Engineering Mechanics, Mc Graw Hill Education (India) Private Limited, 2014"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+    </ScrollView>
+
+</RelativeLayout>

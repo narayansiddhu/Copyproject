@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.you5"
+    tools:showIn="@layout/activity_you5">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-I
+
+\n\nMeaning and Nature of Managerial Economics: Managerial Economics its usefulness to Engineers, Fundamental Concepts of Managerial Economics, Scarcity, Marginalism, Equi-marginalism, Opportunity costs, Discounting, Time Perspective, Risk and Uncertainty, Profits, Case study method.
+
+\n\nUNIT-II
+
+\n\nConsumer Behaviour: Law of Demand, Determinants, Kinds; Elasticity of Demand (Price, Income and Cross-Elasticity); Demand Forecasting, Law of Supply, Concept of Equilibrium. (Theory questions and small numerical problems can be asked).
+
+\n\nUNIT-III
+
+\n\nTheory of Production and Markets: Production Function, Law of Variable Proportion, ISO quants, Economics of Scale, Cost of Production (Types and their measurement), Concept of Opportunity Cost, Concept of Revenue, Cost-Output relationship, Break-Even Analysis, Price – Output determination under Perfect Competition and Monopoly (theory and problems can be asked).
+
+\n\nUNIT-IV
+
+\n\nCapital Management: Its significance, determination and estimation of fixed and working capital requirements, sources of capital, Introduction to capital budgeting, methods of payback and discounted cash flow methods with problems. (Theory questions are numerical problems on estimating working capital requirements and evaluation of capital budgeting opportunities can be asked).
+
+\n\nUNIT-V
+
+\n\nBook-keeping: Principles and significance of double entry book keeping, Journal, Subsidiary books, Ledger accounts Trial Balance, concept and preparation of Final Accounts with simple adjustments, Analysis and interpretation of Financial Statements through Ratios. (Theory questions and numerical problems on preparation of final accounts, cash book, petty cash book, bank reconciliation statement, calculation of some ratios).
+
+\n\nSuggested Reading:
+
+\n\n1.Mehta P.L., “Managerial Economics – Analysis, Problems and Cases”, Sulthan Chand and Son’s Educational publishers, 2011.
+
+\n\n2.Maheswari S.N. “Introduction to Accountancy”, Vikas Publishing House, 2005.
+
+\n\n3.Panday I.M. “Financial Management”, Vikas Publishing House, 2009. "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

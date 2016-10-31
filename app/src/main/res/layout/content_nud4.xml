@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.nud4"
+    tools:showIn="@layout/activity_nud4">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-I
+
+\n\nGeneral Consideration of DC and AC Transmission Systems: Comparison of AC and DC transmission systems, Application of DC transmission, Economic Consideration, Kinds of DC links, planning for HVDC transmission, Modern trends in DC transmission, Corona loss in AC and DC systems
+
+\n\nUNIT-II
+
+\n\nConverter Circuits: Properties of Converter circuits, Different kinds of arrangements, Analysis of Bridge converters with grid control, With and without overlap angle, Equivalent circuit of rectifier.
+
+\n\nInversion: Operation as Inverter, Equivalent circuit of Inverter
+
+\n\nUNIT-III
+
+\n\nControl: Basic means of control, Limitations of manual control, Desired features of control, Combined characteristics of rectifier and inverter, Power reversal, constant minimum angle Ignition angle control, Constant current control, Constant Extinction angle control.
+
+\n\nUNIT-IV
+
+\n\nProtection: Short circuit current, Arc-back, Commutation failure, Bypass valves, DC reactors, DC circuit breakers, Protection against over voltages, Harmonic filters.
+
+\n\nUNIT-V
+
+\n\nMulti-Terminal DC Systems: Application of MTDC systems, Types of MTDC systems, Comparison of series and parallel MTDC systems, Control of MTDC system.
+
+\n\nSuggested Reading:
+
+\n\n1.Kimbark E.W., Direct Current Transmission Vol.1, John Wiley, 1971.
+
+\n\n2.Padiyar KR., HVDC Power Transmission Systems, Wiley Eastern, 1990.
+
+\n\n3.Arrillaga J., High Voltage Direct Current Transmission, Peter Peregrinus Ltd., London, Pergamon Press, 1983. "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.ass5"
+    tools:showIn="@layout/activity_ass5">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Unit-I
+
+\n\n8086/8088 Architecture and Instruction set: Minimum and Maximum mode operations, 8086 control signal interfacing under minimum mode system, control signal interfacing under maximum mode using multiprocessing systems. Addressing modes, Interrupt structure, Instruction formats, Instruction execution timings. Evaluation of x86 series microprocessors.
+
+\n\nUnit-II
+
+\n\n8086 Assembly Language programming: Assembler directives and operators, programs using data transfer, arithmetic, logical, Branching and ASCII instructions. String processing, Procedures, Macros and stack, Basic programs using DOS functions. Introduction to assemblers and debugging tools.
+
+\n\nUnit-III
+
+\n\n8086 Interfacing: Memory interfacing using standard RAM, EPROM IC Chips, 8255 PPI, 8253/8254 programmable interval timers, need for DMA and interfacing with DMA controller (8257 IC), Keyboard and display controller (8279) interfacing, programmable communication interface (8251). Serial and parallel data transmission formats, USART interfacing.
+
+\n\nUnit-IV
+
+\n\n8051 Microcontroller: Classification, Internal architecture of 8051 and its pin configuration, Memory organization and expansion. 8051 instruction set, addressing modes and bit addressable features. Data transfer, arithmetic, logical and branching groups. Interrupt and I/O port structures and their operations. Assembly language Programming with 8051. 8051 timer and counter and its programming.
+
+\n\nUnit-V
+
+\n\nInterfacing and Applications: 8051 Serial data communication and interrupt programming. 8051 Interfacing with external memory, expansion of I/O ports. A/D converter, D/A converter, Seven- segment display, LCD module, Keyboard and Stepper Motor interfacing with 8051.
+\n\nSuggested Reading:
+
+\n1.Ray A.K and Bhurchandhi K.M, “Advanced Microprocessor and Peripherals,” 2/e, TMH, 2007.
+
+\n2.Douglas V Hall, “Microprocessors and Interfacing Programming and Hardware,” 2/e, THM, 2007.
+
+\n3.Walter A. Triebal and Avtar Singh, “The 8088 and 8086 Microprocessors Programming, Interfacing, Software, Hardware and Applications,” 4/e, Pearson Education, 2007.
+
+\n4.Mazidi M.A, Mazidi J.G and Rolin D. Mckinlay, “The 8051 Microcontroller and Embedded Systems using Assembly and C,” 2/e, Pearson Education, 2007.
+
+\n\n5.Ayala K.J, “The 8051 Micro Controller Architecture, programming and Application,” Penram International, 2007. "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.tit4"
+    tools:showIn="@layout/activity_tit4">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-I
+
+\n\nBasic concepts of Reliability: Failures and faults, Reliability and failure rate, Relation between reliability and mean time between failure, Maintainability and Availability, reliability of series and parallel systems. Modeling of faults. Test generation for combinational logic circuits :conventional methods (path sesitisation,Boolean difference), Random testing, transition count testing and signature analysis.
+
+\n\nUNIT-II
+
+\n\nFault Tolerant Design-I: Basic concepts ,static,(NMR,use of error correcting codes), dynamic, hybrid and self purging redundancy, Sift-out Modular Redundancy (SMR), triple modular redundancy, SMR reconfiguration.
+
+\n\nUNIT-III
+
+\n\nFault Tolerant Design-II: Time redundancy, software redundancy, fail-soft operation, examples of practical fault tolerant systems, introduction to fault tolerant design of VLSI chips.
+
+\n\nUNIT-IV
+
+\n\nSelf checking circuits: Design of totally self checking checkers, checkers using m-out of a codes, Berger codes and low cost residue code, self-checking sequential machines, partially self-checking circuits. Fail safe Design: Strongly fault secure circuits, fail-safe design of sequential circuits using partition theory and Berger codes, totally self checking PLA design.
+
+\n\nUNIT-V
+
+\n\nDesign for testable combination logic circuits: Basic concepts of testability, controllability and observability. The Read-Muller expansion technique, level OR-AND-OR design, use of control and syndrome-testing design.
+
+\n\nBuilt-in-test, built-in-test of VLSI chips, design for autonomous self-test, design in testability into logic boards.
+
+\n\nSuggested Reading:
+
+\n\n1.Parag K. Lala, Fault Tolerant and Fault Testable Hardware Design,(PHI) 1985
+
+\n\n2.Parag K. Lala, Digital systems Design using PLD’s, PHI 1990.
+
+\n\n3.N.N. Biswas, Logic Design Theory, PHI 1990.
+
+\n\n4.Konad Chakraborthy and Pinaki Mazumdar, Fault tolerance and Reliability Techniques for high – density random – access memories Reason, 2002. "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

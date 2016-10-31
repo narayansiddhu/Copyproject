@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.nan2"
+    tools:showIn="@layout/activity_nan2">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-I
+
+\n\nSmall Signal Amplifiers: Classification of amplifiers, BJT and FET high frequency equivalent circuits, Mid-band analysis of single and multistage amplifiers, Low frequency and high frequency analysis of single and multistage RC coupled and transformer coupled amplifiers with BJT and FET.
+
+\n\nUNIT-II
+
+\n\nFeed Back Amplifiers: The feedback concept, General characteristics of negative feedback amplifier, Effect of negative feedback on input and output impedances, Voltage and current, series and shunt feedbacks. Stability considerations, Local Versus global feedback.
+
+\n\nUNIT-III
+
+\n\nOscillators: Positive feedback and conditions for sinusoidal oscillatons, RC oscillator, LC oscillator, Crystal oscillator, Amplitude and frequency stability of oscillator.
+
+\n\nRegulators: Transistorized series and shunt regulators
+
+\n\nUNIT-IV
+
+\n\nLarge Signal Amplifiers: BJT as large signal audio amplifiers, Classes of operation, Harmonic distortion, power dissipation, efficiency calculations. Design considerations of transformer coupled and transform less push-pull audio power amplifiers under Class-A. Class-B, Class D and Class-AB operations.
+
+\n\nUNIT-V
+
+\n\nR.F. Voltage Amplifiers: General consideration, Analysis and design of single tuned, inductively coupled and double tuned types with BJT’s selectivity, "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

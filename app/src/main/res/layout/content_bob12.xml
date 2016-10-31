@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.bob12"
+    tools:showIn="@layout/activity_bob12">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="List of Experiments
+
+\n\n1.Characteristics of Reflex Klystron oscillator, finding the mode numbers and efficiencies of different modes.
+
+\n\n2.Characteristics of Gunn diode oscillator, Power Output Vs Frequency, Power Output Vs Bias Voltage.
+
+\n\n3.Measurement of frequency and Guide wavelength calculation:
+
+\n\ni.Verification of the relation between Guide wavelength, free space wavelength and cutoff wavelength of X- band rectangular waveguide.
+
+\n\nii.Verification of the straight line relation between (1/lg)2 and (1/l0)2 and finding the dimension of the guide.
+
+\n\n4.Measurement of low and high VSWRs: VSWR of different components like matched terminals, capacitive and inductive windows, slide screw tuner for different heights of the tuning posts etc.
+
+\n\n5.Measurement of impedance.
+
+\n\nTo find the parameters and scattering matrices of different microwave components like:
+
+\n\n6.Directional coupler.
+
+\n\n7.Tees : E plane, H plane and Magic Tee.
+
+\n\n8.Circulator.
+
+\n\n9.Measurement of radiation patterns for basic microwave antennas like horn and parabolic reflectors in E-plane and H-plane. Also to finding the gain, bandwidth and beam width these antennas.
+
+\n\n10.Study of various antennas like dipoles, loops, Yagi antenna, log periodic antenna and their radiation pattern.
+
+\n\n11.Mini Project:
+
+\n\ni.To design microwave components such as: Directional couplers, circulators and Hybrid junctions using simulation software tools.
+
+\n\nii      To design antenna arrays such as: Binomial, Chebyshev, using software tools. "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

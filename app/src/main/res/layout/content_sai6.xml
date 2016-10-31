@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.sai6"
+    tools:showIn="@layout/activity_sai6">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-I
+            \n\nIntroduction, Algorithm Specification, Performance analysis, Space Complexity, Time Complexity, Asymptotic Notation(O,Omega,Theta), Practical Complexities, Performance Measurement, Review of elementary data structure- Heap and Heap Sort, Hashing, Set representation. UNION, FIND.
+             \n\nUNIT-II
+             \n\nDivide-and Conquer: The general method, finding maximum minimum. Merge sort quick sort and selection.
+             \n\nGreedy Method: Knapsack problem, Optimal Storage on tapes, Job sequencing with deadlines, Optimal merge patterns, Minimum Spanning Trees.
+             \n\nUNIT-III
+             \n\nDynamic Programming And Traversal Technique: Multistage graph, All Pair Shortest Path, Optimal Binary Search trees,0/1 Knapsack, Reliability Design, Traveling Salesman Problem, Bi connected Components and Depth First Search.
+             \n\nUNIT-IV
+             \n\nBacktracking and Branch and Bounds: 8-Queens Problem, Graph Coloring Hamilton cycle, Knapsack Problem, 0/1 Knapsack Problem, Traveling salesperson problem, Lower-Bound Theory.
+             \n\nUNIT-V
+             \n\nNP-Hard and NP-Completeness: Basic concepts, cook’s theorem, NP-hard graph problems and scheduling problem, NP-hard code generation problems, Clique Decision problem, Node covering decision, Scheduling problem, NP hard code generation problem.
+             \n\nSuggested Reading:
+             \n1.Horowitz E. Sahani S: “Fundamentals of Computer Algorithm”, Galgotia Publications.
+             \n2.Anany Levitin, “Introduction to the Design and Analysis, of Algorithms”, Pearson Education, 2000.
+             \n3.Aho, Hopcroft, Ulman, The Design and Analysis of Computer Algorithm, Pearson Education, 2000.
+             \n4.Parag H. Dave, Himanshu B. Dave “Design and Analysis of Algorithms” Pearson Education, 2008."
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+    </ScrollView>
+
+</RelativeLayout>

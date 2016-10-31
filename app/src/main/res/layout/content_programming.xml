@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.programming"
+    tools:showIn="@layout/activity_programming">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-I\n\nIntroduction of Computers : Components, Block diagram, Operating Systems, Programming Languages, Assembler, Interpreter, Compiler, Loader, Linkers. Number Systems (Binary, Octal), Decimal and Hexal), Representation of numbers (fixed and floating point), Problem Solving : Algorithm, Flow Charts.
+            \n\nBasics of C: Structure of a C Program, Variables, Identifiers, Keywords, Data Types and Sizes, Constants, Declarations, Assignment and Intilization,Operators and Expressions, Precedence and Order of Evaluation, Type Conversions.
+            \n\nInput and Output: Non- Formatted input and output, Formatted input and output.
+            \n\nControl Statements : Specifying Test Condition for Selection and Iteration, Conditional Execution and Selection, Iteration and Repetitive Execution, Goto Statement, SpecialControl Statements, Nested Loops.
+            \n\nUNIT-II\n\nArrays : One-Dimensional Array- Declaration, Initilization, Accessing Array Elements, Multi-Dimensional Array-Declaration, Initilization Unsized Array Initilization, Accessing Multi-Dimensional Arrays, Linear Search and Binary Search, Selection and Bubble Sort.
+            \n\nFunctions : Concept of Function, Using Functions, Parameter Passing techniques,  Passing Arrays to Functions, Scope and Extent, Storage Classes,Recursion.
+            \n\nC Preprocessor: #include, #define, #if, conditional compliliation.
+            \n\nPointers : Pointers and Addresses, Address Operator, Declaring a Pointer, Initilizing the Pointer, Pointer Deferencing, Void Pointer, Null Pointer. Pointerand Function Arguments, Pointer Arithmetic, Arrays  and Pointers, Pointers to Pointers, Implementing Multi Dimensional arrays using pointers, Command line arguments.
+            \n\nUNIT-III\n\nStructures and Unions : Basics, Structure and functions, arrays of structures, Pointers to Structures, Self Referential Structure, Union and Enumeration Types.
+            \n\nFiles : Basics and File Handling functions : Copy file and display file text Files.
+            \n\nUNIT-IV\n\nC++ : Introduction, simple program, standard library, header files, inline functions, references and reference parameters, default arguments, empty parameter lists, unary, scope resolution operator, function overloading.\n\n
+            Classes and data abstraction : Class scope, accessing class members, constructors, destructors , constant objects and member functions, this pointer, new and delete operators, Static  Data Members and Member Functions.
+            \n\nC++ Operator overloading : Fundamentals, restrictions, overloading unary / binary operators, overloading ++ and --- Operators.
+            \n\nUNIT-V\n\n
+            C++ Inheritance : Base and derived classes, casting base class, pointers to derived class pointers, overriding, member functions, public, protected and private inheritance, constructors and destructors in derived classes.
+            \n\nC++ Virtual Functions : Abstract base class, polymorphism, dynamic binding, virtual destructors.
+            \n\nC++ Stream Input/Output : Streams, stream output, stream input.
+            \n\nC++ Templates : Introduction, class templates, templates and inheritance, templates and static members.
+            \n\nC++ Exception Handling : Try, throw, catch.
+            \n\nSuggested Reading :
+            \n1.Pradip Dey, Manas Ghosh, Programming in C, Second edition, Oxford University Press, 2011.
+            \n2.Sourav Sahay, Object Oriented Programming with C++, Second edition, Oxford University Press, 2012.
+            \n3.Raja Raman, Computer Programming in C, PHI Learning, 2013.
+            \n4.Bhushan Trivedi, Programming with ansi C++,  Second edition, Oxford University Press, 2012.
+            \n5.K.R. Venugopal and RaJkumar Buyya, Mastering in C++, Second Edition, McGraw Hill Education, 2013.
+            \n6.Harry H. Cheng, C/C++ for Engineers and Scientists, TMH 2010."
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+        />
+    </ScrollView>
+
+</RelativeLayout>

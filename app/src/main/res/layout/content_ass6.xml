@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.ass6"
+    tools:showIn="@layout/activity_ass6">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lab Experiments:
+
+\n\nPart-A
+
+\n\n1.Measurement of parameters of Op-Amp. Voltage Follower, Inverting and Non Inverting Amplifiers, Level Translators using Op-Amp.
+
+\n\n2.Arithmetic Circuits: Summer, Integrator Differentiator Op-Amp.
+
+\n\n3.Active filters: LP, HP and BP using Op-Amp.
+
+\n\n4.Op-Amp Oscillators: Astable, Monostable.
+
+\n\n5.Triangle and Square wave Generators. Schmitt Trigger using Op-Amp.
+
+\n\n6.Voltage Controlled Oscillator Using LM 566.
+
+\n\n7.IC Regulators and current boosting.
+
+\n\n8.Applications of 555 Timer.
+
+\n\nPart-B
+
+\n\n1.Measurement of propagation delay, fan-out, Noise margin and transfer Characteristics of TTL and CMOS IC gates and open collector / drain gates.
+
+\n\n2.Designing code converters using logic gates and standard code converters. Parity generator and checker circuit.
+
+\n\n3.Flip-Flop conversions and latches using gates and ICs.
+
+\n\n4.Designing Synchronous, Asynchronous up/down counters
+
+\n\n5.Shift registers and ring counters using IC Flip-Flops and Standards IC counters.
+
+\n\n6.Full adders, subtractors using logic gates and multiple bits IC Adder/ Subtractor and arithmetic Circuits.
+
+\n\n7.Mux - Demux applications.
+
+\n\n8.Interfacing counters with 7-segment LED/LCD display units.
+
+\n\nGeneral Note:
+
+\n\n1.At least 5 experiments from each part.
+
+\n\n2.A total of not less than 10 experiments must be carried out during the semester.
+
+\n\n3.Analysis and design of circuits, wherever possible, should be carried out using SPICE tools. "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>

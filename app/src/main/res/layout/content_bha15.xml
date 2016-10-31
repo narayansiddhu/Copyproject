@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.bha15"
+    tools:showIn="@layout/activity_bha15">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.Implement the following Multidimensional Data Models
+
+\n\n    i.Star Schema
+
+
+
+\n\n    ii.Snowflake Schema
+
+
+
+\n\n   iii.Fact Constellation
+
+
+
+\n\n 2.Implement Apriori algorithm to generate frequent Item Sets
+
+\n\n 3.Implement the following clustering algorithms
+
+
+\n\n       i.K-means
+
+
+
+\n\n      ii.K-mediods
+
+
+\n\n 4.Implement the following classification algorithms
+
+\n\n      i.Decision Tree Induction
+
+
+\n\n      ii.KNN
+
+
+\n\n 5.Perform data Preprocessing using WEKA
+
+\n\n 6.Perform Discritization of data using WEKA
+
+\n\n 7.Classification algorithms using WEKA
+
+\n\n 8.Apriori algorithm using WEKA
+
+\n\n 9.Perform data transformations using an ETL Tool
+
+\n\n 10.A small case study involving all stages of KDD. (Datasets are available online like UCI Repository etc.)
+"
+
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+    </ScrollView>
+</RelativeLayout>

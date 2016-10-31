@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.siddharth.christmas.bob9"
+    tools:showIn="@layout/activity_bob9">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hello_sid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNIT-I
+\n\nReview of fundamentals of Multirate Systems: Decimation by a integer factor D, Interpolation by a integer factor I, Sampling rate conversion by a rational factor I/D, Inter connection of building blocks, Polyphase representation, Multi stage implementation of sampling-rate conversion, Applications of Multirate systems.
+
+\n\nUNIT-II
+\n\nMultirate Filter banks: Digital filter banks, Uniform DFT filter banks, Polyphase implementation of Uniform filter banks.
+
+\n\nNyquist filters: Lth -band filters, half band filters, design of Linear-phase Lth band FIR filters.
+
+\n\nUNIT-III
+\n\nQuadrature - Mirror Filter banks : Two Channel QMF structure and analysis, Alias free filter bank, Alias - free realization, Alias - free FIR QMF bank, Alias - free IIR QMF bank, perfect reconstruction (PR) two - channel FIR filter bank, Alias - free L - Channel filter bank.
+
+\n\nUNIT-IV
+\n\nPolyphase Representation. Condition for Perfect Reconstruction. Cosine - Modulated L -channel filter banks, Multilevel filter banks - filter with equal and unequal passband widths.
+
+\n\nUNIT-V
+\n\nIntroduction to wavelet theory, wavelet transform, Definition and Properties, Introduction to multi dimensional Multirate signal processing.
+
+\n\nSuggested Reading:
+
+\n1.Mitra SK “Digital Signal Processing. A Computer Approach,TMH, 3/e, 2006.
+
+\n2.Vaidyanathan PP “Multirate Systems and Filter Banks,” Pearson Education.2008.
+
+\n3.Emmanuel C, Ifeachor and Barrie W. Jervis, “ Digital Signal Processing: A Practical Approach,” 2 /e, Pearson Education, 2004.
+
+\n4.Bruce W. Suter, “Multirate and Wavelet Signal Processing,”Volume 8, Academic Press,1998.
+ "
+            android:textAppearance="?android:attr/textAppearanceLarge"
+
+            />
+    </ScrollView>
+</RelativeLayout>
